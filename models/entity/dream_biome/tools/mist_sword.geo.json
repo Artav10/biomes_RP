@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mist_sword",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{
+							"origin": [-1, 1, -1],
+							"size": [2, 8, 2],
+							"uv": {
+								"north": {"uv": [12, 37], "uv_size": [2, 8]},
+								"east": {"uv": [15, 37], "uv_size": [2, 8]},
+								"south": {"uv": [18, 37], "uv_size": [2, 8]},
+								"west": {"uv": [21, 38], "uv_size": [2, 8]},
+								"up": {"uv": [24, 32], "uv_size": [2, 2]},
+								"down": {"uv": [27, 34], "uv_size": [2, -2]}
+							}
+						},
+						{"origin": [-1.5, -1, -1.5], "size": [3, 2, 3], "uv": [21, 26]},
+						{"origin": [-1, 9, -3], "size": [2, 10, 6], "uv": [21, 0]},
+						{"origin": [0, 9, -5], "size": [0, 20, 11], "uv": [-1, -1]},
+						{
+							"origin": [0, -5, -7],
+							"size": [0, 19, 11],
+							"uv": {
+								"north": {"uv": [30, 32], "uv_size": [0, 19]},
+								"south": {"uv": [31, 32], "uv_size": [0, 19]},
+								"west": {"uv": [0, 31], "uv_size": [11, 19]},
+								"up": {"uv": [32, 32], "uv_size": [0, 11]},
+								"down": {"uv": [33, 43], "uv_size": [0, -11]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

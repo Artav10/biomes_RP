@@ -1,0 +1,98 @@
+## Biomes Add-on RP - Language File
+
+## === DREAM BIOME ===
+
+## Biome
+biome.biomes:dream_biome.name=Dream Biome
+
+## Blocks - Ores & Stone
+tile.biomes:dreamstone_block.name=Dreamstone Block
+tile.biomes:dreamstone_ore.name=Dreamstone Ore
+tile.biomes:moonstone_block.name=Moonstone Block
+tile.biomes:moonstone_ore.name=Moonstone Ore
+tile.biomes:mist_block.name=Mist Block
+tile.biomes:mist_ore.name=Mist Ore
+tile.biomes:gleam_block.name=Gleam Block
+tile.biomes:gleam_ore.name=Gleam Ore
+tile.biomes:slumberstone_block.name=Slumberstone Block
+tile.biomes:slumberstone_ore.name=Slumberstone Ore
+
+## Blocks - Logs
+tile.biomes:dreamwood_log.name=Dreamwood Log
+tile.biomes:moonlit_willow_log.name=Moonlit Willow Log
+tile.biomes:mist_sycamore_log.name=Mist Sycamore Log
+tile.biomes:gleam_blossom_log.name=Gleam Blossom Log
+tile.biomes:dream_catcher_log.name=Dream Catcher Log
+
+## Blocks - Leaves
+tile.biomes:dreamwood_leaves.name=Dreamwood Leaves
+tile.biomes:moonlit_willow_leaves.name=Moonlit Willow Leaves
+tile.biomes:mist_sycamore_leaves.name=Mist Sycamore Leaves
+tile.biomes:gleam_blossom_leaves.name=Gleam Blossom Leaves
+tile.biomes:dream_catcher_leaves.name=Dream Catcher Leaves
+
+## Items - Materials
+item.biomes:dreamstone.name=Dreamstone
+item.biomes:moonstone.name=Moonstone
+item.biomes:mist_crystal.name=Mist Crystal
+item.biomes:gleam.name=Gleam
+item.biomes:slumberstone.name=Slumberstone
+
+## Items - Dreamstone Tools
+item.biomes:dreamstone_sword.name=Dreamstone Sword
+item.biomes:dreamstone_axe.name=Dreamstone Axe
+item.biomes:dreamstone_pickaxe.name=Dreamstone Pickaxe
+item.biomes:dreamstone_hoe.name=Dreamstone Hoe
+item.biomes:dreamstone_shovel.name=Dreamstone Shovel
+
+## Items - Moonstone Tools
+item.biomes:moonstone_sword.name=Moonstone Sword
+item.biomes:moonstone_axe.name=Moonstone Axe
+item.biomes:moonstone_pickaxe.name=Moonstone Pickaxe
+item.biomes:moonstone_hoe.name=Moonstone Hoe
+item.biomes:moonstone_shovel.name=Moonstone Shovel
+
+## Items - Mist Tools
+item.biomes:mist_sword.name=Mist Sword
+item.biomes:mist_axe.name=Mist Axe
+item.biomes:mist_pickaxe.name=Mist Pickaxe
+item.biomes:mist_hoe.name=Mist Hoe
+item.biomes:mist_shovel.name=Mist Shovel
+
+## Items - Gleam Tools
+item.biomes:gleam_sword.name=Gleam Sword
+item.biomes:gleam_axe.name=Gleam Axe
+item.biomes:gleam_pickaxe.name=Gleam Pickaxe
+item.biomes:gleam_hoe.name=Gleam Hoe
+item.biomes:gleam_shovel.name=Gleam Shovel
+
+## Items - Slumberstone Tools
+item.biomes:slumberstone_sword.name=Slumberstone Sword
+item.biomes:slumberstone_axe.name=Slumberstone Axe
+item.biomes:slumberstone_pickaxe.name=Slumberstone Pickaxe
+item.biomes:slumberstone_hoe.name=Slumberstone Hoe
+item.biomes:slumberstone_shovel.name=Slumberstone Shovel
+
+## Entities - Dream Biome Creatures
+entity.biomes:candy_caterpillar.name=Candy Caterpillar
+entity.biomes:dream_dragon.name=Dream Dragon
+entity.biomes:dream_fish.name=Dream Fish
+entity.biomes:lethargic_cat.name=Lethargic Cat
+entity.biomes:mist_bird.name=Mist Bird
+entity.biomes:moonlit_wolf.name=Moonlit Wolf
+entity.biomes:reflection_deer.name=Reflection Deer
+entity.biomes:shadow_child.name=Shadow Child
+entity.biomes:sleepy_bear.name=Sleepy Bear
+entity.biomes:sleepy_fairy.name=Sleepy Fairy
+
+item.spawn_egg.entity.biomes:candy_caterpillar.name=Spawn Candy Caterpillar
+item.spawn_egg.entity.biomes:dream_dragon.name=Spawn Dream Dragon
+item.spawn_egg.entity.biomes:dream_fish.name=Spawn Dream Fish
+item.spawn_egg.entity.biomes:lethargic_cat.name=Spawn Lethargic Cat
+item.spawn_egg.entity.biomes:mist_bird.name=Spawn Mist Bird
+item.spawn_egg.entity.biomes:moonlit_wolf.name=Spawn Moonlit Wolf
+item.spawn_egg.entity.biomes:reflection_deer.name=Spawn Reflection Deer
+item.spawn_egg.entity.biomes:shadow_child.name=Spawn Shadow Child
+item.spawn_egg.entity.biomes:sleepy_bear.name=Spawn Sleepy Bear
+item.spawn_egg.entity.biomes:sleepy_fairy.name=Spawn Sleepy Fairy
+

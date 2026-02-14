@@ -1,0 +1,10 @@
+{
+    "biomes": {
+        "biomes:dream_biome": {
+            "fog_identifier": "biomes:fog_dream_biome",
+            "water_surface_color": "#C8A2D0",
+            "water_fog_color": "#8B6FAF",
+            "water_surface_transparency": 0.65
+        }
+    }
+}

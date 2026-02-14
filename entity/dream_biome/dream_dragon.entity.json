@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "biomes:dream_dragon",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/dream_biome/dream_dragon" },
+            "geometry": { "default": "geometry.dream_dragon" },
+            "animations": {
+                "anim_idle": "animation.mauk.dream_dragon.idle",
+                "anim_fly": "animation.mauk.dream_dragon.fly",
+                "anim_attack": "animation.mauk.dream_dragon.attack-saparated",
+                "ctrl_move": "controller.animation.dream_biome.flyer_hostile"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.dream_biome_creature"]
+        }
+    }
+}

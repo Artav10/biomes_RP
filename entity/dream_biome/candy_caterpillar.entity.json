@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "biomes:candy_caterpillar",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/dream_biome/candy_caterpillar" },
+            "geometry": { "default": "geometry.candy_caterpillar" },
+            "animations": {
+                "anim_idle": "animation.mauk.candy_caterpillar.idle",
+                "anim_walk": "animation.mauk.candy_caterpillar.walk",
+                "anim_attack": "animation.mauk.candy_caterpillar.attack",
+                "ctrl_move": "controller.animation.dream_biome.ground_passive"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.dream_biome_creature"]
+        }
+    }
+}

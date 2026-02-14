@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "biomes:mist_bird",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/dream_biome/mist_bird" },
+            "geometry": { "default": "geometry.mist_bird" },
+            "animations": {
+                "anim_idle": "animation.mauk.mist_bird.idle",
+                "anim_fly": "animation.mauk.mist_bird.fly",
+                "anim_dissapears": "animation.mauk.mist_bird.dissapears",
+                "anim_appears": "animation.mauk.mist_bird.appears",
+                "ctrl_move": "controller.animation.dream_biome.flyer_passive"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.dream_biome_creature"]
+        }
+    }
+}

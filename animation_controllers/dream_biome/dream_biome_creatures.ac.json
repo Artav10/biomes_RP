@@ -1,0 +1,192 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.dream_biome.ground_passive": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "walking": "query.is_moving" }
+                    ]
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "idle": "!query.is_moving" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.ground_passive_runner": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "running": "query.is_moving && query.modified_move_speed >= 0.4" },
+                        { "walking": "query.is_moving" }
+                    ]
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "running": "query.modified_move_speed >= 0.4" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "running": {
+                    "animations": ["anim_run"],
+                    "transitions": [
+                        { "walking": "query.is_moving && query.modified_move_speed < 0.4" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.ground_hostile": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "walking": "query.is_moving" }
+                    ]
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.ground_neutral": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.is_moving && query.modified_move_speed >= 0.4" },
+                        { "walking": "query.is_moving" }
+                    ]
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.modified_move_speed >= 0.4" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "running": {
+                    "animations": ["anim_run"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "walking": "query.is_moving && query.modified_move_speed < 0.4" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.flyer_passive": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "flying": "query.is_moving" }
+                    ]
+                },
+                "flying": {
+                    "animations": ["anim_fly"],
+                    "transitions": [
+                        { "idle": "!query.is_moving" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.flyer_hostile": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "flying": "query.is_moving" }
+                    ]
+                },
+                "flying": {
+                    "animations": ["anim_fly"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.aquatic": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "swimming": "query.is_moving" }
+                    ]
+                },
+                "swimming": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "idle": "!query.is_moving" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.shadow_child": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "skill": "query.is_delayed_attacking" },
+                        { "walking": "query.is_moving" }
+                    ]
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "skill": "query.is_delayed_attacking" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "skill": {
+                    "animations": ["anim_skill"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking" }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "biomes:slumberstone_axe",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/items/dream_biome/tools_3d/slumberstone_tools",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.slumberstone_axe"
+            },
+            "render_controllers": ["controller.render.item_default"]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "biomes:lethargic_cat",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/dream_biome/lethargic_cat" },
+            "geometry": { "default": "geometry.lethargic_cat" },
+            "animations": {
+                "anim_idle": "animation.mauk.lethargic_cat.idle",
+                "anim_walk": "animation.mauk.lethargic_cat.walk",
+                "ctrl_move": "controller.animation.dream_biome.ground_passive"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.dream_biome_creature"]
+        }
+    }
+}

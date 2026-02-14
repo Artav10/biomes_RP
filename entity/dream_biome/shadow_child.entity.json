@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "biomes:shadow_child",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/dream_biome/shadow_child" },
+            "geometry": { "default": "geometry.shadow_child" },
+            "animations": {
+                "anim_idle": "animation.mauk.shadow_child.idle",
+                "anim_walk": "animation.mauk.shadow_child.walk",
+                "anim_skill": "animation.mauk.shadow_child.skill",
+                "ctrl_move": "controller.animation.dream_biome.shadow_child"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.dream_biome_creature"]
+        }
+    }
+}

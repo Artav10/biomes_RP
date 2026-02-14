@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "biomes:reflection_deer",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/dream_biome/reflection_deer" },
+            "geometry": { "default": "geometry.reflection_deer" },
+            "animations": {
+                "anim_idle": "animation.mauk.reflection_deer.idle",
+                "anim_walk": "animation.mauk.reflection_deer.walk",
+                "anim_run": "animation.mauk.reflection_deer.run",
+                "ctrl_move": "controller.animation.dream_biome.ground_passive_runner"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.dream_biome_creature"]
+        }
+    }
+}
