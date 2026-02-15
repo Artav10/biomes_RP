@@ -109,5 +109,30 @@
         "sound": "grass",
         "textures": "moonlit_willow_leaves",
         "isotropic": true
+    },
+    "biomes:dreamstone_block": {
+        "sound": "stone",
+        "textures": "dreamstone_block",
+        "isotropic": true
+    },
+    "biomes:gleam_block": {
+        "sound": "stone",
+        "textures": "gleam_block",
+        "isotropic": true
+    },
+    "biomes:mist_block": {
+        "sound": "stone",
+        "textures": "mist_block",
+        "isotropic": true
+    },
+    "biomes:moonstone_block": {
+        "sound": "stone",
+        "textures": "moonstone_block",
+        "isotropic": true
+    },
+    "biomes:slumberstone_block": {
+        "sound": "stone",
+        "textures": "slumberstone_block",
+        "isotropic": true
     }
 }
