@@ -1,0 +1,37 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:fog_settings": {
+        "description": {
+            "identifier": "biomes:fog_dream_biome"
+        },
+        "distance": {
+            "air": {
+                "fog_start": 0.5,
+                "fog_end": 0.96,
+                "fog_color": "#D8C8E8",
+                "render_distance_type": "render"
+            },
+            "weather": {
+                "fog_start": 0.0,
+                "fog_end": 0.48,
+                "fog_color": "#B8A8D8",
+                "render_distance_type": "render"
+            }
+        },
+        "volumetric": {
+            "density": {
+                "air": {
+                    "max_density": 0.15,
+                    "max_density_height": 128,
+                    "zero_density_height": 256
+                }
+            },
+            "media_coefficients": {
+                "air": {
+                    "scattering": [0.08, 0.06, 0.12],
+                    "absorption": [0.0, 0.0, 0.0]
+                }
+            }
+        }
+    }
+}
