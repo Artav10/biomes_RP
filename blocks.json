@@ -1,0 +1,88 @@
+{
+    "format_version": "1.20.60",
+    "biomes:dreamstone_ore": {
+        "sound": "stone",
+        "textures": "dreamstone_ore",
+        "isotropic": true
+    },
+    "biomes:gleam_ore": {
+        "sound": "stone",
+        "textures": "gleam_ore",
+        "isotropic": true
+    },
+    "biomes:mist_ore": {
+        "sound": "stone",
+        "textures": "mist_ore",
+        "isotropic": true
+    },
+    "biomes:moonstone_ore": {
+        "sound": "stone",
+        "textures": "moonstone_ore",
+        "isotropic": true
+    },
+    "biomes:slumberstone_ore": {
+        "sound": "stone",
+        "textures": "slumberstone_ore",
+        "isotropic": true
+    },
+    "biomes:dream_catcher_log": {
+        "sound": "wood",
+        "textures": {
+            "up": "dream_catcher_log_top",
+            "down": "dream_catcher_log_top",
+            "north": "dream_catcher_log",
+            "south": "dream_catcher_log",
+            "east": "dream_catcher_log",
+            "west": "dream_catcher_log"
+        },
+        "isotropic": true
+    },
+    "biomes:dreamwood_log": {
+        "sound": "wood",
+        "textures": {
+            "up": "dreamwood_log_top",
+            "down": "dreamwood_log_top",
+            "north": "dreamwood_log",
+            "south": "dreamwood_log",
+            "east": "dreamwood_log",
+            "west": "dreamwood_log"
+        },
+        "isotropic": true
+    },
+    "biomes:gleam_blossom_log": {
+        "sound": "wood",
+        "textures": {
+            "up": "gleam_blossom_log_top",
+            "down": "gleam_blossom_log_top",
+            "north": "gleam_blossom_log",
+            "south": "gleam_blossom_log",
+            "east": "gleam_blossom_log",
+            "west": "gleam_blossom_log"
+        },
+        "isotropic": true
+    },
+    "biomes:mist_sycamore_log": {
+        "sound": "wood",
+        "textures": {
+            "up": "mist_sycamore_log_top",
+            "down": "mist_sycamore_log_top",
+            "north": "mist_sycamore_log",
+            "south": "mist_sycamore_log",
+            "east": "mist_sycamore_log",
+            "west": "mist_sycamore_log"
+        },
+        "isotropic": true
+    },
+    "biomes:moonlit_willow_log": {
+        "sound": "wood",
+        "textures": {
+            "up": "moonlit_willow_log_top",
+            "down": "moonlit_willow_log_top",
+            "north": "moonlit_willow_log",
+            "south": "moonlit_willow_log",
+            "east": "moonlit_willow_log",
+            "west": "moonlit_willow_log"
+        },
+        "isotropic": true
+    }
+}
