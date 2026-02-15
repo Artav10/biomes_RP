@@ -84,5 +84,30 @@
             "west": "moonlit_willow_log"
         },
         "isotropic": true
+    },
+    "biomes:dream_catcher_leaves": {
+        "sound": "grass",
+        "textures": "dream_catcher_leaves",
+        "isotropic": true
+    },
+    "biomes:dreamwood_leaves": {
+        "sound": "grass",
+        "textures": "dreamwood_leaves",
+        "isotropic": true
+    },
+    "biomes:gleam_blossom_leaves": {
+        "sound": "grass",
+        "textures": "gleam_blossom_leaves",
+        "isotropic": true
+    },
+    "biomes:mist_sycamore_leaves": {
+        "sound": "grass",
+        "textures": "mist_sycamore_leaves",
+        "isotropic": true
+    },
+    "biomes:moonlit_willow_leaves": {
+        "sound": "grass",
+        "textures": "moonlit_willow_leaves",
+        "isotropic": true
     }
 }
