@@ -31,6 +31,11 @@ tile.biomes:mist_sycamore_leaves.name=Mist Sycamore Leaves
 tile.biomes:gleam_blossom_leaves.name=Gleam Blossom Leaves
 tile.biomes:dream_catcher_leaves.name=Dream Catcher Leaves
 
+## Blocks - Grass
+tile.biomes:dream_grass_block_blue.name=Dream Grass Block (Blue)
+tile.biomes:dream_grass_block_pink.name=Dream Grass Block (Pink)
+tile.biomes:dream_grass_block_white.name=Dream Grass Block (White)
+
 ## Items - Materials
 item.biomes:dreamstone.name=Dreamstone
 item.biomes:moonstone.name=Moonstone

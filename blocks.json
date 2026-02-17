@@ -134,5 +134,41 @@
         "sound": "stone",
         "textures": "slumberstone_block",
         "isotropic": true
+    },
+    "biomes:dream_grass_block_blue": {
+        "sound": "grass",
+        "textures": {
+            "up": "dream_grass_block_blue_top",
+            "down": "dirt",
+            "north": "dream_grass_block_blue_side",
+            "south": "dream_grass_block_blue_side",
+            "east": "dream_grass_block_blue_side",
+            "west": "dream_grass_block_blue_side"
+        },
+        "isotropic": false
+    },
+    "biomes:dream_grass_block_pink": {
+        "sound": "grass",
+        "textures": {
+            "up": "dream_grass_block_pink_top",
+            "down": "dirt",
+            "north": "dream_grass_block_pink_side",
+            "south": "dream_grass_block_pink_side",
+            "east": "dream_grass_block_pink_side",
+            "west": "dream_grass_block_pink_side"
+        },
+        "isotropic": false
+    },
+    "biomes:dream_grass_block_white": {
+        "sound": "grass",
+        "textures": {
+            "up": "dream_grass_block_white_top",
+            "down": "dirt",
+            "north": "dream_grass_block_white_side",
+            "south": "dream_grass_block_white_side",
+            "east": "dream_grass_block_white_side",
+            "west": "dream_grass_block_white_side"
+        },
+        "isotropic": false
     }
 }

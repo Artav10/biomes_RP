@@ -78,6 +78,27 @@
         },
         "dream_catcher_leaves": {
             "textures": "textures/blocks/dream_biome/leaves/dream_catcher_leaves"
+        },
+        "dream_grass_block_blue_top": {
+            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_blue_top"
+        },
+        "dream_grass_block_blue_side": {
+            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_blue_side"
+        },
+        "dream_grass_block_pink_top": {
+            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_pink_top"
+        },
+        "dream_grass_block_pink_side": {
+            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_pink_side"
+        },
+        "dream_grass_block_white_top": {
+            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_white_top"
+        },
+        "dream_grass_block_white_side": {
+            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_white_side"
+        },
+        "dirt": {
+            "textures": "textures/blocks/dirt"
         }
     }
 }
