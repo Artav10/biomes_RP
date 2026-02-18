@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/dream_biome/dream_dragon" },
             "geometry": { "default": "geometry.dream_dragon" },
             "animations": {
-                "anim_idle": "animation.mauk.dream_dragon.idle",
-                "anim_fly": "animation.mauk.dream_dragon.fly",
-                "anim_attack": "animation.mauk.dream_dragon.attack-saparated",
+                "anim_idle": "animation.biomes.dream_dragon.idle",
+                "anim_fly": "animation.biomes.dream_dragon.fly",
+                "anim_attack": "animation.biomes.dream_dragon.attack-saparated",
                 "ctrl_move": "controller.animation.dream_biome.flyer_hostile"
             },
             "scripts": {

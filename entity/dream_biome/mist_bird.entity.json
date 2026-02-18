@@ -7,10 +7,10 @@
             "textures": { "default": "textures/entity/dream_biome/mist_bird" },
             "geometry": { "default": "geometry.mist_bird" },
             "animations": {
-                "anim_idle": "animation.mauk.mist_bird.idle",
-                "anim_fly": "animation.mauk.mist_bird.fly",
-                "anim_dissapears": "animation.mauk.mist_bird.dissapears",
-                "anim_appears": "animation.mauk.mist_bird.appears",
+                "anim_idle": "animation.biomes.mist_bird.idle",
+                "anim_fly": "animation.biomes.mist_bird.fly",
+                "anim_dissapears": "animation.biomes.mist_bird.dissapears",
+                "anim_appears": "animation.biomes.mist_bird.appears",
                 "ctrl_move": "controller.animation.dream_biome.flyer_passive"
             },
             "scripts": {

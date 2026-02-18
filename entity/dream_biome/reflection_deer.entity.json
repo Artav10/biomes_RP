@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/dream_biome/reflection_deer" },
             "geometry": { "default": "geometry.reflection_deer" },
             "animations": {
-                "anim_idle": "animation.mauk.reflection_deer.idle",
-                "anim_walk": "animation.mauk.reflection_deer.walk",
-                "anim_run": "animation.mauk.reflection_deer.run",
+                "anim_idle": "animation.biomes.reflection_deer.idle",
+                "anim_walk": "animation.biomes.reflection_deer.walk",
+                "anim_run": "animation.biomes.reflection_deer.run",
                 "ctrl_move": "controller.animation.dream_biome.ground_passive_runner"
             },
             "scripts": {

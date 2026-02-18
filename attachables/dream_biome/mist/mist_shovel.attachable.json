@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "biomes:mist_shovel",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/items/dream_biome/tools_3d/mist_shovel",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.mist_shovel"
+            },
+            "animations": {
+                "first_person": "animation.biomes_shovel.first_person_hold",
+                "third_person": "animation.biomes_shovel.third_person_hold",
+                "player_controller": "controller.animation.biomes.player_controller"
+            },
+            "scripts": {
+                "animate": [
+                    "player_controller"
+                ]
+            },
+            "render_controllers": ["controller.render.item_default"]
+        }
+    }
+}

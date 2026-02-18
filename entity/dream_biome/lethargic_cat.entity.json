@@ -7,8 +7,8 @@
             "textures": { "default": "textures/entity/dream_biome/lethargic_cat" },
             "geometry": { "default": "geometry.lethargic_cat" },
             "animations": {
-                "anim_idle": "animation.mauk.lethargic_cat.idle",
-                "anim_walk": "animation.mauk.lethargic_cat.walk",
+                "anim_idle": "animation.biomes.lethargic_cat.idle",
+                "anim_walk": "animation.biomes.lethargic_cat.walk",
                 "ctrl_move": "controller.animation.dream_biome.ground_passive"
             },
             "scripts": {

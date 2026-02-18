@@ -7,8 +7,8 @@
             "textures": { "default": "textures/entity/dream_biome/dream_fish" },
             "geometry": { "default": "geometry.dream_fish" },
             "animations": {
-                "anim_idle": "animation.mauk.dream_fish.idle",
-                "anim_walk": "animation.mauk.dream_fish.walk",
+                "anim_idle": "animation.biomes.dream_fish.idle",
+                "anim_walk": "animation.biomes.dream_fish.walk",
                 "ctrl_move": "controller.animation.dream_biome.aquatic"
             },
             "scripts": {

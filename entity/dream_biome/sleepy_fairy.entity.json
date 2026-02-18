@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/dream_biome/sleepy_fairy" },
             "geometry": { "default": "geometry.sleepy_fairy" },
             "animations": {
-                "anim_idle": "animation.mauk.sleepy_fairy.idle",
-                "anim_fly": "animation.mauk.sleepy_fairy.fly",
-                "anim_shaken_saparated": "animation.mauk.sleepy_fairy.shaken_saparated",
+                "anim_idle": "animation.biomes.sleepy_fairy.idle",
+                "anim_fly": "animation.biomes.sleepy_fairy.fly",
+                "anim_shaken_saparated": "animation.biomes.sleepy_fairy.shaken_saparated",
                 "ctrl_move": "controller.animation.dream_biome.flyer_passive"
             },
             "scripts": {

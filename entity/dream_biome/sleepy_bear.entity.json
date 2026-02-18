@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/dream_biome/sleepy_bear" },
             "geometry": { "default": "geometry.sleepy_bear" },
             "animations": {
-                "anim_idle": "animation.mauk.sleepy_bear.idle",
-                "anim_walk": "animation.mauk.sleepy_bear.walk",
-                "anim_run": "animation.mauk.sleepy_bear.run",
+                "anim_idle": "animation.biomes.sleepy_bear.idle",
+                "anim_walk": "animation.biomes.sleepy_bear.walk",
+                "anim_run": "animation.biomes.sleepy_bear.run",
                 "ctrl_move": "controller.animation.dream_biome.ground_passive_runner"
             },
             "scripts": {

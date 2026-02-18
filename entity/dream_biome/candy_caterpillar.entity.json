@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/dream_biome/candy_caterpillar" },
             "geometry": { "default": "geometry.candy_caterpillar" },
             "animations": {
-                "anim_idle": "animation.mauk.candy_caterpillar.idle",
-                "anim_walk": "animation.mauk.candy_caterpillar.walk",
-                "anim_attack": "animation.mauk.candy_caterpillar.attack",
+                "anim_idle": "animation.biomes.candy_caterpillar.idle",
+                "anim_walk": "animation.biomes.candy_caterpillar.walk",
+                "anim_attack": "animation.biomes.candy_caterpillar.attack",
                 "ctrl_move": "controller.animation.dream_biome.ground_passive"
             },
             "scripts": {

@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/dream_biome/shadow_child" },
             "geometry": { "default": "geometry.shadow_child" },
             "animations": {
-                "anim_idle": "animation.mauk.shadow_child.idle",
-                "anim_walk": "animation.mauk.shadow_child.walk",
-                "anim_skill": "animation.mauk.shadow_child.skill",
+                "anim_idle": "animation.biomes.shadow_child.idle",
+                "anim_walk": "animation.biomes.shadow_child.walk",
+                "anim_skill": "animation.biomes.shadow_child.skill",
                 "ctrl_move": "controller.animation.dream_biome.shadow_child"
             },
             "scripts": {
