@@ -129,6 +129,30 @@
 		},
 		"dream_catcher_door_lower": {
 			"textures": "textures/blocks/dream_biome/doors/dream_catcher_door_bottom"
+		},
+		"dreamwood_door_upper": {
+			"textures": "textures/blocks/dream_biome/doors/dreamwood_door_top"
+		},
+		"dreamwood_door_lower": {
+			"textures": "textures/blocks/dream_biome/doors/dreamwood_door_bottom"
+		},
+		"gleam_door_upper": {
+			"textures": "textures/blocks/dream_biome/doors/gleam_door_top"
+		},
+		"gleam_door_lower": {
+			"textures": "textures/blocks/dream_biome/doors/gleam_door_bottom"
+		},
+		"mist_door_upper": {
+			"textures": "textures/blocks/dream_biome/doors/mist_door_top"
+		},
+		"mist_door_lower": {
+			"textures": "textures/blocks/dream_biome/doors/mist_door_bottom"
+		},
+		"moonlit_willow_door_upper": {
+			"textures": "textures/blocks/dream_biome/doors/moonlit_willow_door_top"
+		},
+		"moonlit_willow_door_lower": {
+			"textures": "textures/blocks/dream_biome/doors/moonlit_willow_door_bottom"
 		}
 	}
 }

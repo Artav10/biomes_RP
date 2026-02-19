@@ -94,6 +94,18 @@
 		},
 		"dream_catcher_door": {
 			"textures": "textures/items/dream_biome/doors/dream_catcher_door"
+		},
+		"dreamwood_door": {
+			"textures": "textures/items/dream_biome/doors/dreamwood_door"
+		},
+		"gleam_door": {
+			"textures": "textures/items/dream_biome/doors/gleam_door"
+		},
+		"mist_door": {
+			"textures": "textures/items/dream_biome/doors/mist_door"
+		},
+		"moonlit_willow_door": {
+			"textures": "textures/items/dream_biome/doors/moonlit_willow_door"
 		}
 	}
 }

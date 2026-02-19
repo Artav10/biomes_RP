@@ -215,5 +215,25 @@
 		"sound": "wood",
 		"textures": "dream_catcher_door",
 		"isotropic": true
+	},
+	"biomes:dreamwood_door": {
+		"sound": "wood",
+		"textures": "dreamwood_door",
+		"isotropic": true
+	},
+	"biomes:gleam_door": {
+		"sound": "wood",
+		"textures": "gleam_door",
+		"isotropic": true
+	},
+	"biomes:mist_door": {
+		"sound": "wood",
+		"textures": "mist_door",
+		"isotropic": true
+	},
+	"biomes:moonlit_willow_door": {
+		"sound": "wood",
+		"textures": "moonlit_willow_door",
+		"isotropic": true
 	}
 }
