@@ -125,10 +125,10 @@
 			"textures": "textures/blocks/dream_biome/mushrooms/white_mushroom"
 		},
 		"dream_catcher_door_upper": {
-			"textures": "textures/blocks/dream_biome/doors/dream_catcher_door_upper"
+			"textures": "textures/blocks/dream_biome/doors/dream_catcher_door_top"
 		},
 		"dream_catcher_door_lower": {
-			"textures": "textures/blocks/dream_biome/doors/dream_catcher_door_lower"
+			"textures": "textures/blocks/dream_biome/doors/dream_catcher_door_bottom"
 		}
 	}
 }

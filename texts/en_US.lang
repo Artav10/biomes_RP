@@ -112,3 +112,6 @@ tile.biomes:dream_flower_4.name=Starlight Flower
 tile.biomes:blue_mushroom.name=Blue Dream Mushroom
 tile.biomes:pink_mushroom.name=Pink Dream Mushroom
 tile.biomes:white_mushroom.name=White Dream Mushroom
+
+## Blocks - Doors
+tile.biomes:dream_catcher_door.name=Dream Catcher Door
