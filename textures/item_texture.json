@@ -1,96 +1,99 @@
 {
-    "texture_name": "atlas.items",
-    "resource_pack_name": "Biomes Add-on",
-    "texture_data": {
-        "dreamstone_item": {
-            "textures": "textures/items/dream_biome/materials/dreamstone_item"
-        },
-        "moonstone_item": {
-            "textures": "textures/items/dream_biome/materials/moonstone_item"
-        },
-        "mist_item": {
-            "textures": "textures/items/dream_biome/materials/mist_item"
-        },
-        "gleam_item": {
-            "textures": "textures/items/dream_biome/materials/gleam_item"
-        },
-        "slumberstone_item": {
-            "textures": "textures/items/dream_biome/materials/slumberstone_item"
-        },
-        "dreamstone_sword": {
-            "textures": "textures/items/dream_biome/swords/dreamstone_sword"
-        },
-        "dreamstone_axe": {
-            "textures": "textures/items/dream_biome/axes/dreamstone_axe"
-        },
-        "dreamstone_pickaxe": {
-            "textures": "textures/items/dream_biome/swords/dreamstone_sword"
-        },
-        "dreamstone_hoe": {
-            "textures": "textures/items/dream_biome/hoes/dreamstone_hoe"
-        },
-        "dreamstone_shovel": {
-            "textures": "textures/items/dream_biome/shovels/dreamstone_shovel"
-        },
-        "moonstone_sword": {
-            "textures": "textures/items/dream_biome/moonstone_tools"
-        },
-        "moonstone_axe": {
-            "textures": "textures/items/dream_biome/moonstone_tools"
-        },
-        "moonstone_pickaxe": {
-            "textures": "textures/items/dream_biome/moonstone_tools"
-        },
-        "moonstone_hoe": {
-            "textures": "textures/items/dream_biome/moonstone_tools"
-        },
-        "moonstone_shovel": {
-            "textures": "textures/items/dream_biome/moonstone_tools"
-        },
-        "mist_sword": {
-            "textures": "textures/items/dream_biome/swords/mist_sword"
-        },
-        "mist_axe": {
-            "textures": "textures/items/dream_biome/axes/mist_axe"
-        },
-        "mist_pickaxe": {
-            "textures": "textures/items/dream_biome/pickaxes/mist_pickaxe"
-        },
-        "mist_hoe": {
-            "textures": "textures/items/dream_biome/hoes/mist_hoe"
-        },
-        "mist_shovel": {
-            "textures": "textures/items/dream_biome/shovels/mist_shovel"
-        },
-        "gleam_sword": {
-            "textures": "textures/items/dream_biome/swords/gleam_sword"
-        },
-        "gleam_axe": {
-            "textures": "textures/items/dream_biome/axes/gleam_axe"
-        },
-        "gleam_pickaxe": {
-            "textures": "textures/items/dream_biome/pickaxes/gleam_pickaxe"
-        },
-        "gleam_hoe": {
-            "textures": "textures/items/dream_biome/hoes/gleam_hoe"
-        },
-        "gleam_shovel": {
-            "textures": "textures/items/dream_biome/shovels/gleam_shovel"
-        },
-        "slumberstone_sword": {
-            "textures": "textures/items/dream_biome/slumberstone_tools"
-        },
-        "slumberstone_axe": {
-            "textures": "textures/items/dream_biome/slumberstone_tools"
-        },
-        "slumberstone_pickaxe": {
-            "textures": "textures/items/dream_biome/slumberstone_tools"
-        },
-        "slumberstone_hoe": {
-            "textures": "textures/items/dream_biome/slumberstone_tools"
-        },
-        "slumberstone_shovel": {
-            "textures": "textures/items/dream_biome/slumberstone_tools"
-        }
-    }
+	"texture_name": "atlas.items",
+	"resource_pack_name": "Biomes Add-on",
+	"texture_data": {
+		"dreamstone_item": {
+			"textures": "textures/items/dream_biome/materials/dreamstone_item"
+		},
+		"moonstone_item": {
+			"textures": "textures/items/dream_biome/materials/moonstone_item"
+		},
+		"mist_item": {
+			"textures": "textures/items/dream_biome/materials/mist_item"
+		},
+		"gleam_item": {
+			"textures": "textures/items/dream_biome/materials/gleam_item"
+		},
+		"slumberstone_item": {
+			"textures": "textures/items/dream_biome/materials/slumberstone_item"
+		},
+		"dreamstone_sword": {
+			"textures": "textures/items/dream_biome/swords/dreamstone_sword"
+		},
+		"dreamstone_axe": {
+			"textures": "textures/items/dream_biome/axes/dreamstone_axe"
+		},
+		"dreamstone_pickaxe": {
+			"textures": "textures/items/dream_biome/swords/dreamstone_sword"
+		},
+		"dreamstone_hoe": {
+			"textures": "textures/items/dream_biome/hoes/dreamstone_hoe"
+		},
+		"dreamstone_shovel": {
+			"textures": "textures/items/dream_biome/shovels/dreamstone_shovel"
+		},
+		"moonstone_sword": {
+			"textures": "textures/items/dream_biome/moonstone_tools"
+		},
+		"moonstone_axe": {
+			"textures": "textures/items/dream_biome/moonstone_tools"
+		},
+		"moonstone_pickaxe": {
+			"textures": "textures/items/dream_biome/moonstone_tools"
+		},
+		"moonstone_hoe": {
+			"textures": "textures/items/dream_biome/moonstone_tools"
+		},
+		"moonstone_shovel": {
+			"textures": "textures/items/dream_biome/moonstone_tools"
+		},
+		"mist_sword": {
+			"textures": "textures/items/dream_biome/swords/mist_sword"
+		},
+		"mist_axe": {
+			"textures": "textures/items/dream_biome/axes/mist_axe"
+		},
+		"mist_pickaxe": {
+			"textures": "textures/items/dream_biome/pickaxes/mist_pickaxe"
+		},
+		"mist_hoe": {
+			"textures": "textures/items/dream_biome/hoes/mist_hoe"
+		},
+		"mist_shovel": {
+			"textures": "textures/items/dream_biome/shovels/mist_shovel"
+		},
+		"gleam_sword": {
+			"textures": "textures/items/dream_biome/swords/gleam_sword"
+		},
+		"gleam_axe": {
+			"textures": "textures/items/dream_biome/axes/gleam_axe"
+		},
+		"gleam_pickaxe": {
+			"textures": "textures/items/dream_biome/pickaxes/gleam_pickaxe"
+		},
+		"gleam_hoe": {
+			"textures": "textures/items/dream_biome/hoes/gleam_hoe"
+		},
+		"gleam_shovel": {
+			"textures": "textures/items/dream_biome/shovels/gleam_shovel"
+		},
+		"slumberstone_sword": {
+			"textures": "textures/items/dream_biome/slumberstone_tools"
+		},
+		"slumberstone_axe": {
+			"textures": "textures/items/dream_biome/slumberstone_tools"
+		},
+		"slumberstone_pickaxe": {
+			"textures": "textures/items/dream_biome/slumberstone_tools"
+		},
+		"slumberstone_hoe": {
+			"textures": "textures/items/dream_biome/slumberstone_tools"
+		},
+		"slumberstone_shovel": {
+			"textures": "textures/items/dream_biome/slumberstone_tools"
+		},
+		"dream_catcher_door": {
+			"textures": "textures/items/dream_biome/doors/dream_catcher_door"
+		}
+	}
 }

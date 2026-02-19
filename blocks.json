@@ -210,5 +210,10 @@
 		"sound": "grass",
 		"textures": "white_mushroom",
 		"isotropic": true
+	},
+	"biomes:dream_catcher_door": {
+		"sound": "wood",
+		"textures": "dream_catcher_door",
+		"isotropic": true
 	}
 }
