@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "dream_flower_4",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, 0], "size": [16, 23, 0], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [0, 0]},
+						{"origin": [-9, 0, 0], "size": [16, 23, 0], "pivot": [-1, 11.5, 0], "rotation": [-180, 0, 180], "uv": [0, 24]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "dream_flower_4",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, 0], "size": [16, 13, 0], "pivot": [0, 0, 0], "rotation": [0, -90, 67.5], "uv": [33, 14]},
+						{"origin": [-8, 0, 0], "size": [16, 13, 0], "pivot": [0, 0, 0], "rotation": [0, 90, -67.5], "uv": [33, 0]},
+						{"origin": [-8, 0, 0], "size": [16, 13, 0], "pivot": [0, 0, 0], "rotation": [67.5, 0, 0], "uv": [33, 42]},
+						{"origin": [-8, 0, 0], "size": [16, 13, 0], "pivot": [0, 0, 0], "rotation": [-112.5, 0, -180], "uv": [33, 28]}
+					]
+				}
+			]
+		}
+	]
+}
