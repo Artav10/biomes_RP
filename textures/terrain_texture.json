@@ -97,6 +97,24 @@
 		"dream_grass_block_white_side": {
 			"textures": "textures/blocks/dream_biome/grass/dream_grass_block_white_side"
 		},
+		"dream_grass_blue_0": {
+			"textures": "textures/blocks/dream_biome/grass/grass/dream_grass_blue_0"
+		},
+		"dream_grass_blue_0_tall": {
+			"textures": "textures/blocks/dream_biome/grass/grass/dream_grass_blue_0_tall"
+		},
+		"dream_grass_pink_0": {
+			"textures": "textures/blocks/dream_biome/grass/grass/dream_grass_pink_0"
+		},
+		"dream_grass_pink_tall_0": {
+			"textures": "textures/blocks/dream_biome/grass/grass/dream_grass_pink_tall_0"
+		},
+		"dream_grass_white_0": {
+			"textures": "textures/blocks/dream_biome/grass/grass/dream_grass_white_0"
+		},
+		"dream_grass_white_tall_0": {
+			"textures": "textures/blocks/dream_biome/grass/grass/dream_grass_white_tall_0"
+		},
 		"dirt": {
 			"textures": "textures/blocks/dirt"
 		},

@@ -171,6 +171,48 @@
 		},
 		"isotropic": false
 	},
+	"biomes:dream_grass_blue_0": {
+		"sound": "grass",
+		"textures": "dream_grass_blue_0",
+		"isotropic": {
+			"down": true
+		}
+	},
+	"biomes:dream_grass_blue_0_tall": {
+		"sound": "grass",
+		"textures": "dream_grass_blue_0_tall",
+		"isotropic": {
+			"down": true
+		}
+	},
+	"biomes:dream_grass_pink_0": {
+		"sound": "grass",
+		"textures": "dream_grass_pink_0",
+		"isotropic": {
+			"down": true
+		}
+	},
+	"biomes:dream_grass_pink_tall_0": {
+		"sound": "grass",
+		"textures": "dream_grass_pink_tall_0",
+		"isotropic": {
+			"down": true
+		}
+	},
+	"biomes:dream_grass_white_0": {
+		"sound": "grass",
+		"textures": "dream_grass_white_0",
+		"isotropic": {
+			"down": true
+		}
+	},
+	"biomes:dream_grass_white_tall_0": {
+		"sound": "grass",
+		"textures": "dream_grass_white_tall_0",
+		"isotropic": {
+			"down": true
+		}
+	},
 	"biomes:dream_flower_0": {
 		"sound": "grass",
 		"textures": "dream_flower_0",

@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.x",
+				"identifier": "geometry.grass",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 3,
@@ -15,8 +15,8 @@
 					"name": "grass",
 					"pivot": [0, 2.66667, -4],
 					"cubes": [
-						{"origin": [0, 0, -9.5], "size": [0, 32, 19], "uv": [14, -19]},
-						{"origin": [0, 0, -9.5], "size": [0, 32, 19], "pivot": [0, 16, 0], "rotation": [0, -90, 0], "uv": [14, -19]}
+						{ "origin": [0, 0, -9.5], "size": [0, 32, 19], "uv": [14, -19] },
+						{ "origin": [0, 0, -9.5], "size": [0, 32, 19], "pivot": [0, 16, 0], "rotation": [0, -90, 0], "uv": [14, -19] }
 					]
 				}
 			]

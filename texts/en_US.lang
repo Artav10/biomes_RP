@@ -35,6 +35,12 @@ tile.biomes:dream_catcher_leaves.name=Dream Catcher Leaves
 tile.biomes:dream_grass_block_blue.name=Dream Grass Block (Blue)
 tile.biomes:dream_grass_block_pink.name=Dream Grass Block (Pink)
 tile.biomes:dream_grass_block_white.name=Dream Grass Block (White)
+tile.biomes:dream_grass_blue_0.name=Dream Grass (Blue)
+tile.biomes:dream_grass_blue_0_tall.name=Tall Dream Grass (Blue)
+tile.biomes:dream_grass_pink_0.name=Dream Grass (Pink)
+tile.biomes:dream_grass_pink_tall_0.name=Tall Dream Grass (Pink)
+tile.biomes:dream_grass_white_0.name=Dream Grass (White)
+tile.biomes:dream_grass_white_tall_0.name=Tall Dream Grass (White)
 
 ## Items - Materials
 item.biomes:dreamstone.name=Dreamstone
