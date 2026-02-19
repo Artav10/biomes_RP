@@ -15,8 +15,8 @@
 					"name": "dream_flower_1",
 					"pivot": [0, 0, 0],
 					"cubes": [
-						{"origin": [-8, 0, 0], "size": [16, 20, 0], "pivot": [0, 8, 0], "rotation": [0, 180, 0], "uv": [0, 0], "mirror": true},
-						{"origin": [-8, 0, 0], "size": [16, 20, 0], "pivot": [0, 8, 0], "rotation": [0, -90, 0], "uv": [0, 0]}
+						{ "origin": [-8, 0, 0], "size": [16, 20, 0], "pivot": [0, 8, 0], "rotation": [0, 180, 0], "uv": [0, 0], "mirror": true },
+						{ "origin": [-8, 0, 0], "size": [16, 20, 0], "pivot": [0, 8, 0], "rotation": [0, -90, 0], "uv": [0, 0] }
 					]
 				}
 			]
