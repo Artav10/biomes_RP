@@ -1,104 +1,128 @@
 {
-    "texture_name": "atlas.terrain",
-    "resource_pack_name": "Biomes Add-on",
-    "padding": 8,
-    "num_mip_levels": 4,
-    "texture_data": {
-        "dreamstone_block": {
-            "textures": "textures/blocks/dream_biome/stones/dreamstone_block"
-        },
-        "dreamstone_ore": {
-            "textures": "textures/blocks/dream_biome/ores/dreamstone_ore"
-        },
-        "moonstone_block": {
-            "textures": "textures/blocks/dream_biome/stones/moonstone_block"
-        },
-        "moonstone_ore": {
-            "textures": "textures/blocks/dream_biome/ores/moonstone_ore"
-        },
-        "mist_block": {
-            "textures": "textures/blocks/dream_biome/stones/mist_block_trans"
-        },
-        "mist_ore": {
-            "textures": "textures/blocks/dream_biome/ores/mist_ore"
-        },
-        "gleam_block": {
-            "textures": "textures/blocks/dream_biome/stones/gleam_block"
-        },
-        "gleam_ore": {
-            "textures": "textures/blocks/dream_biome/ores/gleam_ore"
-        },
-        "slumberstone_block": {
-            "textures": "textures/blocks/dream_biome/stones/slumberstone_block"
-        },
-        "slumberstone_ore": {
-            "textures": "textures/blocks/dream_biome/ores/slumberstone_ore"
-        },
-        "dreamwood_log": {
-            "textures": "textures/blocks/dream_biome/logs/dreamwood_log"
-        },
-        "dreamwood_log_top": {
-            "textures": "textures/blocks/dream_biome/logs/dreamwood_log_top"
-        },
-        "dreamwood_leaves": {
-            "textures": "textures/blocks/dream_biome/leaves/dreamwood_leaves"
-        },
-        "moonlit_willow_log": {
-            "textures": "textures/blocks/dream_biome/logs/moonlit_willow_log"
-        },
-        "moonlit_willow_log_top": {
-            "textures": "textures/blocks/dream_biome/logs/moonlit_willow_log_top"
-        },
-        "moonlit_willow_leaves": {
-            "textures": "textures/blocks/dream_biome/leaves/moonlit_willow_leaves"
-        },
-        "mist_sycamore_log": {
-            "textures": "textures/blocks/dream_biome/logs/mist_sycamore_log"
-        },
-        "mist_sycamore_log_top": {
-            "textures": "textures/blocks/dream_biome/logs/mist_sycamore_log_top"
-        },
-        "mist_sycamore_leaves": {
-            "textures": "textures/blocks/dream_biome/leaves/mist_sycamore_leaves"
-        },
-        "gleam_blossom_log": {
-            "textures": "textures/blocks/dream_biome/logs/gleam_blossom_log"
-        },
-        "gleam_blossom_log_top": {
-            "textures": "textures/blocks/dream_biome/logs/gleam_blossom_log_top"
-        },
-        "gleam_blossom_leaves": {
-            "textures": "textures/blocks/dream_biome/leaves/gleam_blossom_leaves"
-        },
-        "dream_catcher_log": {
-            "textures": "textures/blocks/dream_biome/logs/dream_catcher_log"
-        },
-        "dream_catcher_log_top": {
-            "textures": "textures/blocks/dream_biome/logs/dream_catcher_log_top"
-        },
-        "dream_catcher_leaves": {
-            "textures": "textures/blocks/dream_biome/leaves/dream_catcher_leaves"
-        },
-        "dream_grass_block_blue_top": {
-            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_blue_top"
-        },
-        "dream_grass_block_blue_side": {
-            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_blue_side"
-        },
-        "dream_grass_block_pink_top": {
-            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_pink_top"
-        },
-        "dream_grass_block_pink_side": {
-            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_pink_side"
-        },
-        "dream_grass_block_white_top": {
-            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_white_top"
-        },
-        "dream_grass_block_white_side": {
-            "textures": "textures/blocks/dream_biome/grass/dream_grass_block_white_side"
-        },
-        "dirt": {
-            "textures": "textures/blocks/dirt"
-        }
-    }
+	"texture_name": "atlas.terrain",
+	"resource_pack_name": "Biomes Add-on",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"dreamstone_block": {
+			"textures": "textures/blocks/dream_biome/stones/dreamstone_block"
+		},
+		"dreamstone_ore": {
+			"textures": "textures/blocks/dream_biome/ores/dreamstone_ore"
+		},
+		"moonstone_block": {
+			"textures": "textures/blocks/dream_biome/stones/moonstone_block"
+		},
+		"moonstone_ore": {
+			"textures": "textures/blocks/dream_biome/ores/moonstone_ore"
+		},
+		"mist_block": {
+			"textures": "textures/blocks/dream_biome/stones/mist_block_trans"
+		},
+		"mist_ore": {
+			"textures": "textures/blocks/dream_biome/ores/mist_ore"
+		},
+		"gleam_block": {
+			"textures": "textures/blocks/dream_biome/stones/gleam_block"
+		},
+		"gleam_ore": {
+			"textures": "textures/blocks/dream_biome/ores/gleam_ore"
+		},
+		"slumberstone_block": {
+			"textures": "textures/blocks/dream_biome/stones/slumberstone_block"
+		},
+		"slumberstone_ore": {
+			"textures": "textures/blocks/dream_biome/ores/slumberstone_ore"
+		},
+		"dreamwood_log": {
+			"textures": "textures/blocks/dream_biome/logs/dreamwood_log"
+		},
+		"dreamwood_log_top": {
+			"textures": "textures/blocks/dream_biome/logs/dreamwood_log_top"
+		},
+		"dreamwood_leaves": {
+			"textures": "textures/blocks/dream_biome/leaves/dreamwood_leaves"
+		},
+		"moonlit_willow_log": {
+			"textures": "textures/blocks/dream_biome/logs/moonlit_willow_log"
+		},
+		"moonlit_willow_log_top": {
+			"textures": "textures/blocks/dream_biome/logs/moonlit_willow_log_top"
+		},
+		"moonlit_willow_leaves": {
+			"textures": "textures/blocks/dream_biome/leaves/moonlit_willow_leaves"
+		},
+		"mist_sycamore_log": {
+			"textures": "textures/blocks/dream_biome/logs/mist_sycamore_log"
+		},
+		"mist_sycamore_log_top": {
+			"textures": "textures/blocks/dream_biome/logs/mist_sycamore_log_top"
+		},
+		"mist_sycamore_leaves": {
+			"textures": "textures/blocks/dream_biome/leaves/mist_sycamore_leaves"
+		},
+		"gleam_blossom_log": {
+			"textures": "textures/blocks/dream_biome/logs/gleam_blossom_log"
+		},
+		"gleam_blossom_log_top": {
+			"textures": "textures/blocks/dream_biome/logs/gleam_blossom_log_top"
+		},
+		"gleam_blossom_leaves": {
+			"textures": "textures/blocks/dream_biome/leaves/gleam_blossom_leaves"
+		},
+		"dream_catcher_log": {
+			"textures": "textures/blocks/dream_biome/logs/dream_catcher_log"
+		},
+		"dream_catcher_log_top": {
+			"textures": "textures/blocks/dream_biome/logs/dream_catcher_log_top"
+		},
+		"dream_catcher_leaves": {
+			"textures": "textures/blocks/dream_biome/leaves/dream_catcher_leaves"
+		},
+		"dream_grass_block_blue_top": {
+			"textures": "textures/blocks/dream_biome/grass/dream_grass_block_blue_top"
+		},
+		"dream_grass_block_blue_side": {
+			"textures": "textures/blocks/dream_biome/grass/dream_grass_block_blue_side"
+		},
+		"dream_grass_block_pink_top": {
+			"textures": "textures/blocks/dream_biome/grass/dream_grass_block_pink_top"
+		},
+		"dream_grass_block_pink_side": {
+			"textures": "textures/blocks/dream_biome/grass/dream_grass_block_pink_side"
+		},
+		"dream_grass_block_white_top": {
+			"textures": "textures/blocks/dream_biome/grass/dream_grass_block_white_top"
+		},
+		"dream_grass_block_white_side": {
+			"textures": "textures/blocks/dream_biome/grass/dream_grass_block_white_side"
+		},
+		"dirt": {
+			"textures": "textures/blocks/dirt"
+		},
+		"dream_flower_0": {
+			"textures": "textures/blocks/dream_biome/flowers/dream_flower_0"
+		},
+		"dream_flower_1": {
+			"textures": "textures/blocks/dream_biome/flowers/dream_flower_1"
+		},
+		"dream_flower_2": {
+			"textures": "textures/blocks/dream_biome/flowers/dream_flower_2"
+		},
+		"dream_flower_3": {
+			"textures": "textures/blocks/dream_biome/flowers/dream_flower_3"
+		},
+		"dream_flower_4": {
+			"textures": "textures/blocks/dream_biome/flowers/dream_flower_4"
+		},
+		"blue_mushroom": {
+			"textures": "textures/blocks/dream_biome/mushrooms/blue_mushroom"
+		},
+		"pink_mushroom": {
+			"textures": "textures/blocks/dream_biome/mushrooms/pink_mushroom"
+		},
+		"white_mushroom": {
+			"textures": "textures/blocks/dream_biome/mushrooms/white_mushroom"
+		}
+	}
 }
