@@ -101,3 +101,14 @@ item.spawn_egg.entity.biomes:shadow_child.name=Spawn Shadow Child
 item.spawn_egg.entity.biomes:sleepy_bear.name=Spawn Sleepy Bear
 item.spawn_egg.entity.biomes:sleepy_fairy.name=Spawn Sleepy Fairy
 
+## Blocks - Flowers
+tile.biomes:dream_flower_0.name=Dream Flower
+tile.biomes:dream_flower_1.name=Ethereal Bloom
+tile.biomes:dream_flower_2.name=Lunar Blossom
+tile.biomes:dream_flower_3.name=Mist Petal
+tile.biomes:dream_flower_4.name=Starlight Flower
+
+## Blocks - Mushrooms
+tile.biomes:blue_mushroom.name=Blue Dream Mushroom
+tile.biomes:pink_mushroom.name=Pink Dream Mushroom
+tile.biomes:white_mushroom.name=White Dream Mushroom
