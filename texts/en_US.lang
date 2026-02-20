@@ -119,9 +119,9 @@ tile.biomes:blue_mushroom.name=Blue Dream Mushroom
 tile.biomes:pink_mushroom.name=Pink Dream Mushroom
 tile.biomes:white_mushroom.name=White Dream Mushroom
 
-## Blocks - Doors
-tile.biomes:dream_catcher_door.name=Dream Catcher Door
-tile.biomes:dreamwood_door.name=Dreamwood Door
-tile.biomes:gleam_door.name=Gleam Door
-tile.biomes:mist_door.name=Mist Door
-tile.biomes:moonlit_willow_door.name=Moonlit Willow Door
+## Items - Doors
+item.biomes:dream_catcher_door.name=Dream Catcher Door
+item.biomes:dreamwood_door.name=Dreamwood Door
+item.biomes:gleam_door.name=Gleam Door
+item.biomes:mist_door.name=Mist Door
+item.biomes:moonlit_willow_door.name=Moonlit Willow Door
