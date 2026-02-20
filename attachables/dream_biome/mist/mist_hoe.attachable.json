@@ -14,6 +14,16 @@
             "geometry": {
                 "default": "geometry.mist_hoe"
             },
+	    "animations": {
+                "first_person": "animation.biomes_hoe.first_person_hold",
+                "third_person": "animation.biomes_hoe.third_person_hold",
+                "player_controller": "controller.animation.biomes.player_controller"
+            },
+            "scripts": {
+                "animate": [
+                    "player_controller"
+                ]
+            },
             "render_controllers": ["controller.render.item_default"]
         }
     }

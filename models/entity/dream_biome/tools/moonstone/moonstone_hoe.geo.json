@@ -1,5 +1,5 @@
 {
-	"format_version": "1.12.0",
+	"format_version": "1.16.0",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -7,13 +7,14 @@
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 3,
-				"visible_bounds_height": 2.5,
-				"visible_bounds_offset": [0, 0.75, 0]
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
 			},
 			"bones": [
 				{
-					"name": "bone",
+					"name": "root_item",
 					"pivot": [0, 0.07001, -0.74431],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
 					"cubes": [
 						{"origin": [0, 7.31802, -0.64645], "size": [0, 8, 10], "pivot": [0, 14.31802, 5.35355], "rotation": [-45, 0, 0], "uv": [27, 22]},
 						{"origin": [-1, 13.31802, -7.76777], "size": [2, 2, 6], "pivot": [0, 14.31802, -6.76777], "rotation": [45, 0, 0], "uv": [0, 32]},
