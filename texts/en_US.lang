@@ -84,6 +84,13 @@ item.biomes:slumberstone_pickaxe.name=Slumberstone Pickaxe
 item.biomes:slumberstone_hoe.name=Slumberstone Hoe
 item.biomes:slumberstone_shovel.name=Slumberstone Shovel
 
+## Items - Saplings
+item.biomes:dreamwood_sapling.name=Dreamwood Sapling
+item.biomes:dream_catcher_tree_sapling.name=Dream Catcher Sapling
+item.biomes:gleam_blossom_sapling.name=Gleam Blossom Sapling
+item.biomes:mist_sycamore_sapling.name=Mist Sycamore Sapling
+item.biomes:moonlit_willow_sapling.name=Moonlit Willow Sapling
+
 ## Entities - Dream Biome Creatures
 entity.biomes:candy_caterpillar.name=Candy Caterpillar
 entity.biomes:dream_dragon.name=Dream Dragon
