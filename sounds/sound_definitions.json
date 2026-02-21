@@ -1,0 +1,83 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "mob.candy_caterpillar.idle": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/candy_caterpillar/idle"]
+        },
+        "mob.candy_caterpillar.walk": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/candy_caterpillar/walk"]
+        },
+        "mob.candy_caterpillar.attack": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/candy_caterpillar/attack"]
+        },
+        "mob.lethargic_cat.idle": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/lethargic_cat/idle"]
+        },
+        "mob.mist_bird.idle": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/mist_bird/idle"]
+        },
+        "mob.moonlit_wolf.idle": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/moonlit_wolf/idle"]
+        },
+        "mob.moonlit_wolf.walk": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/moonlit_wolf/walk"]
+        },
+        "mob.moonlit_wolf.run": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/moonlit_wolf/run"]
+        },
+        "mob.reflection_deer.walk": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/reflection_deer/walk"]
+        },
+        "mob.reflection_deer.run": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/reflection_deer/run1",
+                "sounds/mob/reflection_deer/run2",
+                "sounds/mob/reflection_deer/run3"
+            ]
+        },
+        "mob.shadow_child.idle": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/shadow_child/idle",
+                "sounds/mob/shadow_child/idle2"
+            ]
+        },
+        "mob.shadow_child.walk": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/shadow_child/walk",
+                "sounds/mob/shadow_child/walk2"
+            ]
+        },
+        "mob.shadow_child.attack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/shadow_child/skill_1",
+                "sounds/mob/shadow_child/skill_2",
+                "sounds/mob/shadow_child/skill_3"
+            ]
+        },
+        "mob.sleepy_bear.idle": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/sleepy_bear/idle"]
+        },
+        "mob.sleepy_bear.walk": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/sleepy_bear/walk"]
+        },
+        "mob.sleepy_fairy.fly": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/sleepy_fairy/fly"]
+        }
+    }
+}
