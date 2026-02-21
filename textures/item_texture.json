@@ -107,19 +107,19 @@
         "moonlit_willow_door": {
             "textures": "textures/items/dream_biome/doors/moonlit_willow_door"
         },
-        "dreamwood_sapling": {
+        "dreamwood_tree_sapling": {
             "textures": "textures/items/dream_biome/saplings/dreamwood_sapling"
         },
         "dream_catcher_tree_sapling": {
             "textures": "textures/items/dream_biome/saplings/dream_catcher_tree_sapling"
         },
-        "gleam_blossom_sapling": {
+        "gleam_blossom_tree_sapling": {
             "textures": "textures/items/dream_biome/saplings/gleam_blossom_sapling"
         },
-        "mist_sycamore_sapling": {
+        "mist_sycamore_tree_sapling": {
             "textures": "textures/items/dream_biome/saplings/mist_sycamore_sapling"
         },
-        "moonlit_willow_sapling": {
+        "moonlit_willow_tree_sapling": {
             "textures": "textures/items/dream_biome/saplings/moonlit_willow_sapling"
         }
     }
