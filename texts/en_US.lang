@@ -24,6 +24,13 @@ tile.biomes:mist_sycamore_log.name=Mist Sycamore Log
 tile.biomes:gleam_blossom_log.name=Gleam Blossom Log
 tile.biomes:dream_catcher_log.name=Dream Catcher Log
 
+## Blocks - Planks
+tile.biomes:dreamwood_plank.name=Dreamwood Planks
+tile.biomes:moonlit_willow_plank.name=Moonlit Willow Planks
+tile.biomes:mist_sycamore_plank.name=Mist Sycamore Planks
+tile.biomes:gleam_blossom_plank.name=Gleam Blossom Planks
+tile.biomes:dream_catcher_plank.name=Dream Catcher Planks
+
 ## Blocks - Leaves
 tile.biomes:dreamwood_leaves.name=Dreamwood Leaves
 tile.biomes:moonlit_willow_leaves.name=Moonlit Willow Leaves
