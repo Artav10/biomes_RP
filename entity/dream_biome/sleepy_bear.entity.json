@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:sleepy_bear",
+            "identifier": "es_bio:sleepy_bear",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/sleepy_bear" },
             "geometry": { "default": "geometry.sleepy_bear" },

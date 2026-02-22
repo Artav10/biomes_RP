@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:attachable": {
         "description": {
-            "identifier": "biomes:slumberstone_hoe",
+            "identifier": "es_bio:slumberstone_hoe",
             "materials": {
                 "default": "entity_alphatest",
                 "enchanted": "entity_alphatest_glint"
@@ -14,15 +14,13 @@
             "geometry": {
                 "default": "geometry.slumberstone_hoe"
             },
-	    "animations": {
+            "animations": {
                 "first_person": "animation.biomes_hoe.first_person_hold",
                 "third_person": "animation.biomes_hoe.third_person_hold",
                 "player_controller": "controller.animation.biomes.player_controller"
             },
             "scripts": {
-                "animate": [
-                    "player_controller"
-                ]
+                "animate": ["player_controller"]
             },
             "render_controllers": ["controller.render.item_default"]
         }

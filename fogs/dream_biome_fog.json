@@ -2,7 +2,7 @@
     "format_version": "1.16.100",
     "minecraft:fog_settings": {
         "description": {
-            "identifier": "biomes:fog_dream_biome"
+            "identifier": "es_bio:fog_dream_biome"
         },
         "distance": {
             "air": {

@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:moonlit_wolf",
+            "identifier": "es_bio:moonlit_wolf",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/moonlit_wolf" },
             "geometry": { "default": "geometry.moonlit_wolf" },

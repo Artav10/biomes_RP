@@ -1,7 +1,7 @@
 {
     "entity_sounds": {
         "entities": {
-            "biomes:candy_caterpillar": {
+            "es_bio:candy_caterpillar": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {
@@ -22,7 +22,7 @@
                     }
                 }
             },
-            "biomes:lethargic_cat": {
+            "es_bio:lethargic_cat": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {
@@ -33,7 +33,7 @@
                     }
                 }
             },
-            "biomes:mist_bird": {
+            "es_bio:mist_bird": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {
@@ -44,7 +44,7 @@
                     }
                 }
             },
-            "biomes:moonlit_wolf": {
+            "es_bio:moonlit_wolf": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {
@@ -60,7 +60,7 @@
                     }
                 }
             },
-            "biomes:reflection_deer": {
+            "es_bio:reflection_deer": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {
@@ -71,7 +71,7 @@
                     }
                 }
             },
-            "biomes:shadow_child": {
+            "es_bio:shadow_child": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {
@@ -92,7 +92,7 @@
                     }
                 }
             },
-            "biomes:sleepy_bear": {
+            "es_bio:sleepy_bear": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {
@@ -108,7 +108,7 @@
                     }
                 }
             },
-            "biomes:sleepy_fairy": {
+            "es_bio:sleepy_fairy": {
                 "volume": 1,
                 "pitch": [0.9, 1.1],
                 "events": {

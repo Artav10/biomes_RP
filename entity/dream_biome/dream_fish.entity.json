@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:dream_fish",
+            "identifier": "es_bio:dream_fish",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/dream_fish" },
             "geometry": { "default": "geometry.dream_fish" },

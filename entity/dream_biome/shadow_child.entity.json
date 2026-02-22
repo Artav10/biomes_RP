@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:shadow_child",
+            "identifier": "es_bio:shadow_child",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/shadow_child" },
             "geometry": { "default": "geometry.shadow_child" },

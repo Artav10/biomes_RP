@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:sleepy_fairy",
+            "identifier": "es_bio:sleepy_fairy",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/sleepy_fairy" },
             "geometry": { "default": "geometry.sleepy_fairy" },

@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:candy_caterpillar",
+            "identifier": "es_bio:candy_caterpillar",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/candy_caterpillar" },
             "geometry": { "default": "geometry.candy_caterpillar" },

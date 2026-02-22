@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:reflection_deer",
+            "identifier": "es_bio:reflection_deer",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/reflection_deer" },
             "geometry": { "default": "geometry.reflection_deer" },

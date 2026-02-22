@@ -3,139 +3,139 @@
 ## === DREAM BIOME ===
 
 ## Biome
-biome.biomes:dream_biome.name=Dream Biome
+biome.es_bio:dream_biome.name=Dream Biome
 
 ## Blocks - Ores & Stone
-tile.biomes:dreamstone_block.name=Dreamstone Block
-tile.biomes:dreamstone_ore.name=Dreamstone Ore
-tile.biomes:moonstone_block.name=Moonstone Block
-tile.biomes:moonstone_ore.name=Moonstone Ore
-tile.biomes:mist_block.name=Mist Block
-tile.biomes:mist_ore.name=Mist Ore
-tile.biomes:gleam_block.name=Gleam Block
-tile.biomes:gleam_ore.name=Gleam Ore
-tile.biomes:slumberstone_block.name=Slumberstone Block
-tile.biomes:slumberstone_ore.name=Slumberstone Ore
+tile.es_bio:dreamstone_block.name=Dreamstone Block
+tile.es_bio:dreamstone_ore.name=Dreamstone Ore
+tile.es_bio:moonstone_block.name=Moonstone Block
+tile.es_bio:moonstone_ore.name=Moonstone Ore
+tile.es_bio:mist_block.name=Mist Block
+tile.es_bio:mist_ore.name=Mist Ore
+tile.es_bio:gleam_block.name=Gleam Block
+tile.es_bio:gleam_ore.name=Gleam Ore
+tile.es_bio:slumberstone_block.name=Slumberstone Block
+tile.es_bio:slumberstone_ore.name=Slumberstone Ore
 
 ## Blocks - Logs
-tile.biomes:dreamwood_log.name=Dreamwood Log
-tile.biomes:moonlit_willow_log.name=Moonlit Willow Log
-tile.biomes:mist_sycamore_log.name=Mist Sycamore Log
-tile.biomes:gleam_blossom_log.name=Gleam Blossom Log
-tile.biomes:dream_catcher_log.name=Dream Catcher Log
+tile.es_bio:dreamwood_log.name=Dreamwood Log
+tile.es_bio:moonlit_willow_log.name=Moonlit Willow Log
+tile.es_bio:mist_sycamore_log.name=Mist Sycamore Log
+tile.es_bio:gleam_blossom_log.name=Gleam Blossom Log
+tile.es_bio:dream_catcher_log.name=Dream Catcher Log
 
 ## Blocks - Planks
-tile.biomes:dreamwood_plank.name=Dreamwood Planks
-tile.biomes:moonlit_willow_plank.name=Moonlit Willow Planks
-tile.biomes:mist_sycamore_plank.name=Mist Sycamore Planks
-tile.biomes:gleam_blossom_plank.name=Gleam Blossom Planks
-tile.biomes:dream_catcher_plank.name=Dream Catcher Planks
+tile.es_bio:dreamwood_plank.name=Dreamwood Planks
+tile.es_bio:moonlit_willow_plank.name=Moonlit Willow Planks
+tile.es_bio:mist_sycamore_plank.name=Mist Sycamore Planks
+tile.es_bio:gleam_blossom_plank.name=Gleam Blossom Planks
+tile.es_bio:dream_catcher_plank.name=Dream Catcher Planks
 
 ## Blocks - Leaves
-tile.biomes:dreamwood_leaves.name=Dreamwood Leaves
-tile.biomes:moonlit_willow_leaves.name=Moonlit Willow Leaves
-tile.biomes:mist_sycamore_leaves.name=Mist Sycamore Leaves
-tile.biomes:gleam_blossom_leaves.name=Gleam Blossom Leaves
-tile.biomes:dream_catcher_leaves.name=Dream Catcher Leaves
+tile.es_bio:dreamwood_leaves.name=Dreamwood Leaves
+tile.es_bio:moonlit_willow_leaves.name=Moonlit Willow Leaves
+tile.es_bio:mist_sycamore_leaves.name=Mist Sycamore Leaves
+tile.es_bio:gleam_blossom_leaves.name=Gleam Blossom Leaves
+tile.es_bio:dream_catcher_leaves.name=Dream Catcher Leaves
 
 ## Blocks - Grass
-tile.biomes:dream_grass_block_blue.name=Dream Grass Block (Blue)
-tile.biomes:dream_grass_block_pink.name=Dream Grass Block (Pink)
-tile.biomes:dream_grass_block_white.name=Dream Grass Block (White)
-tile.biomes:dream_grass_blue_0.name=Dream Grass (Blue)
-tile.biomes:dream_grass_blue_0_tall.name=Tall Dream Grass (Blue)
-tile.biomes:dream_grass_pink_0.name=Dream Grass (Pink)
-tile.biomes:dream_grass_pink_tall_0.name=Tall Dream Grass (Pink)
-tile.biomes:dream_grass_white_0.name=Dream Grass (White)
-tile.biomes:dream_grass_white_tall_0.name=Tall Dream Grass (White)
+tile.es_bio:dream_grass_block_blue.name=Dream Grass Block (Blue)
+tile.es_bio:dream_grass_block_pink.name=Dream Grass Block (Pink)
+tile.es_bio:dream_grass_block_white.name=Dream Grass Block (White)
+tile.es_bio:dream_grass_blue_0.name=Dream Grass (Blue)
+tile.es_bio:dream_grass_blue_0_tall.name=Tall Dream Grass (Blue)
+tile.es_bio:dream_grass_pink_0.name=Dream Grass (Pink)
+tile.es_bio:dream_grass_pink_tall_0.name=Tall Dream Grass (Pink)
+tile.es_bio:dream_grass_white_0.name=Dream Grass (White)
+tile.es_bio:dream_grass_white_tall_0.name=Tall Dream Grass (White)
 
 ## Items - Materials
-item.biomes:dreamstone.name=Dreamstone
-item.biomes:moonstone.name=Moonstone
-item.biomes:mist_crystal.name=Mist Crystal
-item.biomes:gleam.name=Gleam
-item.biomes:slumberstone.name=Slumberstone
+item.es_bio:dreamstone.name=Dreamstone
+item.es_bio:moonstone.name=Moonstone
+item.es_bio:mist_crystal.name=Mist Crystal
+item.es_bio:gleam.name=Gleam
+item.es_bio:slumberstone.name=Slumberstone
 
 ## Items - Dreamstone Tools
-item.biomes:dreamstone_sword.name=Dreamstone Sword
-item.biomes:dreamstone_axe.name=Dreamstone Axe
-item.biomes:dreamstone_pickaxe.name=Dreamstone Pickaxe
-item.biomes:dreamstone_hoe.name=Dreamstone Hoe
-item.biomes:dreamstone_shovel.name=Dreamstone Shovel
+item.es_bio:dreamstone_sword.name=Dreamstone Sword
+item.es_bio:dreamstone_axe.name=Dreamstone Axe
+item.es_bio:dreamstone_pickaxe.name=Dreamstone Pickaxe
+item.es_bio:dreamstone_hoe.name=Dreamstone Hoe
+item.es_bio:dreamstone_shovel.name=Dreamstone Shovel
 
 ## Items - Moonstone Tools
-item.biomes:moonstone_sword.name=Moonstone Sword
-item.biomes:moonstone_axe.name=Moonstone Axe
-item.biomes:moonstone_pickaxe.name=Moonstone Pickaxe
-item.biomes:moonstone_hoe.name=Moonstone Hoe
-item.biomes:moonstone_shovel.name=Moonstone Shovel
+item.es_bio:moonstone_sword.name=Moonstone Sword
+item.es_bio:moonstone_axe.name=Moonstone Axe
+item.es_bio:moonstone_pickaxe.name=Moonstone Pickaxe
+item.es_bio:moonstone_hoe.name=Moonstone Hoe
+item.es_bio:moonstone_shovel.name=Moonstone Shovel
 
 ## Items - Mist Tools
-item.biomes:mist_sword.name=Mist Sword
-item.biomes:mist_axe.name=Mist Axe
-item.biomes:mist_pickaxe.name=Mist Pickaxe
-item.biomes:mist_hoe.name=Mist Hoe
-item.biomes:mist_shovel.name=Mist Shovel
+item.es_bio:mist_sword.name=Mist Sword
+item.es_bio:mist_axe.name=Mist Axe
+item.es_bio:mist_pickaxe.name=Mist Pickaxe
+item.es_bio:mist_hoe.name=Mist Hoe
+item.es_bio:mist_shovel.name=Mist Shovel
 
 ## Items - Gleam Tools
-item.biomes:gleam_sword.name=Gleam Sword
-item.biomes:gleam_axe.name=Gleam Axe
-item.biomes:gleam_pickaxe.name=Gleam Pickaxe
-item.biomes:gleam_hoe.name=Gleam Hoe
-item.biomes:gleam_shovel.name=Gleam Shovel
+item.es_bio:gleam_sword.name=Gleam Sword
+item.es_bio:gleam_axe.name=Gleam Axe
+item.es_bio:gleam_pickaxe.name=Gleam Pickaxe
+item.es_bio:gleam_hoe.name=Gleam Hoe
+item.es_bio:gleam_shovel.name=Gleam Shovel
 
 ## Items - Slumberstone Tools
-item.biomes:slumberstone_sword.name=Slumberstone Sword
-item.biomes:slumberstone_axe.name=Slumberstone Axe
-item.biomes:slumberstone_pickaxe.name=Slumberstone Pickaxe
-item.biomes:slumberstone_hoe.name=Slumberstone Hoe
-item.biomes:slumberstone_shovel.name=Slumberstone Shovel
+item.es_bio:slumberstone_sword.name=Slumberstone Sword
+item.es_bio:slumberstone_axe.name=Slumberstone Axe
+item.es_bio:slumberstone_pickaxe.name=Slumberstone Pickaxe
+item.es_bio:slumberstone_hoe.name=Slumberstone Hoe
+item.es_bio:slumberstone_shovel.name=Slumberstone Shovel
 
 ## Items - Saplings
-item.biomes:dreamwood_sapling.name=Dreamwood Sapling
-item.biomes:dream_catcher_tree_sapling.name=Dream Catcher Sapling
-item.biomes:gleam_blossom_sapling.name=Gleam Blossom Sapling
-item.biomes:mist_sycamore_sapling.name=Mist Sycamore Sapling
-item.biomes:moonlit_willow_sapling.name=Moonlit Willow Sapling
+item.es_bio:dreamwood_sapling.name=Dreamwood Sapling
+item.es_bio:dream_catcher_tree_sapling.name=Dream Catcher Sapling
+item.es_bio:gleam_blossom_sapling.name=Gleam Blossom Sapling
+item.es_bio:mist_sycamore_sapling.name=Mist Sycamore Sapling
+item.es_bio:moonlit_willow_sapling.name=Moonlit Willow Sapling
 
 ## Entities - Dream Biome Creatures
-entity.biomes:candy_caterpillar.name=Candy Caterpillar
-entity.biomes:dream_dragon.name=Dream Dragon
-entity.biomes:dream_fish.name=Dream Fish
-entity.biomes:lethargic_cat.name=Lethargic Cat
-entity.biomes:mist_bird.name=Mist Bird
-entity.biomes:moonlit_wolf.name=Moonlit Wolf
-entity.biomes:reflection_deer.name=Reflection Deer
-entity.biomes:shadow_child.name=Shadow Child
-entity.biomes:sleepy_bear.name=Sleepy Bear
-entity.biomes:sleepy_fairy.name=Sleepy Fairy
+entity.es_bio:candy_caterpillar.name=Candy Caterpillar
+entity.es_bio:dream_dragon.name=Dream Dragon
+entity.es_bio:dream_fish.name=Dream Fish
+entity.es_bio:lethargic_cat.name=Lethargic Cat
+entity.es_bio:mist_bird.name=Mist Bird
+entity.es_bio:moonlit_wolf.name=Moonlit Wolf
+entity.es_bio:reflection_deer.name=Reflection Deer
+entity.es_bio:shadow_child.name=Shadow Child
+entity.es_bio:sleepy_bear.name=Sleepy Bear
+entity.es_bio:sleepy_fairy.name=Sleepy Fairy
 
-item.spawn_egg.entity.biomes:candy_caterpillar.name=Spawn Candy Caterpillar
-item.spawn_egg.entity.biomes:dream_dragon.name=Spawn Dream Dragon
-item.spawn_egg.entity.biomes:dream_fish.name=Spawn Dream Fish
-item.spawn_egg.entity.biomes:lethargic_cat.name=Spawn Lethargic Cat
-item.spawn_egg.entity.biomes:mist_bird.name=Spawn Mist Bird
-item.spawn_egg.entity.biomes:moonlit_wolf.name=Spawn Moonlit Wolf
-item.spawn_egg.entity.biomes:reflection_deer.name=Spawn Reflection Deer
-item.spawn_egg.entity.biomes:shadow_child.name=Spawn Shadow Child
-item.spawn_egg.entity.biomes:sleepy_bear.name=Spawn Sleepy Bear
-item.spawn_egg.entity.biomes:sleepy_fairy.name=Spawn Sleepy Fairy
+item.spawn_egg.entity.es_bio:candy_caterpillar.name=Spawn Candy Caterpillar
+item.spawn_egg.entity.es_bio:dream_dragon.name=Spawn Dream Dragon
+item.spawn_egg.entity.es_bio:dream_fish.name=Spawn Dream Fish
+item.spawn_egg.entity.es_bio:lethargic_cat.name=Spawn Lethargic Cat
+item.spawn_egg.entity.es_bio:mist_bird.name=Spawn Mist Bird
+item.spawn_egg.entity.es_bio:moonlit_wolf.name=Spawn Moonlit Wolf
+item.spawn_egg.entity.es_bio:reflection_deer.name=Spawn Reflection Deer
+item.spawn_egg.entity.es_bio:shadow_child.name=Spawn Shadow Child
+item.spawn_egg.entity.es_bio:sleepy_bear.name=Spawn Sleepy Bear
+item.spawn_egg.entity.es_bio:sleepy_fairy.name=Spawn Sleepy Fairy
 
 ## Blocks - Flowers
-tile.biomes:dream_flower_0.name=Dream Flower
-tile.biomes:dream_flower_1.name=Ethereal Bloom
-tile.biomes:dream_flower_2.name=Lunar Blossom
-tile.biomes:dream_flower_3.name=Mist Petal
-tile.biomes:dream_flower_4.name=Starlight Flower
+tile.es_bio:dream_flower_0.name=Dream Flower
+tile.es_bio:dream_flower_1.name=Ethereal Bloom
+tile.es_bio:dream_flower_2.name=Lunar Blossom
+tile.es_bio:dream_flower_3.name=Mist Petal
+tile.es_bio:dream_flower_4.name=Starlight Flower
 
 ## Blocks - Mushrooms
-tile.biomes:blue_mushroom.name=Blue Dream Mushroom
-tile.biomes:pink_mushroom.name=Pink Dream Mushroom
-tile.biomes:white_mushroom.name=White Dream Mushroom
+tile.es_bio:blue_mushroom.name=Blue Dream Mushroom
+tile.es_bio:pink_mushroom.name=Pink Dream Mushroom
+tile.es_bio:white_mushroom.name=White Dream Mushroom
 
 ## Blocks - Doors
-tile.biomes:dream_catcher_door.name=Dream Catcher Door
-tile.biomes:dreamwood_door.name=Dreamwood Door
-tile.biomes:gleam_door.name=Gleam Door
-tile.biomes:mist_door.name=Mist Door
-tile.biomes:moonlit_willow_door.name=Moonlit Willow Door
+tile.es_bio:dream_catcher_door.name=Dream Catcher Door
+tile.es_bio:dreamwood_door.name=Dreamwood Door
+tile.es_bio:gleam_door.name=Gleam Door
+tile.es_bio:mist_door.name=Mist Door
+tile.es_bio:moonlit_willow_door.name=Moonlit Willow Door

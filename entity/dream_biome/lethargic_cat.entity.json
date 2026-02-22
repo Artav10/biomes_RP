@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:lethargic_cat",
+            "identifier": "es_bio:lethargic_cat",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/lethargic_cat" },
             "geometry": { "default": "geometry.lethargic_cat" },

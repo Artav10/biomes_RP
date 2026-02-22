@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "biomes:mist_bird",
+            "identifier": "es_bio:mist_bird",
             "materials": { "default": "entity_alphatest" },
             "textures": { "default": "textures/entity/dream_biome/mist_bird" },
             "geometry": { "default": "geometry.mist_bird" },
