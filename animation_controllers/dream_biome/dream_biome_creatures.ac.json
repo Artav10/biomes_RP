@@ -64,7 +64,7 @@
                 "attacking": {
                     "animations": ["anim_attack"],
                     "transitions": [
-                        { "idle": "!query.is_delayed_attacking" }
+                        { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
                     ]
                 }
             }
@@ -99,7 +99,7 @@
                 "attacking": {
                     "animations": ["anim_attack"],
                     "transitions": [
-                        { "idle": "!query.is_delayed_attacking" }
+                        { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
                     ]
                 }
             }
@@ -141,8 +141,8 @@
                 "attacking": {
                     "animations": ["anim_attack"],
                     "transitions": [
-                        { "flying": "query.modified_move_speed > 0.15 && !query.is_delayed_attacking" },
-                        { "idle": "!query.is_delayed_attacking" }
+                        { "flying": "query.modified_move_speed > 0.15 && (!query.is_delayed_attacking || query.all_animations_finished)" },
+                        { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
                     ]
                 }
             }
@@ -184,7 +184,7 @@
                 "skill": {
                     "animations": ["anim_skill"],
                     "transitions": [
-                        { "idle": "!query.is_delayed_attacking" }
+                        { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
                     ]
                 }
             }

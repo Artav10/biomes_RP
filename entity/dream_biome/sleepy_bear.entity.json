@@ -10,7 +10,8 @@
                 "anim_idle": "animation.biomes.sleepy_bear.idle",
                 "anim_walk": "animation.biomes.sleepy_bear.walk",
                 "anim_run": "animation.biomes.sleepy_bear.run",
-                "ctrl_move": "controller.animation.dream_biome.ground_passive_runner"
+                "anim_attack": "animation.biomes.sleepy_bear.run",
+                "ctrl_move": "controller.animation.dream_biome.ground_neutral"
             },
             "scripts": {
                 "animate": ["ctrl_move"]

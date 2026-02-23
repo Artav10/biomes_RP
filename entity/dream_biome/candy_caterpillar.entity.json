@@ -10,7 +10,7 @@
                 "anim_idle": "animation.biomes.candy_caterpillar.idle",
                 "anim_walk": "animation.biomes.candy_caterpillar.walk",
                 "anim_attack": "animation.biomes.candy_caterpillar.attack",
-                "ctrl_move": "controller.animation.dream_biome.ground_passive"
+                "ctrl_move": "controller.animation.dream_biome.ground_neutral"
             },
             "scripts": {
                 "animate": ["ctrl_move"]
