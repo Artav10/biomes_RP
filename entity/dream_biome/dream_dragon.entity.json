@@ -12,6 +12,10 @@
                 "anim_attack": "animation.biomes.dream_dragon.attack-saparated",
                 "ctrl_move": "controller.animation.dream_biome.flyer_hostile"
             },
+            "particle_effects": {
+                "dragon_fire": "es_bio:dream_dragon_attack_fire",
+                "dragon_spore": "es_bio:dream_dragon_attack_spore"
+            },
             "scripts": {
                 "animate": ["ctrl_move"]
             },

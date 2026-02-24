@@ -128,22 +128,25 @@
                     "animations": ["anim_idle"],
                     "transitions": [
                         { "attacking": "query.is_delayed_attacking" },
-                        { "flying": "query.modified_move_speed > 0.15" }
-                    ]
+                        { "flying": "query.modified_move_speed > 0.35" }
+                    ],
+                    "blend_transition": 0.3
                 },
                 "flying": {
                     "animations": ["anim_fly"],
                     "transitions": [
                         { "attacking": "query.is_delayed_attacking" },
-                        { "idle": "query.modified_move_speed < 0.1" }
-                    ]
+                        { "idle": "query.modified_move_speed < 0.15" }
+                    ],
+                    "blend_transition": 0.3
                 },
                 "attacking": {
                     "animations": ["anim_attack"],
                     "transitions": [
-                        { "flying": "query.modified_move_speed > 0.15 && (!query.is_delayed_attacking || query.all_animations_finished)" },
+                        { "flying": "query.modified_move_speed > 0.35 && (!query.is_delayed_attacking || query.all_animations_finished)" },
                         { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
-                    ]
+                    ],
+                    "blend_transition": 0.2
                 }
             }
         },

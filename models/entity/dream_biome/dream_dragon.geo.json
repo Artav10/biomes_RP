@@ -741,7 +741,10 @@
 								"down": {"uv": [42, 162], "uv_size": [8, -8]}
 							}
 						}
-					]
+					],
+					"locators": {
+						"head_particle": [0, 13, -60]
+					}
 				},
 				{
 					"name": "eyes",
