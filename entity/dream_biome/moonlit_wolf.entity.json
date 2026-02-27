@@ -16,7 +16,11 @@
             "scripts": {
                 "animate": ["ctrl_move"]
             },
-            "render_controllers": ["controller.render.dream_biome_creature"]
+            "render_controllers": ["controller.render.dream_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#5C6BC0",
+                "overlay_color": "#E8EAF6"
+            }
         }
     }
 }
