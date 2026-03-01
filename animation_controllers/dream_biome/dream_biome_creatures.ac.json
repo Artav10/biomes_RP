@@ -127,24 +127,24 @@
                 "idle": {
                     "animations": ["anim_idle"],
                     "transitions": [
-                        { "attacking": "query.is_delayed_attacking" },
-                        { "flying": "query.modified_move_speed > 0.35" }
+                        { "attacking": "query.is_attacking" },
+                        { "flying": "query.modified_move_speed > 0.4" }
                     ],
                     "blend_transition": 0.3
                 },
                 "flying": {
                     "animations": ["anim_fly"],
                     "transitions": [
-                        { "attacking": "query.is_delayed_attacking" },
-                        { "idle": "query.modified_move_speed < 0.15" }
+                        { "attacking": "query.is_attacking" },
+                        { "idle": "query.modified_move_speed < 0.1" }
                     ],
                     "blend_transition": 0.3
                 },
                 "attacking": {
                     "animations": ["anim_attack"],
                     "transitions": [
-                        { "flying": "query.modified_move_speed > 0.35 && (!query.is_delayed_attacking || query.all_animations_finished)" },
-                        { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
+                        { "flying": "query.modified_move_speed > 0.4 && !query.is_attacking" },
+                        { "idle": "!query.is_attacking" }
                     ],
                     "blend_transition": 0.2
                 }
@@ -163,6 +163,40 @@
                     "animations": ["anim_walk"],
                     "transitions": [
                         { "idle": "query.modified_move_speed < 0.02" }
+                    ]
+                }
+            }
+        },
+        "controller.animation.dream_biome.moonlit_wolf": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "walking": "query.is_moving" }
+                    ]
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.modified_move_speed >= 0.33" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "running": {
+                    "animations": ["anim_run"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "walking": "query.is_moving && query.modified_move_speed < 0.33" },
+                        { "idle": "!query.is_moving" }
+                    ]
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
                     ]
                 }
             }

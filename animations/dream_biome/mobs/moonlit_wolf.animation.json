@@ -230,6 +230,10 @@
 		"animation.biomes.moonlit_wolf.run": {
 			"loop": true,
 			"animation_length": 0.5,
+			"sound_effects": {
+				"0.0": { "effect": "wolf_run_step" },
+				"0.25": { "effect": "wolf_run_step" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {

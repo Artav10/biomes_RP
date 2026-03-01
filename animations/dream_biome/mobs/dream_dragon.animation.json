@@ -996,6 +996,11 @@
 					"locator": "head_particle"
 				}
 			},
+			"sound_effects": {
+				"0.5417": {
+					"effect": "attack_growl"
+				}
+			},
 			"bones": {
 				"neck": {
 					"rotation": {

@@ -51,6 +51,13 @@ tile.es_bio:dream_grass_pink_tall_0.name=Tall Dream Grass (Pink)
 tile.es_bio:dream_grass_white_0.name=Dream Grass (White)
 tile.es_bio:dream_grass_white_tall_0.name=Tall Dream Grass (White)
 
+## Items Doors
+item.es_bio:dream_catcher_door.name=Dream Catcher Door
+item.es_bio:dreamwood_door.name=Dreamwood Door
+item.es_bio:gleam_door.name=Gleam Door
+item.es_bio:mist_door.name=Mist Door
+item.es_bio:moonlit_willow_door.name=Moonlit Willow Door
+
 ## Items - Materials
 item.es_bio:dreamstone.name=Dreamstone
 item.es_bio:moonstone.name=Moonstone
@@ -94,11 +101,11 @@ item.es_bio:slumberstone_hoe.name=Slumberstone Hoe
 item.es_bio:slumberstone_shovel.name=Slumberstone Shovel
 
 ## Items - Saplings
-item.es_bio:dreamwood_sapling.name=Dreamwood Sapling
+item.es_bio:dreamwood_tree_sapling.name=Dreamwood Sapling
 item.es_bio:dream_catcher_tree_sapling.name=Dream Catcher Sapling
-item.es_bio:gleam_blossom_sapling.name=Gleam Blossom Sapling
-item.es_bio:mist_sycamore_sapling.name=Mist Sycamore Sapling
-item.es_bio:moonlit_willow_sapling.name=Moonlit Willow Sapling
+item.es_bio:gleam_blossom_tree_sapling.name=Gleam Blossom Sapling
+item.es_bio:mist_sycamore_tree_sapling.name=Mist Sycamore Sapling
+item.es_bio:moonlit_willow_tree_sapling.name=Moonlit Willow Sapling
 
 ## Entities - Dream Biome Creatures
 entity.es_bio:candy_caterpillar.name=Candy Caterpillar

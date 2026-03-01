@@ -11,7 +11,10 @@
                 "anim_walk": "animation.biomes.moonlit_wolf.walk",
                 "anim_run": "animation.biomes.moonlit_wolf.run",
                 "anim_attack": "animation.biomes.moonlit_wolf.attack",
-                "ctrl_move": "controller.animation.dream_biome.ground_neutral"
+                "ctrl_move": "controller.animation.dream_biome.moonlit_wolf"
+            },
+            "sound_effects": {
+                "wolf_run_step": "mob.moonlit_wolf.run"
             },
             "scripts": {
                 "animate": ["ctrl_move"]

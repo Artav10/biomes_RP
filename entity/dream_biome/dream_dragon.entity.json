@@ -16,6 +16,9 @@
                 "dragon_fire": "es_bio:dream_dragon_attack_fire",
                 "dragon_spore": "es_bio:dream_dragon_attack_spore"
             },
+            "sound_effects": {
+                "attack_growl": "mob.enderdragon.growl"
+            },
             "scripts": {
                 "animate": ["ctrl_move"]
             },
