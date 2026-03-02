@@ -157,8 +157,37 @@
                 "attacking": {
                     "animations": ["anim_attack"],
                     "transitions": [
-                        { "flying": "variable.attack_time <= 0 && (!query.is_on_ground || query.modified_move_speed > 0.4)" },
-                        { "idle": "variable.attack_time <= 0" }
+                        { "flying": "variable.attack_time <= 0 && query.all_animations_finished && (!query.is_on_ground || query.modified_move_speed > 0.4)" },
+                        { "idle": "variable.attack_time <= 0 && query.all_animations_finished" }
+                    ],
+                    "blend_transition": 0.2
+                }
+            }
+        },
+        "controller.animation.dream_biome.flyer_hostile_delayed": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "flying": "!query.is_on_ground || query.modified_move_speed > 0.4" }
+                    ],
+                    "blend_transition": 0.3
+                },
+                "flying": {
+                    "animations": ["anim_fly"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "idle": "query.is_on_ground && query.modified_move_speed < 0.1" }
+                    ],
+                    "blend_transition": 0.3
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "flying": "!query.is_delayed_attacking && query.all_animations_finished && (!query.is_on_ground || query.modified_move_speed > 0.4)" },
+                        { "idle": "!query.is_delayed_attacking && query.all_animations_finished" }
                     ],
                     "blend_transition": 0.2
                 }
@@ -217,8 +246,7 @@
                     "transitions": [
                         { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
                     ],
-                    "blend_transition": 0.15,
-                    "on_entry": ["@s wolf_attack"]
+                    "blend_transition": 0.15
                 }
             }
         },

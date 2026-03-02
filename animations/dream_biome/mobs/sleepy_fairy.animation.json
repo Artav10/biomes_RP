@@ -248,7 +248,6 @@
 			}
 		},
 		"animation.biomes.sleepy_fairy.shaken_saparated": {
-			"loop": true,
 			"animation_length": 2,
 			"bones": {
 				"right_hand": {

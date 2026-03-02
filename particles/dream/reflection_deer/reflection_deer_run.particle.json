@@ -18,7 +18,7 @@
 		},
 		"components": {
 			"minecraft:emitter_rate_steady": {
-				"spawn_rate": 10,
+				"spawn_rate": 7,
 				"max_particles": 20
 			},
 			"minecraft:emitter_lifetime_looping": {
@@ -26,7 +26,7 @@
 			},
 			"minecraft:emitter_shape_sphere": {
 				"offset": ["math.random(0.2, -0.2)", 0.2, 0],
-				"radius": 2,
+				"radius": 1.6,
 				"direction": [0, 1, 0]
 			},
 			"minecraft:particle_lifetime_expression": {

@@ -57,6 +57,11 @@
                         "sound": "mob.moonlit_wolf.walk",
                         "volume": 0.18,
                         "pitch": [0.9, 1.1]
+                    },
+                    "attack": {
+                        "sound": "mob.moonlit_wolf.attack",
+                        "volume": 0.5,
+                        "pitch": [0.9, 1.1]
                     }
                 }
             },
@@ -65,7 +70,7 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "step": {
-                        "sound": "mob.reflection_deer.walk",
+                        "sound": "mob.moonlit_wolf.walk",
                         "volume": 0.18,
                         "pitch": [0.9, 1.1]
                     }
@@ -79,11 +84,6 @@
                         "sound": "mob.shadow_child.idle",
                         "volume": 0.45,
                         "pitch": [0.8, 1.0]
-                    },
-                    "step": {
-                        "sound": "mob.shadow_child.walk",
-                        "volume": 0.18,
-                        "pitch": [0.9, 1.1]
                     },
                     "attack": {
                         "sound": "mob.shadow_child.attack",
