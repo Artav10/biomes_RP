@@ -34,7 +34,7 @@
 						}
 					],
 					"locators": {
-						"walk_anchor": [0, 1, 7]
+						"walk_anchor": [0, 3, 7]
 					}
 				},
 				{

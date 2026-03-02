@@ -788,7 +788,7 @@
 				}
 			},
 			"particle_effects": {
-				"0.05": {
+				"0.25": {
 					"effect": "lethargic_cat_walk",
 					"locator": "walk_anchor"
 				}

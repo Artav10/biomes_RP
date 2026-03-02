@@ -12,7 +12,7 @@
                 "ctrl_move": "controller.animation.dream_biome.ground_passive"
             },
             "particle_effects": {
-                "lethargic_cat_walk": "es_bio:lethargic_cat_walk_smoke"
+                "lethargic_cat_walk": "es_bio:lethargic_cat_walk"
             },
             "scripts": {
                 "animate": ["ctrl_move"]
