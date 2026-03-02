@@ -33,6 +33,14 @@
             "category": "neutral",
             "sounds": ["sounds/mob/moonlit_wolf/run"]
         },
+        "mob.moonlit_wolf.hurt": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/moonlit_wolf/hurt"]
+        },
+        "mob.moonlit_wolf.attack": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/moonlit_wolf/attack"]
+        },
         "mob.reflection_deer.walk": {
             "category": "neutral",
             "sounds": ["sounds/mob/reflection_deer/walk"]
@@ -44,6 +52,10 @@
                 "sounds/mob/reflection_deer/run2",
                 "sounds/mob/reflection_deer/run3"
             ]
+        },
+        "mob.reflection_deer.hurt": {
+            "category": "neutral",
+            "sounds": ["sounds/mob/reflection_deer/hurt"]
         },
         "mob.shadow_child.idle": {
             "category": "hostile",

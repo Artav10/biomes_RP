@@ -32,7 +32,10 @@
 								"down": {"uv": [38, 37], "uv_size": [12, -18]}
 							}
 						}
-					]
+					],
+					"locators": {
+						"walk_anchor": [0, 20, -9]
+					}
 				},
 				{
 					"name": "tail",

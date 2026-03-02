@@ -10,7 +10,11 @@
                 "anim_idle": "animation.biomes.sleepy_fairy.idle",
                 "anim_fly": "animation.biomes.sleepy_fairy.fly",
                 "anim_shaken_saparated": "animation.biomes.sleepy_fairy.shaken_saparated",
-                "ctrl_move": "controller.animation.dream_biome.flyer_passive"
+                "anim_attack": "animation.biomes.sleepy_fairy.shaken_saparated",
+                "ctrl_move": "controller.animation.dream_biome.flyer_hostile"
+            },
+            "particle_effects": {
+                "sleepy_fairy_shaken": "es_bio:sleepy_fairy_shaken"
             },
             "scripts": {
                 "animate": ["ctrl_move"]

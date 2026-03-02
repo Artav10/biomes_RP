@@ -741,9 +741,14 @@
 								"down": {"uv": [42, 162], "uv_size": [8, -8]}
 							}
 						}
-					],
+					]
+				},
+				{
+					"name": "particle",
+					"parent": "head",
+					"pivot": [0, 13, -65],
 					"locators": {
-						"head_particle": [0, 13, -60]
+						"head_particle": [0, 13, -65]
 					}
 				},
 				{

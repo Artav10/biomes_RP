@@ -250,7 +250,10 @@
 								"down": {"uv": [2, 69], "uv_size": [1, -6]}
 							}
 						}
-					]
+					],
+					"locators": {
+						"attack_locator": [0, 7, -2]
+					}
 				},
 				{
 					"name": "left_hand",

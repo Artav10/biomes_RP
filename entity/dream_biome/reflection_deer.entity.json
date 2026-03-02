@@ -12,6 +12,9 @@
                 "anim_run": "animation.biomes.reflection_deer.run",
                 "ctrl_move": "controller.animation.dream_biome.ground_passive_runner"
             },
+            "particle_effects": {
+                "reflection_deer_run": "es_bio:reflection_deer_run"
+            },
             "scripts": {
                 "animate": ["ctrl_move"]
             },

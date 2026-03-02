@@ -269,6 +269,12 @@
 						"1.8333": [-86.27926, 31.45594, -2.88702]
 					}
 				}
+			},
+			"particle_effects": {
+				"0.7083": {
+					"effect": "sleepy_fairy_shaken",
+					"locator": "attack_locator"
+				}
 			}
 		}
 	}
