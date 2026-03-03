@@ -107,6 +107,13 @@ item.es_bio:gleam_blossom_tree_sapling.name=Gleam Blossom Sapling
 item.es_bio:mist_sycamore_tree_sapling.name=Mist Sycamore Sapling
 item.es_bio:moonlit_willow_tree_sapling.name=Moonlit Willow Sapling
 
+## Blocks - Saplings
+tile.es_bio:dreamwood_tree_sapling.name=Dreamwood Sapling
+tile.es_bio:dream_catcher_tree_sapling.name=Dream Catcher Sapling
+tile.es_bio:gleam_blossom_tree_sapling.name=Gleam Blossom Sapling
+tile.es_bio:mist_sycamore_tree_sapling.name=Mist Sycamore Sapling
+tile.es_bio:moonlit_willow_tree_sapling.name=Moonlit Willow Sapling
+
 ## Entities - Dream Biome Creatures
 entity.es_bio:candy_caterpillar.name=Candy Caterpillar
 entity.es_bio:dream_dragon.name=Dream Dragon

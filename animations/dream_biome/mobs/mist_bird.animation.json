@@ -1,9 +1,12 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"animations": {
 		"animation.biomes.mist_bird.idle": {
 			"loop": true,
 			"animation_length": 6,
+			"sound_effects": {
+				"3.0": { "effect": "ambient" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {
@@ -508,6 +511,9 @@
 		"animation.biomes.mist_bird.fly": {
 			"loop": true,
 			"animation_length": 6,
+			"sound_effects": {
+				"3.0": { "effect": "ambient" }
+			},
 			"bones": {
 				"body": {
 					"rotation": [0, "-Math.cos(query.anim_time*120-120)*3", "Math.cos(query.anim_time*120)*2"],
