@@ -7,17 +7,17 @@
                 "events": {
                     "ambient": {
                         "sound": "mob.candy_caterpillar.idle",
-                        "volume": 0.4,
+                        "volume": 0.45,
                         "pitch": [0.8, 1.2]
                     },
                     "step": {
                         "sound": "mob.candy_caterpillar.walk",
-                        "volume": 0.25,
+                        "volume": 0.45,
                         "pitch": [0.9, 1.1]
                     },
                     "attack": {
                         "sound": "mob.candy_caterpillar.attack",
-                        "volume": 0.5,
+                        "volume": 0.6,
                         "pitch": [0.9, 1.1]
                     }
                 }
@@ -28,7 +28,7 @@
                 "events": {
                     "ambient": {
                         "sound": "mob.lethargic_cat.idle",
-                        "volume": 0.4,
+                        "volume": 0.6,
                         "pitch": [0.8, 1.2]
                     }
                 }
@@ -39,7 +39,7 @@
                 "events": {
                     "ambient": {
                         "sound": "mob.mist_bird.idle",
-                        "volume": 0.4,
+                        "volume": 0.6,
                         "pitch": [0.8, 1.2]
                     }
                 }
@@ -55,7 +55,7 @@
                     },
                     "step": {
                         "sound": "mob.moonlit_wolf.walk",
-                        "volume": 0.18,
+                        "volume": 0.32,
                         "pitch": [0.9, 1.1]
                     },
                     "attack": {
@@ -71,7 +71,7 @@
                 "events": {
                     "step": {
                         "sound": "mob.moonlit_wolf.walk",
-                        "volume": 0.27,
+                        "volume": 0.35,
                         "pitch": [0.9, 1.1]
                     }
                 }
@@ -98,12 +98,12 @@
                 "events": {
                     "ambient": {
                         "sound": "mob.sleepy_bear.idle",
-                        "volume": 0.45,
+                        "volume": 0.55,
                         "pitch": [0.8, 1.1]
                     },
                     "step": {
                         "sound": "mob.sleepy_bear.walk",
-                        "volume": 0.18,
+                        "volume": 0.45,
                         "pitch": [0.9, 1.1]
                     }
                 }
@@ -114,7 +114,7 @@
                 "events": {
                     "ambient": {
                         "sound": "mob.sleepy_fairy.fly",
-                        "volume": 0.4,
+                        "volume": 0.43,
                         "pitch": [0.9, 1.2]
                     }
                 }
