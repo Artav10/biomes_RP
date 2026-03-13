@@ -1,4 +1,4 @@
-{
+﻿{
 	"format_version": "1.16.0",
 	"minecraft:geometry": [
 		{
@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "root_item",
-					"pivot": [0, 1, 0],
+					"pivot": [0, 0, 0],
 					"binding": "q.item_slot_to_bone_name(c.item_slot)",
 					"cubes": [
 						{"origin": [-1, -1, -1], "size": [2, 13, 2], "uv": [17, 21]},
