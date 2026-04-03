@@ -155,3 +155,138 @@ tile.es_bio:dreamwood_door.name=Dreamwood Door
 tile.es_bio:gleam_door.name=Gleam Door
 tile.es_bio:mist_door.name=Mist Door
 tile.es_bio:moonlit_willow_door.name=Moonlit Willow Door
+
+## === VIRUS BIOME ===
+
+## Biome
+biome.es_bio:virus_biome.name=Virus Biome
+
+## Blocks - Ores & Stone
+tile.es_bio:pulsing_fluid_block.name=Pulsing Fluid Block
+tile.es_bio:pulsing_fluid_ore.name=Pulsing Fluid Ore
+tile.es_bio:veinstone_block.name=Veinstone Block
+tile.es_bio:veinstone_ore.name=Veinstone Ore
+tile.es_bio:corrupted_soil_block.name=Corrupted Soil Block
+tile.es_bio:corrupted_soil_ore.name=Corrupted Soil Ore
+tile.es_bio:biofilm_plaque_block.name=Biofilm Plaque Block
+tile.es_bio:biofilm_plaque_ore.name=Biofilm Plaque Ore
+tile.es_bio:incubation_husk_block.name=Incubation Husk Block
+tile.es_bio:incubation_husk_ore.name=Incubation Husk Ore
+
+## Blocks - Logs
+tile.es_bio:sporecore_log.name=Sporecore Log
+tile.es_bio:spiral_log.name=Genetic Spiral Log
+tile.es_bio:decay_bloom_log.name=Decay Bloom Log
+tile.es_bio:plasma_birch_log.name=Plasma Birch Log
+tile.es_bio:viral_resin_log.name=Viral Resin Log
+
+## Blocks - Planks
+tile.es_bio:decay_plank.name=Decay Planks
+tile.es_bio:plasma_birch_plank.name=Plasma Birch Planks
+tile.es_bio:viral_resin_plank.name=Viral Resin Planks
+
+## Blocks - Leaves
+tile.es_bio:sporecore_leaves.name=Sporecore Leaves
+tile.es_bio:spiral_leaves.name=Genetic Spiral Leaves
+tile.es_bio:decay_bloom_leaves.name=Decay Bloom Leaves
+tile.es_bio:plasma_birch_leaves.name=Plasma Birch Leaves
+tile.es_bio:viral_resin_leaves.name=Viral Resin Leaves
+
+## Blocks - Grass
+tile.es_bio:virus_grass_block.name=Virus Grass Block
+tile.es_bio:virus_spores.name=Virus Spores
+tile.es_bio:virus_spore_threads.name=Virus Spore Threads
+
+## Blocks - Flowers
+tile.es_bio:blight_bloom.name=Blight Bloom
+tile.es_bio:cyst_bud.name=Cyst Bud
+tile.es_bio:parasite_bloom.name=Parasite Bloom
+tile.es_bio:spore_puff.name=Spore Puff
+tile.es_bio:veinflower.name=Veinflower
+
+## Blocks - Doors
+tile.es_bio:decay_door.name=Decay Door
+tile.es_bio:plasma_birch_door.name=Plasma Birch Door
+tile.es_bio:spiral_door.name=Spiral Door
+tile.es_bio:sporecore_door.name=Sporecore Door
+tile.es_bio:viral_resin_door.name=Viral Resin Door
+
+## Items - Doors
+item.es_bio:decay_door.name=Decay Door
+item.es_bio:plasma_birch_door.name=Plasma Birch Door
+item.es_bio:spiral_door.name=Spiral Door
+item.es_bio:sporecore_door.name=Sporecore Door
+item.es_bio:viral_resin_door.name=Viral Resin Door
+
+## Items - Materials
+item.es_bio:pulsing_fluid.name=Pulsing Fluid
+item.es_bio:veinstone.name=Veinstone
+item.es_bio:corrupted_soil.name=Corrupted Soil
+item.es_bio:biofilm_plaque.name=Biofilm Plaque
+item.es_bio:incubation_husk.name=Incubation Husk
+
+## Items - Pulsing Fluid Tools
+item.es_bio:pulsing_fluid_sword.name=Pulsing Fluid Sword
+item.es_bio:pulsing_fluid_axe.name=Pulsing Fluid Axe
+item.es_bio:pulsing_fluid_pickaxe.name=Pulsing Fluid Pickaxe
+item.es_bio:pulsing_fluid_hoe.name=Pulsing Fluid Hoe
+item.es_bio:pulsing_fluid_shovel.name=Pulsing Fluid Shovel
+
+## Items - Veinstone Tools
+item.es_bio:veinstone_sword.name=Veinstone Sword
+item.es_bio:veinstone_axe.name=Veinstone Axe
+item.es_bio:veinstone_pickaxe.name=Veinstone Pickaxe
+item.es_bio:veinstone_hoe.name=Veinstone Hoe
+item.es_bio:veinstone_shovel.name=Veinstone Shovel
+
+## Items - Corrupted Soil Tools
+item.es_bio:corrupted_soil_sword.name=Corrupted Soil Sword
+item.es_bio:corrupted_soil_axe.name=Corrupted Soil Axe
+item.es_bio:corrupted_soil_pickaxe.name=Corrupted Soil Pickaxe
+item.es_bio:corrupted_soil_hoe.name=Corrupted Soil Hoe
+item.es_bio:corrupted_soil_shovel.name=Corrupted Soil Shovel
+
+## Items - Biofilm Plaque Tools
+item.es_bio:biofilm_plaque_sword.name=Biofilm Plaque Sword
+item.es_bio:biofilm_plaque_axe.name=Biofilm Plaque Axe
+item.es_bio:biofilm_plaque_pickaxe.name=Biofilm Plaque Pickaxe
+item.es_bio:biofilm_plaque_hoe.name=Biofilm Plaque Hoe
+item.es_bio:biofilm_plaque_shovel.name=Biofilm Plaque Shovel
+
+## Items - Incubation Husk Tools
+item.es_bio:incubation_husk_sword.name=Incubation Husk Sword
+item.es_bio:incubation_husk_axe.name=Incubation Husk Axe
+item.es_bio:incubation_husk_pickaxe.name=Incubation Husk Pickaxe
+item.es_bio:incubation_husk_hoe.name=Incubation Husk Hoe
+item.es_bio:incubation_husk_shovel.name=Incubation Husk Shovel
+
+## Items - Saplings
+item.es_bio:sporecore_tree_sapling.name=Sporecore Sapling
+item.es_bio:spiral_tree_sapling.name=Genetic Spiral Sapling
+item.es_bio:decay_bloom_tree_sapling.name=Decay Bloom Sapling
+item.es_bio:plasma_birch_tree_sapling.name=Plasma Birch Sapling
+item.es_bio:viral_resin_tree_sapling.name=Viral Resin Sapling
+
+## Blocks - Saplings
+tile.es_bio:sporecore_tree_sapling.name=Sporecore Sapling
+tile.es_bio:spiral_tree_sapling.name=Genetic Spiral Sapling
+tile.es_bio:decay_bloom_tree_sapling.name=Decay Bloom Sapling
+tile.es_bio:plasma_birch_tree_sapling.name=Plasma Birch Sapling
+tile.es_bio:viral_resin_tree_sapling.name=Viral Resin Sapling
+
+## Entities - Virus Biome Creatures
+entity.es_bio:infection_crawler.name=Infection Crawler
+entity.es_bio:parasitic_worm.name=Parasitic Worm
+entity.es_bio:mutated_host.name=Mutated Host
+entity.es_bio:plague_lizard.name=Plague Lizard
+entity.es_bio:virus_dragon.name=Virus Dragon
+entity.es_bio:cell_reaper.name=Cell Reaper
+entity.es_bio:virus_moth.name=Virus Moth
+
+item.spawn_egg.entity.es_bio:infection_crawler.name=Spawn Infection Crawler
+item.spawn_egg.entity.es_bio:parasitic_worm.name=Spawn Parasitic Worm
+item.spawn_egg.entity.es_bio:mutated_host.name=Spawn Mutated Host
+item.spawn_egg.entity.es_bio:plague_lizard.name=Spawn Plague Lizard
+item.spawn_egg.entity.es_bio:virus_dragon.name=Spawn Virus Dragon
+item.spawn_egg.entity.es_bio:cell_reaper.name=Spawn Cell Reaper
+item.spawn_egg.entity.es_bio:virus_moth.name=Spawn Virus Moth

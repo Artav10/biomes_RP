@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:parasitic_worm",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/virus_biome/parasitic_worm" },
+            "geometry": { "default": "geometry.parasitic_worm" },
+            "animations": {
+                "anim_idle": "animation.biomes.parasitic_worm.idle",
+                "anim_walk": "animation.biomes.parasitic_worm.crawl",
+                "anim_attack": "animation.biomes.parasitic_worm.idle-tooth",
+                "ctrl_move": "controller.animation.virus_biome.ground_hostile"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.virus_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#2D5A1E",
+                "overlay_color": "#6B2FA0"
+            }
+        }
+    }
+}

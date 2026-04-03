@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:mutated_host",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/virus_biome/mutated_host" },
+            "geometry": { "default": "geometry.mutated_host" },
+            "animations": {
+                "anim_idle": "animation.biomes.mutated_host.idle",
+                "anim_walk": "animation.biomes.mutated_host.walk",
+                "anim_run": "animation.biomes.mutated_host.run",
+                "anim_attack": "animation.biomes.mutated_host.attack",
+                "ctrl_move": "controller.animation.virus_biome.ground_hostile_runner"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.virus_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#3B1A5A",
+                "overlay_color": "#1AFF5E"
+            }
+        }
+    }
+}

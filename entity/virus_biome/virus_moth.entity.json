@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:virus_moth",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/virus_biome/virus_moth" },
+            "geometry": { "default": "geometry.virus_moth" },
+            "animations": {
+                "anim_idle": "animation.biomes.virus_moth.idle",
+                "anim_fly": "animation.biomes.virus_moth.fly",
+                "anim_attack": "animation.biomes.virus_moth.attack",
+                "ctrl_move": "controller.animation.virus_biome.flyer_hostile"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.virus_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#4A4A6B",
+                "overlay_color": "#AA44FF"
+            }
+        }
+    }
+}

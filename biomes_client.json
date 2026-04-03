@@ -5,6 +5,12 @@
             "water_surface_color": "#C8A2D0",
             "water_fog_color": "#8B6FAF",
             "water_surface_transparency": 0.65
+        },
+        "es_bio:virus_biome": {
+            "fog_identifier": "es_bio:fog_virus_biome",
+            "water_surface_color": "#2D5A1E",
+            "water_fog_color": "#1A3D0D",
+            "water_surface_transparency": 0.45
         }
     }
 }

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:cell_reaper",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/virus_biome/cell_reaper" },
+            "geometry": { "default": "geometry.cell_reaper" },
+            "animations": {
+                "anim_idle": "animation.biomes.cell_reaper.idle",
+                "anim_walk": "animation.biomes.cell_reaper.walk",
+                "anim_attack": "animation.biomes.cell_reaper.attack",
+                "ctrl_move": "controller.animation.virus_biome.ground_hostile"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.virus_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#2A2A2A",
+                "overlay_color": "#4488AA"
+            }
+        }
+    }
+}

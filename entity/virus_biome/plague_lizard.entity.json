@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:plague_lizard",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/virus_biome/plague_lizard" },
+            "geometry": { "default": "geometry.plague_lizard" },
+            "animations": {
+                "anim_idle": "animation.biomes.plague_lizard.idle",
+                "anim_walk": "animation.biomes.plague_lizard.walk",
+                "anim_run": "animation.biomes.plague_lizard.run",
+                "anim_attack": "animation.biomes.plague_lizard.attack",
+                "ctrl_move": "controller.animation.virus_biome.ground_hostile_runner"
+            },
+            "scripts": {
+                "animate": ["ctrl_move"]
+            },
+            "render_controllers": ["controller.render.virus_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#2D5A1E",
+                "overlay_color": "#FF1A8B"
+            }
+        }
+    }
+}

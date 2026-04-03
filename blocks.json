@@ -326,5 +326,252 @@
 		"sound": "wood",
 		"textures": "moonlit_willow_door",
 		"isotropic": true
+	},
+	"es_bio:pulsing_fluid_ore": {
+		"sound": "stone",
+		"textures": "pulsing_fluid_ore",
+		"isotropic": true
+	},
+	"es_bio:veinstone_ore": {
+		"sound": "stone",
+		"textures": "veinstone_ore",
+		"isotropic": true
+	},
+	"es_bio:corrupted_soil_ore": {
+		"sound": "stone",
+		"textures": "corrupted_soil_ore",
+		"isotropic": true
+	},
+	"es_bio:biofilm_plaque_ore": {
+		"sound": "stone",
+		"textures": "biofilm_plaque_ore",
+		"isotropic": true
+	},
+	"es_bio:incubation_husk_ore": {
+		"sound": "stone",
+		"textures": "incubation_husk_ore",
+		"isotropic": true
+	},
+	"es_bio:pulsing_fluid_block": {
+		"sound": "stone",
+		"textures": "pulsing_fluid_block",
+		"isotropic": true
+	},
+	"es_bio:veinstone_block": {
+		"sound": "stone",
+		"textures": "veinstone_block",
+		"isotropic": true
+	},
+	"es_bio:corrupted_soil_block": {
+		"sound": "stone",
+		"textures": "corrupted_soil_block",
+		"isotropic": true
+	},
+	"es_bio:biofilm_plaque_block": {
+		"sound": "stone",
+		"textures": "biofilm_plaque_block",
+		"isotropic": true
+	},
+	"es_bio:incubation_husk_block": {
+		"sound": "stone",
+		"textures": "incubation_husk_block",
+		"isotropic": true
+	},
+	"es_bio:sporecore_log": {
+		"sound": "wood",
+		"textures": {
+			"up": "sporecore_glass_cap",
+			"down": "sporecore_glass_cap",
+			"north": "sporecore_glass",
+			"south": "sporecore_glass",
+			"east": "sporecore_glass",
+			"west": "sporecore_glass"
+		},
+		"isotropic": true
+	},
+	"es_bio:spiral_log": {
+		"sound": "wood",
+		"textures": {
+			"up": "spiral_trunk_gel_blocks",
+			"down": "spiral_trunk_gel_blocks",
+			"north": "spiral_trunk_black_strand",
+			"south": "spiral_trunk_black_strand",
+			"east": "spiral_trunk_black_strand",
+			"west": "spiral_trunk_black_strand"
+		},
+		"isotropic": true
+	},
+	"es_bio:decay_bloom_log": {
+		"sound": "wood",
+		"textures": {
+			"up": "decay_log_top",
+			"down": "decay_log_top",
+			"north": "decay_log",
+			"south": "decay_log",
+			"east": "decay_log",
+			"west": "decay_log"
+		},
+		"isotropic": true
+	},
+	"es_bio:plasma_birch_log": {
+		"sound": "wood",
+		"textures": {
+			"up": "plasma_birch_log_top",
+			"down": "plasma_birch_log_top",
+			"north": "plasma_birch_log",
+			"south": "plasma_birch_log",
+			"east": "plasma_birch_log",
+			"west": "plasma_birch_log"
+		},
+		"isotropic": true
+	},
+	"es_bio:viral_resin_log": {
+		"sound": "wood",
+		"textures": {
+			"up": "viral_resin_log_top",
+			"down": "viral_resin_log_top",
+			"north": "viral_resin_log",
+			"south": "viral_resin_log",
+			"east": "viral_resin_log",
+			"west": "viral_resin_log"
+		},
+		"isotropic": true
+	},
+	"es_bio:decay_plank": {
+		"sound": "wood",
+		"textures": "decay_plank",
+		"isotropic": true
+	},
+	"es_bio:plasma_birch_plank": {
+		"sound": "wood",
+		"textures": "plasma_birch_plank",
+		"isotropic": true
+	},
+	"es_bio:viral_resin_plank": {
+		"sound": "wood",
+		"textures": "viral_resin_plank",
+		"isotropic": true
+	},
+	"es_bio:sporecore_leaves": {
+		"sound": "grass",
+		"textures": "sporecore_leaves",
+		"isotropic": true
+	},
+	"es_bio:spiral_leaves": {
+		"sound": "grass",
+		"textures": "spiral_leaves",
+		"isotropic": true
+	},
+	"es_bio:decay_bloom_leaves": {
+		"sound": "grass",
+		"textures": "decay_bloom_leaves",
+		"isotropic": true
+	},
+	"es_bio:plasma_birch_leaves": {
+		"sound": "grass",
+		"textures": "plasma_birch_leaves",
+		"isotropic": true
+	},
+	"es_bio:viral_resin_leaves": {
+		"sound": "grass",
+		"textures": "viral_resin_leaves",
+		"isotropic": true
+	},
+	"es_bio:virus_grass_block": {
+		"sound": "grass",
+		"textures": {
+			"up": "virus_grass_block_top",
+			"down": "dirt",
+			"north": "virus_grass_block_side",
+			"south": "virus_grass_block_side",
+			"east": "virus_grass_block_side",
+			"west": "virus_grass_block_side"
+		},
+		"isotropic": false
+	},
+	"es_bio:virus_spores": {
+		"sound": "grass",
+		"textures": "virus_spores",
+		"isotropic": { "down": true }
+	},
+	"es_bio:virus_spore_threads": {
+		"sound": "grass",
+		"textures": "virus_spore_threads",
+		"isotropic": { "down": true }
+	},
+	"es_bio:blight_bloom": {
+		"sound": "grass",
+		"textures": "blight_bloom",
+		"isotropic": true
+	},
+	"es_bio:cyst_bud": {
+		"sound": "grass",
+		"textures": "cyst_bud",
+		"isotropic": true
+	},
+	"es_bio:parasite_bloom": {
+		"sound": "grass",
+		"textures": "parasite_bloom",
+		"isotropic": true
+	},
+	"es_bio:spore_puff": {
+		"sound": "grass",
+		"textures": "spore_puff",
+		"isotropic": true
+	},
+	"es_bio:veinflower": {
+		"sound": "grass",
+		"textures": "veinflower",
+		"isotropic": true
+	},
+	"es_bio:decay_door": {
+		"sound": "wood",
+		"textures": "decay_door",
+		"isotropic": true
+	},
+	"es_bio:plasma_birch_door": {
+		"sound": "wood",
+		"textures": "plasma_birch_door",
+		"isotropic": true
+	},
+	"es_bio:spiral_door": {
+		"sound": "wood",
+		"textures": "spiral_door",
+		"isotropic": true
+	},
+	"es_bio:sporecore_door": {
+		"sound": "wood",
+		"textures": "sporecore_door",
+		"isotropic": true
+	},
+	"es_bio:viral_resin_door": {
+		"sound": "wood",
+		"textures": "viral_resin_door",
+		"isotropic": true
+	},
+	"es_bio:sporecore_tree_sapling": {
+		"sound": "grass",
+		"textures": "sporecore_sapling",
+		"isotropic": true
+	},
+	"es_bio:spiral_tree_sapling": {
+		"sound": "grass",
+		"textures": "spiral_sapling",
+		"isotropic": true
+	},
+	"es_bio:decay_bloom_tree_sapling": {
+		"sound": "grass",
+		"textures": "decay_bloom_sapling",
+		"isotropic": true
+	},
+	"es_bio:plasma_birch_tree_sapling": {
+		"sound": "grass",
+		"textures": "plasma_birch_sapling",
+		"isotropic": true
+	},
+	"es_bio:viral_resin_tree_sapling": {
+		"sound": "grass",
+		"textures": "viral_resin_sapling",
+		"isotropic": true
 	}
 }
