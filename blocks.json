@@ -342,9 +342,9 @@
 		"textures": "corrupted_soil_ore",
 		"isotropic": true
 	},
-	"es_bio:biofilm_plaque_ore": {
+	"es_bio:biofilm_ore": {
 		"sound": "stone",
-		"textures": "biofilm_plaque_ore",
+		"textures": "biofilm_ore",
 		"isotropic": true
 	},
 	"es_bio:incubation_husk_ore": {
@@ -367,9 +367,9 @@
 		"textures": "corrupted_soil_block",
 		"isotropic": true
 	},
-	"es_bio:biofilm_plaque_block": {
+	"es_bio:biofilm_block": {
 		"sound": "stone",
-		"textures": "biofilm_plaque_block",
+		"textures": "biofilm_block",
 		"isotropic": true
 	},
 	"es_bio:incubation_husk_block": {

@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.xx",
+				"identifier": "geometry.veinstone_axe",
 				"texture_width": 128,
 				"texture_height": 128,
 				"visible_bounds_width": 3,
@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "root_item",
-					"pivot": [0.00163, 10.12124, -0.4288],
+					"pivot": [0, 0, 0],
 					"binding": "q.item_slot_to_bone_name(c.item_slot)",
 					"cubes": [
 						{"origin": [-1, 1, -1], "size": [2, 12, 2], "uv": [58, 27]},

@@ -168,8 +168,8 @@ tile.es_bio:veinstone_block.name=Veinstone Block
 tile.es_bio:veinstone_ore.name=Veinstone Ore
 tile.es_bio:corrupted_soil_block.name=Corrupted Soil Block
 tile.es_bio:corrupted_soil_ore.name=Corrupted Soil Ore
-tile.es_bio:biofilm_plaque_block.name=Biofilm Plaque Block
-tile.es_bio:biofilm_plaque_ore.name=Biofilm Plaque Ore
+tile.es_bio:biofilm_block.name=Biofilm Plaque Block
+tile.es_bio:biofilm_ore.name=Biofilm Plaque Ore
 tile.es_bio:incubation_husk_block.name=Incubation Husk Block
 tile.es_bio:incubation_husk_ore.name=Incubation Husk Ore
 
@@ -222,7 +222,7 @@ item.es_bio:viral_resin_door.name=Viral Resin Door
 item.es_bio:pulsing_fluid.name=Pulsing Fluid
 item.es_bio:veinstone.name=Veinstone
 item.es_bio:corrupted_soil.name=Corrupted Soil
-item.es_bio:biofilm_plaque.name=Biofilm Plaque
+item.es_bio:biofilm.name=Biofilm Plaque
 item.es_bio:incubation_husk.name=Incubation Husk
 
 ## Items - Pulsing Fluid Tools
@@ -247,11 +247,11 @@ item.es_bio:corrupted_soil_hoe.name=Corrupted Soil Hoe
 item.es_bio:corrupted_soil_shovel.name=Corrupted Soil Shovel
 
 ## Items - Biofilm Plaque Tools
-item.es_bio:biofilm_plaque_sword.name=Biofilm Plaque Sword
-item.es_bio:biofilm_plaque_axe.name=Biofilm Plaque Axe
-item.es_bio:biofilm_plaque_pickaxe.name=Biofilm Plaque Pickaxe
-item.es_bio:biofilm_plaque_hoe.name=Biofilm Plaque Hoe
-item.es_bio:biofilm_plaque_shovel.name=Biofilm Plaque Shovel
+item.es_bio:biofilm_sword.name=Biofilm Plaque Sword
+item.es_bio:biofilm_axe.name=Biofilm Plaque Axe
+item.es_bio:biofilm_pickaxe.name=Biofilm Plaque Pickaxe
+item.es_bio:biofilm_hoe.name=Biofilm Plaque Hoe
+item.es_bio:biofilm_shovel.name=Biofilm Plaque Shovel
 
 ## Items - Incubation Husk Tools
 item.es_bio:incubation_husk_sword.name=Incubation Husk Sword

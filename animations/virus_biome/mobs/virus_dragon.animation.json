@@ -916,7 +916,7 @@
 					"rotation": ["-Math.cos(query.anim_time*360-60)*4", 0, 0]
 				},
 				"spine18": {
-					"rotation": ["-Math.cos(query.anim_time*360-10 0)*8", 0, 0]
+					"rotation": ["-Math.cos(query.anim_time*360-100)*8", 0, 0]
 				},
 				"neck": {
 					"rotation": {
