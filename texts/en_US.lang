@@ -186,7 +186,10 @@ tile.es_bio:plasma_birch_plank.name=Plasma Birch Planks
 tile.es_bio:viral_resin_plank.name=Viral Resin Planks
 
 ## Blocks - Leaves
-tile.es_bio:sporecore_leaves.name=Sporecore Leaves
+tile.es_bio:sporecore_glass_fluid.name=Sporecore Glass Fluid
+tile.es_bio:sporecore_glass.name=Sporecore Glass
+tile.es_bio:sporecore_glass_cap.name=Sporecore Glass Cap
+tile.es_bio:sporecore_tendrils.name=Sporecore Tendrils
 tile.es_bio:spiral_leaves.name=Genetic Spiral Leaves
 tile.es_bio:decay_bloom_leaves.name=Decay Bloom Leaves
 tile.es_bio:plasma_birch_leaves.name=Plasma Birch Leaves

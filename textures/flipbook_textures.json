@@ -61,7 +61,7 @@
     },
     {
         "atlas_tile": "sporecore_glass_fluid",
-        "flipbook_texture": "textures/blocks/virus_biome/logs/sporecore_glass_fluid",
+        "flipbook_texture": "textures/blocks/virus_biome/trees/sporecore_glass_fluid",
         "ticks_per_frame": 4,
         "frames": 7
     },
