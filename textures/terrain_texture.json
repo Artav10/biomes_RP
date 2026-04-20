@@ -228,7 +228,7 @@
         "decay_plank": { "textures": "textures/blocks/virus_biome/planks/decay_plank" },
         "plasma_birch_plank": { "textures": "textures/blocks/virus_biome/planks/plasma_birch_plank" },
         "viral_resin_plank": { "textures": "textures/blocks/virus_biome/planks/viral_resin_plank" },
-        "spiral_leaves": { "textures": "textures/blocks/virus_biome/leaves/spiral_leaves" },
+        "spiral_leaves": { "textures": "textures/blocks/virus_biome/trees/spiral/spiral_leaves" },
         "decay_bloom_leaves": { "textures": "textures/blocks/virus_biome/leaves/decay_bloom_leaves" },
         "plasma_beans": { "textures": "textures/blocks/virus_biome/leaves/plasma_beans" },
         "viral_resin_leaves": { "textures": "textures/blocks/virus_biome/leaves/viral_resin_leaves" },
