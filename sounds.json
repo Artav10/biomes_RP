@@ -124,17 +124,17 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "ambient": {
-                        "sound": "mob.spider.say",
+                        "sound": "mob.infection_crawler.idle",
                         "volume": 0.4,
-                        "pitch": [0.7, 0.9]
+                        "pitch": [0.8, 1.0]
                     },
                     "step": {
-                        "sound": "mob.spider.step",
+                        "sound": "mob.infection_crawler.walk",
                         "volume": 0.4,
                         "pitch": [0.9, 1.1]
                     },
                     "attack": {
-                        "sound": "mob.spider.say",
+                        "sound": "mob.infection_crawler.attack",
                         "volume": 0.6,
                         "pitch": [0.8, 1.0]
                     }
@@ -145,17 +145,17 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "ambient": {
-                        "sound": "mob.silverfish.say",
+                        "sound": "mob.parasitic_worm.crawl",
                         "volume": 0.4,
                         "pitch": [0.6, 0.8]
                     },
                     "step": {
-                        "sound": "mob.slime.small",
+                        "sound": "mob.parasitic_worm.crawl",
                         "volume": 0.35,
                         "pitch": [0.8, 1.0]
                     },
                     "attack": {
-                        "sound": "mob.silverfish.hit",
+                        "sound": "mob.parasitic_worm.crawl",
                         "volume": 0.5,
                         "pitch": [0.7, 0.9]
                     }
@@ -166,17 +166,17 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "ambient": {
-                        "sound": "mob.zombie.say",
+                        "sound": "mob.mutated_host.idle",
                         "volume": 0.5,
                         "pitch": [0.6, 0.8]
                     },
                     "step": {
-                        "sound": "mob.zombie.step",
+                        "sound": "mob.mutated_host.walk",
                         "volume": 0.4,
                         "pitch": [0.9, 1.1]
                     },
                     "attack": {
-                        "sound": "mob.zombie.hurt",
+                        "sound": "mob.mutated_host.attack",
                         "volume": 0.6,
                         "pitch": [0.7, 0.9]
                     }
@@ -187,17 +187,17 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "ambient": {
-                        "sound": "mob.silverfish.say",
+                        "sound": "mob.plague_lizard.idle",
                         "volume": 0.45,
                         "pitch": [0.9, 1.2]
                     },
                     "step": {
-                        "sound": "mob.spider.step",
+                        "sound": "mob.plague_lizard.walk",
                         "volume": 0.3,
                         "pitch": [1.0, 1.2]
                     },
                     "attack": {
-                        "sound": "mob.silverfish.hit",
+                        "sound": "mob.plague_lizard.attack",
                         "volume": 0.55,
                         "pitch": [0.9, 1.1]
                     }
@@ -208,12 +208,17 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "ambient": {
-                        "sound": "mob.enderdragon.growl",
+                        "sound": "mob.virus_dragon.idle",
                         "volume": 0.6,
                         "pitch": [0.7, 0.9]
                     },
+                    "step": {
+                        "sound": "mob.virus_dragon.fly",
+                        "volume": 0.4,
+                        "pitch": [0.9, 1.1]
+                    },
                     "attack": {
-                        "sound": "mob.enderdragon.growl",
+                        "sound": "mob.virus_dragon.attack",
                         "volume": 0.8,
                         "pitch": [0.8, 1.0]
                     }
@@ -224,18 +229,13 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "ambient": {
-                        "sound": "mob.wither_skeleton.step",
+                        "sound": "mob.cell_reaper.idle",
                         "volume": 0.4,
                         "pitch": [0.6, 0.8]
                     },
                     "step": {
-                        "sound": "mob.skeleton.step",
+                        "sound": "mob.cell_reaper.walk",
                         "volume": 0.35,
-                        "pitch": [0.7, 0.9]
-                    },
-                    "attack": {
-                        "sound": "mob.wither_skeleton.hurt",
-                        "volume": 0.6,
                         "pitch": [0.7, 0.9]
                     }
                 }
@@ -245,12 +245,17 @@
                 "pitch": [0.9, 1.1],
                 "events": {
                     "ambient": {
-                        "sound": "mob.bee.loop",
+                        "sound": "mob.virus_moth.idle",
                         "volume": 0.3,
                         "pitch": [0.8, 1.0]
                     },
+                    "step": {
+                        "sound": "mob.virus_moth.fly",
+                        "volume": 0.3,
+                        "pitch": [0.9, 1.1]
+                    },
                     "attack": {
-                        "sound": "mob.bee.sting",
+                        "sound": "mob.virus_moth.attack",
                         "volume": 0.5,
                         "pitch": [0.9, 1.1]
                     }

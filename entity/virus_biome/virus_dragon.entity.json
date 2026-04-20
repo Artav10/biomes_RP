@@ -16,6 +16,11 @@
                 "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
+            "particle_effects": {
+                "dragon_fire_1": "es_bio:virus_dragon_attack_fire_1",
+                "dragon_fire_2": "es_bio:virus_dragon_attack_fire_2",
+                "dragon_spore": "es_bio:virus_dragon_fly_spore"
+            },
             "spawn_egg": {
                 "base_color": "#FFB300",
                 "overlay_color": "#1AFF5E"

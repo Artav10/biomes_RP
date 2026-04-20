@@ -17,6 +17,10 @@
                 "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
+            "particle_effects": {
+                "lizard_dust": "es_bio:plague_lizard_dust",
+                "lizard_attack": "es_bio:plague_lizard_attack"
+            },
             "spawn_egg": {
                 "base_color": "#2D5A1E",
                 "overlay_color": "#FF1A8B"

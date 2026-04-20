@@ -90,6 +90,78 @@
         "mob.sleepy_fairy.fly": {
             "category": "neutral",
             "sounds": ["sounds/mob/sleepy_fairy/fly"]
+        },
+        "mob.cell_reaper.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/cell_reaper/idle"]
+        },
+        "mob.cell_reaper.walk": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/cell_reaper/walk"]
+        },
+        "mob.infection_crawler.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/infection_crawler/idle"]
+        },
+        "mob.infection_crawler.walk": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/infection_crawler/walk"]
+        },
+        "mob.infection_crawler.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/infection_crawler/attack"]
+        },
+        "mob.mutated_host.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/mutated_host/idle"]
+        },
+        "mob.mutated_host.walk": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/mutated_host/walk"]
+        },
+        "mob.mutated_host.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/mutated_host/attack"]
+        },
+        "mob.parasitic_worm.crawl": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/parasitic_worm/crawl"]
+        },
+        "mob.plague_lizard.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/plague_lizard/idle"]
+        },
+        "mob.plague_lizard.walk": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/plague_lizard/walk"]
+        },
+        "mob.plague_lizard.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/plague_lizard/attack"]
+        },
+        "mob.virus_dragon.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/virus_dragon/idle"]
+        },
+        "mob.virus_dragon.fly": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/virus_dragon/fly"]
+        },
+        "mob.virus_dragon.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/virus_dragon/attack"]
+        },
+        "mob.virus_moth.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/virus_moth/idle"]
+        },
+        "mob.virus_moth.fly": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/virus_moth/fly"]
+        },
+        "mob.virus_moth.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/virus_moth/attack"]
         }
     }
 }

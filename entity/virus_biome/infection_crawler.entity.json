@@ -17,6 +17,10 @@
                 "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
+            "particle_effects": {
+                "crawler_dust": "es_bio:infection_crawler_dust",
+                "crawler_spore": "es_bio:infection_crawler_attack_spore_1"
+            },
             "spawn_egg": {
                 "base_color": "#1A1A1A",
                 "overlay_color": "#1AFF5E"

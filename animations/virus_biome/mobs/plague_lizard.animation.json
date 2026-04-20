@@ -898,6 +898,16 @@
 						"0.3333": [0, 0, 0]
 					}
 				}
+			},
+			"particle_effects": {
+				"0.4167": {
+					"effect": "lizard_attack",
+					"locator": "head_particle"
+				},
+				"0.625": {
+					"effect": "lizard_attack",
+					"locator": "head_particle"
+				}
 			}
 		}
 	}

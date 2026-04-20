@@ -16,6 +16,11 @@
                 "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
+            "particle_effects": {
+                "moth_spore": "es_bio:virus_moth_fly_spore",
+                "moth_spore_2": "es_bio:virus_moth_fly_spore_2",
+                "moth_cloud": "es_bio:virus_moth_attack_cloud"
+            },
             "spawn_egg": {
                 "base_color": "#4A4A6B",
                 "overlay_color": "#AA44FF"

@@ -16,6 +16,9 @@
                 "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
+            "particle_effects": {
+                "reaper_dust": "es_bio:cell_reaper_dust"
+            },
             "spawn_egg": {
                 "base_color": "#2A2A2A",
                 "overlay_color": "#4488AA"

@@ -16,6 +16,10 @@
                 "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
+            "particle_effects": {
+                "worm_walk_dust": "es_bio:parasitic_worm_walk_dust",
+                "worm_out_dust": "es_bio:parasitic_worm_out_dust"
+            },
             "spawn_egg": {
                 "base_color": "#2D5A1E",
                 "overlay_color": "#6B2FA0"

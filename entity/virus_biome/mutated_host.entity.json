@@ -17,6 +17,10 @@
                 "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
+            "particle_effects": {
+                "host_dust": "es_bio:mutated_host_dust",
+                "host_attack": "es_bio:mutated_host_attack"
+            },
             "spawn_egg": {
                 "base_color": "#3B1A5A",
                 "overlay_color": "#1AFF5E"
