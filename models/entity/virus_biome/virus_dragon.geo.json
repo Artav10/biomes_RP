@@ -1715,6 +1715,14 @@
 							}
 						}
 					]
+				},
+				{
+					"name": "particle",
+					"parent": "head",
+					"pivot": [0, 13, -65],
+					"locators": {
+						"head_particle": [0, 13, -65]
+					}
 				}
 			]
 		}
