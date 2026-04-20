@@ -161,6 +161,7 @@
         "spiral_tree_sapling": { "textures": "textures/items/virus_biome/saplings/spiral_sapling" },
         "decay_bloom_tree_sapling": { "textures": "textures/items/virus_biome/saplings/decay_sapling" },
         "plasma_birch_tree_sapling": { "textures": "textures/items/virus_biome/saplings/plasma_birch_sapling" },
-        "viral_resin_tree_sapling": { "textures": "textures/items/virus_biome/saplings/viral_resin_sapling" }
+        "viral_resin_tree_sapling": { "textures": "textures/items/virus_biome/saplings/viral_resin_sapling" },
+        "viral_resin_fluid": { "textures": "textures/blocks/virus_biome/trees/viral/viral_resin_fluid" }
     }
 }
