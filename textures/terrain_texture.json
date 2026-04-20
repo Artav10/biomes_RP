@@ -216,7 +216,6 @@
         "sporecore_glass_fluid": { "textures": "textures/blocks/virus_biome/trees/sporecore_glass_fluid" },
         "sporecore_glass_cap": { "textures": "textures/blocks/virus_biome/trees/sporecore_glass_cap" },
         "sporecore_tendrils": { "textures": "textures/blocks/virus_biome/trees/sporecore_tendrils" },
-        "viral_resin_fluid": { "textures": "textures/blocks/virus_biome/trees/viral/viral_resin_fluid" },
         "spiral_trunk_black_strand": { "textures": "textures/blocks/virus_biome/logs/spiral_trunk_black_strand" },
         "spiral_energy_orb": { "textures": "textures/blocks/virus_biome/logs/spiral_energy_orb" },
         "spiral_trunk_gel_blocks": { "textures": "textures/blocks/virus_biome/logs/spiral_trunk_gel_blocks" },

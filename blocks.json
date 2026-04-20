@@ -472,11 +472,6 @@
         "textures": "sporecore_tendrils",
         "isotropic": true
     },
-    "es_bio:viral_resin_fluid": {
-        "sound": "grass",
-        "textures": "viral_resin_fluid",
-        "isotropic": { "down": true }
-    },
     "es_bio:spiral_leaves": {
         "sound": "grass",
         "textures": "spiral_leaves",

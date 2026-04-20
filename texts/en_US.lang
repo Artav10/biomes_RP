@@ -190,7 +190,6 @@ tile.es_bio:sporecore_glass_fluid.name=Sporecore Glass Fluid
 tile.es_bio:sporecore_glass.name=Sporecore Glass
 tile.es_bio:sporecore_glass_cap.name=Sporecore Glass Cap
 tile.es_bio:sporecore_tendrils.name=Sporecore Tendrils
-tile.es_bio:viral_resin_fluid.name=Viral Resin Fluid
 tile.es_bio:spiral_leaves.name=Genetic Spiral Leaves
 tile.es_bio:decay_bloom_leaves.name=Decay Bloom Leaves
 tile.es_bio:plasma_beans.name=Plasma Beans
