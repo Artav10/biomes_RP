@@ -193,7 +193,7 @@ tile.es_bio:sporecore_tendrils.name=Sporecore Tendrils
 tile.es_bio:viral_resin_fluid.name=Viral Resin Fluid
 tile.es_bio:spiral_leaves.name=Genetic Spiral Leaves
 tile.es_bio:decay_bloom_leaves.name=Decay Bloom Leaves
-tile.es_bio:plasma_birch_leaves.name=Plasma Birch Leaves
+tile.es_bio:plasma_beans.name=Plasma Beans
 tile.es_bio:viral_resin_leaves.name=Viral Resin Leaves
 
 ## Blocks - Grass

@@ -487,9 +487,9 @@
         "textures": "decay_bloom_leaves",
         "isotropic": true
     },
-    "es_bio:plasma_birch_leaves": {
+    "es_bio:plasma_beans": {
         "sound": "grass",
-        "textures": "plasma_birch_leaves",
+        "textures": "plasma_beans",
         "isotropic": true
     },
     "es_bio:viral_resin_leaves": {
