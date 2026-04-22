@@ -1,266 +1,266 @@
 {
-    "entity_sounds": {
-        "entities": {
-            "es_bio:candy_caterpillar": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.candy_caterpillar.idle",
-                        "volume": 0.45,
-                        "pitch": [0.8, 1.2]
-                    },
-                    "step": {
-                        "sound": "mob.candy_caterpillar.walk",
-                        "volume": 0.45,
-                        "pitch": [0.9, 1.1]
-                    },
-                    "attack": {
-                        "sound": "mob.candy_caterpillar.attack",
-                        "volume": 0.6,
-                        "pitch": [0.9, 1.1]
-                    }
-                }
-            },
-            "es_bio:lethargic_cat": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.lethargic_cat.idle",
-                        "volume": 0.6,
-                        "pitch": [0.8, 1.2]
-                    }
-                }
-            },
-            "es_bio:mist_bird": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.mist_bird.idle",
-                        "volume": 0.6,
-                        "pitch": [0.8, 1.2]
-                    }
-                }
-            },
-            "es_bio:moonlit_wolf": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.moonlit_wolf.idle",
-                        "volume": 0.45,
-                        "pitch": [0.8, 1.1]
-                    },
-                    "step": {
-                        "sound": "mob.moonlit_wolf.walk",
-                        "volume": 0.32,
-                        "pitch": [0.9, 1.1]
-                    },
-                    "attack": {
-                        "sound": "mob.moonlit_wolf.attack",
-                        "volume": 0.5,
-                        "pitch": [0.9, 1.1]
-                    }
-                }
-            },
-            "es_bio:reflection_deer": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "step": {
-                        "sound": "mob.moonlit_wolf.walk",
-                        "volume": 0.35,
-                        "pitch": [0.9, 1.1]
-                    }
-                }
-            },
-            "es_bio:shadow_child": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.shadow_child.idle",
-                        "volume": 0.45,
-                        "pitch": [0.8, 1.0]
-                    },
-                    "attack": {
-                        "sound": "mob.shadow_child.attack",
-                        "volume": 0.6,
-                        "pitch": [0.9, 1.1]
-                    }
-                }
-            },
-            "es_bio:sleepy_bear": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.sleepy_bear.idle",
-                        "volume": 0.55,
-                        "pitch": [0.8, 1.1]
-                    },
-                    "step": {
-                        "sound": "mob.sleepy_bear.walk",
-                        "volume": 0.45,
-                        "pitch": [0.9, 1.1]
-                    }
-                }
-            },
-            "es_bio:sleepy_fairy": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.sleepy_fairy.fly",
-                        "volume": 0.43,
-                        "pitch": [0.9, 1.2]
-                    }
-                }
-            },
-            "es_bio:infection_crawler": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.infection_crawler.idle",
-                        "volume": 0.4,
-                        "pitch": [0.8, 1.0]
-                    },
-                    "step": {
-                        "sound": "mob.infection_crawler.walk",
-                        "volume": 0.4,
-                        "pitch": [0.9, 1.1]
-                    },
-                    "attack": {
-                        "sound": "mob.infection_crawler.attack",
-                        "volume": 0.6,
-                        "pitch": [0.8, 1.0]
-                    }
-                }
-            },
-            "es_bio:parasitic_worm": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.parasitic_worm.crawl",
-                        "volume": 0.4,
-                        "pitch": [0.6, 0.8]
-                    },
-                    "step": {
-                        "sound": "mob.parasitic_worm.crawl",
-                        "volume": 0.35,
-                        "pitch": [0.8, 1.0]
-                    },
-                    "attack": {
-                        "sound": "mob.parasitic_worm.crawl",
-                        "volume": 0.5,
-                        "pitch": [0.7, 0.9]
-                    }
-                }
-            },
-            "es_bio:mutated_host": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.mutated_host.idle",
-                        "volume": 0.5,
-                        "pitch": [0.6, 0.8]
-                    },
-                    "step": {
-                        "sound": "mob.mutated_host.walk",
-                        "volume": 0.4,
-                        "pitch": [0.9, 1.1]
-                    },
-                    "attack": {
-                        "sound": "mob.mutated_host.attack",
-                        "volume": 0.6,
-                        "pitch": [0.7, 0.9]
-                    }
-                }
-            },
-            "es_bio:plague_lizard": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.plague_lizard.idle",
-                        "volume": 0.45,
-                        "pitch": [0.9, 1.2]
-                    },
-                    "step": {
-                        "sound": "mob.plague_lizard.walk",
-                        "volume": 0.3,
-                        "pitch": [1.0, 1.2]
-                    },
-                    "attack": {
-                        "sound": "mob.plague_lizard.attack",
-                        "volume": 0.55,
-                        "pitch": [0.9, 1.1]
-                    }
-                }
-            },
-            "es_bio:virus_dragon": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.virus_dragon.idle",
-                        "volume": 0.6,
-                        "pitch": [0.7, 0.9]
-                    },
-                    "step": {
-                        "sound": "mob.virus_dragon.fly",
-                        "volume": 0.4,
-                        "pitch": [0.9, 1.1]
-                    },
-                    "attack": {
-                        "sound": "mob.virus_dragon.attack",
-                        "volume": 0.8,
-                        "pitch": [0.8, 1.0]
-                    }
-                }
-            },
-            "es_bio:cell_reaper": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.cell_reaper.idle",
-                        "volume": 0.4,
-                        "pitch": [0.6, 0.8]
-                    },
-                    "step": {
-                        "sound": "mob.cell_reaper.walk",
-                        "volume": 0.35,
-                        "pitch": [0.7, 0.9]
-                    }
-                }
-            },
-            "es_bio:virus_moth": {
-                "volume": 1,
-                "pitch": [0.9, 1.1],
-                "events": {
-                    "ambient": {
-                        "sound": "mob.virus_moth.idle",
-                        "volume": 0.3,
-                        "pitch": [0.8, 1.0]
-                    },
-                    "step": {
-                        "sound": "mob.virus_moth.fly",
-                        "volume": 0.3,
-                        "pitch": [0.9, 1.1]
-                    },
-                    "attack": {
-                        "sound": "mob.virus_moth.attack",
-                        "volume": 0.5,
-                        "pitch": [0.9, 1.1]
-                    }
-                }
-            }
-        }
-    }
+	"entity_sounds": {
+		"entities": {
+			"es_bio:candy_caterpillar": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.candy_caterpillar.idle",
+						"volume": 0.45,
+						"pitch": [0.8, 1.2]
+					},
+					"step": {
+						"sound": "mob.candy_caterpillar.walk",
+						"volume": 0.45,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.candy_caterpillar.attack",
+						"volume": 0.6,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:lethargic_cat": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.lethargic_cat.idle",
+						"volume": 0.6,
+						"pitch": [0.8, 1.2]
+					}
+				}
+			},
+			"es_bio:mist_bird": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.mist_bird.idle",
+						"volume": 0.6,
+						"pitch": [0.8, 1.2]
+					}
+				}
+			},
+			"es_bio:moonlit_wolf": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.moonlit_wolf.idle",
+						"volume": 0.45,
+						"pitch": [0.8, 1.1]
+					},
+					"step": {
+						"sound": "mob.moonlit_wolf.walk",
+						"volume": 0.32,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.moonlit_wolf.attack",
+						"volume": 0.5,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:reflection_deer": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"step": {
+						"sound": "mob.moonlit_wolf.walk",
+						"volume": 0.35,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:shadow_child": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.shadow_child.idle",
+						"volume": 0.45,
+						"pitch": [0.8, 1.0]
+					},
+					"attack": {
+						"sound": "mob.shadow_child.attack",
+						"volume": 0.6,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:sleepy_bear": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.sleepy_bear.idle",
+						"volume": 0.55,
+						"pitch": [0.8, 1.1]
+					},
+					"step": {
+						"sound": "mob.sleepy_bear.walk",
+						"volume": 0.45,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:sleepy_fairy": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.sleepy_fairy.fly",
+						"volume": 0.43,
+						"pitch": [0.9, 1.2]
+					}
+				}
+			},
+			"es_bio:infection_crawler": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.infection_crawler.idle",
+						"volume": 0.4,
+						"pitch": [0.8, 1.0]
+					},
+					"step": {
+						"sound": "mob.infection_crawler.walk",
+						"volume": 0.4,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.infection_crawler.attack",
+						"volume": 0.6,
+						"pitch": [0.8, 1.0]
+					}
+				}
+			},
+			"es_bio:parasitic_worm": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.parasitic_worm.crawl",
+						"volume": 0.4,
+						"pitch": [0.6, 0.8]
+					},
+					"step": {
+						"sound": "mob.parasitic_worm.crawl",
+						"volume": 0.35,
+						"pitch": [0.8, 1.0]
+					},
+					"attack": {
+						"sound": "mob.parasitic_worm.crawl",
+						"volume": 0.5,
+						"pitch": [0.7, 0.9]
+					}
+				}
+			},
+			"es_bio:mutated_host": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.mutated_host.idle",
+						"volume": 0.5,
+						"pitch": [0.6, 0.8]
+					},
+					"step": {
+						"sound": "mob.mutated_host.walk",
+						"volume": 0.4,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.mutated_host.attack",
+						"volume": 0.6,
+						"pitch": [0.7, 0.9]
+					}
+				}
+			},
+			"es_bio:plague_lizard": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.plague_lizard.idle",
+						"volume": 0.55,
+						"pitch": [0.9, 1.2]
+					},
+					"step": {
+						"sound": "mob.plague_lizard.walk",
+						"volume": 0.3,
+						"pitch": [1.0, 1.2]
+					},
+					"attack": {
+						"sound": "mob.plague_lizard.attack",
+						"volume": 0.55,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:virus_dragon": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.virus_dragon.idle",
+						"volume": 0.6,
+						"pitch": [0.7, 0.9]
+					},
+					"step": {
+						"sound": "mob.virus_dragon.fly",
+						"volume": 0.4,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.virus_dragon.attack",
+						"volume": 0.8,
+						"pitch": [0.8, 1.0]
+					}
+				}
+			},
+			"es_bio:cell_reaper": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.cell_reaper.idle",
+						"volume": 0.4,
+						"pitch": [0.6, 0.8]
+					},
+					"step": {
+						"sound": "mob.cell_reaper.walk",
+						"volume": 0.35,
+						"pitch": [0.7, 0.9]
+					}
+				}
+			},
+			"es_bio:virus_moth": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.virus_moth.idle",
+						"volume": 0.3,
+						"pitch": [0.8, 1.0]
+					},
+					"step": {
+						"sound": "mob.virus_moth.fly",
+						"volume": 0.3,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.virus_moth.attack",
+						"volume": 0.5,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			}
+		}
+	}
 }
