@@ -1,0 +1,41 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:fog_settings": {
+        "description": {
+            "identifier": "es_bio:crystal_biome_fog",
+            "name": "Crystal Biome Fog"
+        },
+        "distance": {
+            "fog_start": 0.92,
+            "fog_end": 1.0,
+            "fog_color": "#B8D4FF",
+            "render_distance_type": "render"
+        },
+        "volumetric": {
+            "density": {
+                "water": {
+                    "max_density": 0.5,
+                    "max_density_height": 0,
+                    "zero_density_height": 256,
+                    "uniform": true
+                },
+                "air": {
+                    "max_density": 0.15,
+                    "max_density_height": 32,
+                    "zero_density_height": 128,
+                    "uniform": false
+                }
+            },
+            "media_coefficients": {
+                "water": {
+                    "scattering": "#1A3050",
+                    "absorption": "#0A1525"
+                },
+                "air": {
+                    "scattering": "#6688BB",
+                    "absorption": "#334466"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:shardback",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/crystal_biome/shardback" },
+            "geometry": { "default": "geometry.shardback" },
+            "animations": {
+                "anim_idle": "animation.biomes.shardback.idle",
+                "anim_walk": "animation.biomes.shardback.walk",
+                "anim_attack": "animation.biomes.shardback.attack",
+                "controller": "controller.animation.crystal_biome.ground_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.crystal_biome_creature"]
+        }
+    }
+}

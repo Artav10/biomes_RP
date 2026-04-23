@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:gemdrake",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/crystal_biome/gemdrake" },
+            "geometry": { "default": "geometry.gemdrake" },
+            "animations": {
+                "anim_idle": "animation.biomes.gemdrake.idle",
+                "anim_fly": "animation.biomes.gemdrake.fly",
+                "anim_attack": "animation.biomes.gemdrake.attack",
+                "controller": "controller.animation.crystal_biome.flyer_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.crystal_biome_creature"]
+        }
+    }
+}

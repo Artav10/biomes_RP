@@ -1,0 +1,44 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.primstone_sword",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-1, 0, -1], "size": [2, 10, 2], "inflate": -0.002, "uv": [0, 84]},
+						{"origin": [0, 10, -7], "size": [0, 21, 13], "uv": [0, 0]},
+						{"origin": [-1.5, 11.75914, -2.5], "size": [3, 5, 5], "pivot": [0, 14.25914, 0], "rotation": [-22.5, 0, 0], "uv": [27, 60]},
+						{
+							"origin": [-1, 11.17436, -0.92074],
+							"size": [2, 3, 6],
+							"pivot": [0, 12.67436, 2.07926],
+							"rotation": [-22.5, 0, 0],
+							"uv": {
+								"north": {"uv": [74, 77], "uv_size": [2, 3]},
+								"east": {"uv": [68, 77], "uv_size": [6, 3]},
+								"south": {"uv": [82, 77], "uv_size": [2, 3]},
+								"west": {"uv": [76, 77], "uv_size": [6, 3]},
+								"up": {"uv": [74, 71], "uv_size": [2, 6]},
+								"down": {"uv": [76, 77], "uv_size": [2, -6]}
+							}
+						},
+						{"origin": [-1, 8.75914, -0.5], "size": [2, 2, 5], "inflate": 0.002, "pivot": [-0.5, 14.25914, 0], "rotation": [-22.5, 0, 0], "uv": [0, 76]},
+						{"origin": [-1, 6.75914, 0.5], "size": [2, 2, 2], "inflate": 0.002, "pivot": [-0.5, 14.25914, 0], "rotation": [-22.5, 0, 0], "uv": [17, 65]},
+						{"origin": [-1, -0.74086, -0.9], "size": [2, 2, 5], "inflate": 0.002, "pivot": [-0.5, 4.75914, -0.5], "rotation": [-22.5, 0, 0], "uv": [78, 60]}
+					]
+				}
+			]
+		}
+	]
+}

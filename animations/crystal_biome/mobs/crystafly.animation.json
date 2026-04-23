@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.biomes.crystafly.idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"rotation": ["-12.5-Math.cos(query.anim_time*180)*8", 0, 0],
+					"position": [0, "9+Math.cos(query.anim_time*180-60)*2", "Math.cos(query.anim_time*180-60)*1"]
+				},
+				"left_wing": {
+					"rotation": [0, 0, "10-Math.cos(query.anim_time*180*15)*70"]
+				},
+				"left_antena": {
+					"rotation": ["15-Math.cos(query.anim_time*180*12)*1 ", 0, "22.5+Math.cos(query.anim_time*180*8)*3 "]
+				},
+				"right_wing": {
+					"rotation": [0, 0, "-10+Math.cos(query.anim_time*180*15)*70"]
+				},
+				"right_antena": {
+					"rotation": ["15-Math.cos(query.anim_time*180*12+60)*1 ", 0, "-22.5-Math.cos(query.anim_time*180*8+60)*3 "]
+				}
+			}
+		}
+	}
+}

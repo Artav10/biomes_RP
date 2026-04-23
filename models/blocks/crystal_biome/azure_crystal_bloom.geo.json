@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.azure_crystal_bloom",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 6.09923, 0.44444],
+					"cubes": [
+						{"origin": [-1.23744, 7.82683, -2], "size": [0, 7, 4], "pivot": [0, 8.33939, 0.5], "rotation": [42.73421, -15.69986, -73.67505], "uv": [11, 24]},
+						{"origin": [-1.23744, 7.82683, -2], "size": [0, 7, 4], "pivot": [0, 8.33939, 0.5], "rotation": [-42.73421, 15.69986, -73.67505], "uv": [11, 24]},
+						{"origin": [-1.23744, 7.82683, -2], "size": [0, 7, 4], "pivot": [0, 8.33939, 0.5], "rotation": [-137.26579, 15.69986, -106.32495], "uv": [11, 24]},
+						{"origin": [-1.23744, 7.82683, -2], "size": [0, 7, 4], "pivot": [0, 8.33939, 0.5], "rotation": [137.26579, -15.69986, -106.32495], "uv": [11, 24]},
+						{"origin": [0, 0, -4], "size": [0, 7, 9], "uv": [0, 0]},
+						{"origin": [-1, 7, -0.5], "size": [2, 1, 2], "uv": [19, 11]},
+						{"origin": [0, 0, -2], "size": [0, 5, 5], "pivot": [0, 0, 0], "rotation": [0, 0, 45], "uv": [19, 0]},
+						{"origin": [0, 0, -2], "size": [0, 5, 5], "pivot": [0, 0, 0], "rotation": [0, 0, -45], "uv": [0, 24]},
+						{"origin": [-3, 7, -3], "size": [6, 0, 6], "uv": [0, 17]}
+					]
+				}
+			]
+		}
+	]
+}

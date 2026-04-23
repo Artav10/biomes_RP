@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:crystafur",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/crystal_biome/crystafur" },
+            "geometry": { "default": "geometry.crystafur" },
+            "animations": {
+                "anim_idle": "animation.biomes.crystafur.idle",
+                "anim_walk": "animation.biomes.crystafur.walk",
+                "anim_attack": "animation.biomes.crystafur.attack",
+                "controller": "controller.animation.crystal_biome.ground_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.crystal_biome_creature"]
+        }
+    }
+}

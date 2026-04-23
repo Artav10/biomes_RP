@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.primstone_pickaxe",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-1, 0, -1], "size": [2, 11, 2], "inflate": -0.002, "uv": [81, 30]},
+						{"origin": [0, 7, -13], "size": [0, 16, 13], "uv": [0, 35]},
+						{"origin": [0, 7, 0], "size": [0, 16, 13], "uv": [27, 30]},
+						{"origin": [-1.5, 13.75914, -2.5], "size": [3, 5, 5], "pivot": [0, 16.25914, 0], "rotation": [-22.5, 0, 0], "uv": [61, 60]},
+						{"origin": [-1, 10.75914, -0.5], "size": [2, 2, 5], "inflate": 0.002, "pivot": [-0.5, 16.25914, 0], "rotation": [-22.5, 0, 0], "uv": [34, 81]},
+						{"origin": [-1, 8.75914, 0.5], "size": [2, 2, 2], "inflate": 0.002, "pivot": [-0.5, 16.25914, 0], "rotation": [-22.5, 0, 0], "uv": [88, 86]},
+						{"origin": [-1, -0.74086, -0.9], "size": [2, 2, 5], "inflate": 0.002, "pivot": [-0.5, 4.75914, -0.5], "rotation": [-22.5, 0, 0], "uv": [81, 44]}
+					]
+				}
+			]
+		}
+	]
+}

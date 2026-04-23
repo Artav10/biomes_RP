@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.prism_petal",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 6.09923, 0.44444],
+					"cubes": [
+						{"origin": [-8, 0.09923, 0], "size": [16, 16, 0], "uv": [0, 0]},
+						{"origin": [-2, 0.09923, 0], "size": [6, 6, 0], "pivot": [1, 8.09923, 0], "rotation": [0, -90, 0], "uv": [19, 26]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "root",
+					"pivot": [0, 12.62037, 0],
+					"rotation": [0, 0, 22.5],
+					"cubes": [
+						{"origin": [-1, 11.89923, -1], "size": [2, 1, 2], "uv": [0, 31]},
+						{"origin": [-4, 11.89923, -4], "size": [8, 0, 8], "uv": [0, 17]},
+						{"origin": [-5, 11.89923, -2], "size": [5, 0, 4], "pivot": [0, 11.89923, 0], "rotation": [0, 0, 22.5], "uv": [0, 26]},
+						{"origin": [-5, 11.89923, -2], "size": [5, 0, 4], "pivot": [0, 11.89923, 0], "rotation": [90, 67.5, 90], "uv": [0, 26]},
+						{"origin": [-5, 11.89923, -2], "size": [5, 0, 4], "pivot": [0, 11.89923, 0], "rotation": [-180, 0, 157.5], "uv": [0, 26]},
+						{"origin": [-5, 11.89923, -2], "size": [5, 0, 4], "pivot": [0, 11.89923, 0], "rotation": [-90, -67.5, 90], "uv": [0, 26]}
+					]
+				}
+			]
+		}
+	]
+}

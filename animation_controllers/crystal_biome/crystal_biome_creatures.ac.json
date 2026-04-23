@@ -1,0 +1,101 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.crystal_biome.ground_hostile": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "walking": "query.modified_move_speed > 0.1" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "idle": "query.modified_move_speed < 0.05" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking" }
+                    ],
+                    "blend_transition": 0.1
+                }
+            }
+        },
+        "controller.animation.crystal_biome.ground_hostile_runner": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.modified_move_speed >= 0.4" },
+                        { "walking": "query.modified_move_speed > 0.1" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.modified_move_speed >= 0.4" },
+                        { "idle": "query.modified_move_speed < 0.05" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "running": {
+                    "animations": ["anim_run"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "idle": "query.modified_move_speed < 0.05" },
+                        { "walking": "query.modified_move_speed < 0.35" }
+                    ],
+                    "blend_transition": 0.15
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking" }
+                    ],
+                    "blend_transition": 0.1
+                }
+            }
+        },
+        "controller.animation.crystal_biome.flyer_hostile": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "variable.attack_time > 0" },
+                        { "flying": "!query.is_on_ground || query.modified_move_speed > 0.1" }
+                    ],
+                    "blend_transition": 0.25
+                },
+                "flying": {
+                    "animations": ["anim_fly"],
+                    "transitions": [
+                        { "attacking": "variable.attack_time > 0" },
+                        { "idle": "query.is_on_ground && query.modified_move_speed < 0.05" }
+                    ],
+                    "blend_transition": 0.25
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "flying": "variable.attack_time <= 0 && (!query.is_on_ground || query.modified_move_speed > 0.1)" },
+                        { "idle": "variable.attack_time <= 0" }
+                    ],
+                    "blend_transition": 0.15
+                }
+            }
+        }
+    }
+}

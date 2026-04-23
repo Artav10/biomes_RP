@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:crystowl",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/crystal_biome/crystowl" },
+            "geometry": { "default": "geometry.crystowl" },
+            "animations": {
+                "anim_idle": "animation.biomes.crystowl.idle",
+                "anim_fly": "animation.biomes.crystowl.fly",
+                "anim_attack": "animation.biomes.crystowl.attack",
+                "controller": "controller.animation.crystal_biome.flyer_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.crystal_biome_creature"]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:radiant_stag",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/crystal_biome/radiant_stag" },
+            "geometry": { "default": "geometry.radiant_stag" },
+            "animations": {
+                "anim_idle": "animation.biomes.radiant_stag.idle",
+                "anim_walk": "animation.biomes.radiant_stag.walk",
+                "anim_run": "animation.biomes.radiant_stag.walk",
+                "anim_attack": "animation.biomes.radiant_stag.attack",
+                "controller": "controller.animation.crystal_biome.ground_hostile_runner"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.crystal_biome_creature"]
+        }
+    }
+}

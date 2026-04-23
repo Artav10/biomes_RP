@@ -11,6 +11,12 @@
             "water_surface_color": "#2D5A1E",
             "water_fog_color": "#1A3D0D",
             "water_surface_transparency": 0.45
+        },
+        "es_bio:crystal_biome": {
+            "fog_identifier": "es_bio:crystal_biome_fog",
+            "water_surface_color": "#88BBFF",
+            "water_fog_color": "#4477BB",
+            "water_surface_transparency": 0.7
         }
     }
 }

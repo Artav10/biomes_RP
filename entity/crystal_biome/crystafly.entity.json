@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:crystafly",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/crystal_biome/crystafly" },
+            "geometry": { "default": "geometry.crystafly" },
+            "animations": {
+                "anim_idle": "animation.biomes.crystafly.idle",
+                "controller": "controller.animation.crystal_biome.flyer_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.crystal_biome_creature"]
+        }
+    }
+}

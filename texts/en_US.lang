@@ -293,3 +293,138 @@ item.spawn_egg.entity.es_bio:plague_lizard.name=Spawn Plague Lizard
 item.spawn_egg.entity.es_bio:virus_dragon.name=Spawn Virus Dragon
 item.spawn_egg.entity.es_bio:cell_reaper.name=Spawn Cell Reaper
 item.spawn_egg.entity.es_bio:virus_moth.name=Spawn Virus Moth
+
+## === CRYSTAL BIOME ===
+
+## Biome
+biome.es_bio:crystal_biome.name=Crystal Biome
+
+## Blocks - Ores & Stone
+tile.es_bio:ametrine_ore.name=Ametrine Ore
+tile.es_bio:chromite_ore.name=Chromite Ore
+tile.es_bio:energetic_crystal_ore.name=Energetic Crystal Ore
+tile.es_bio:lunaris_ore.name=Lunaris Ore
+tile.es_bio:primstone_ore.name=Primstone Ore
+tile.es_bio:ametrine_block.name=Ametrine Block
+tile.es_bio:chromite_block.name=Chromite Block
+tile.es_bio:energetic_crystal_block.name=Energetic Crystal Block
+tile.es_bio:lunaris_block.name=Lunaris Block
+tile.es_bio:primstone_block.name=Primstone Block
+
+## Blocks - Logs
+tile.es_bio:energetic_crystal_log.name=Energetic Crystal Log
+tile.es_bio:ethereal_log.name=Ethereal Log
+tile.es_bio:moonlight_log.name=Moonlight Log
+tile.es_bio:prism_log.name=Prism Log
+tile.es_bio:quartz_log.name=Quartz Log
+
+## Blocks - Planks
+tile.es_bio:energetic_crystal_plank.name=Energetic Crystal Planks
+tile.es_bio:ethereal_plank.name=Ethereal Planks
+tile.es_bio:moonlight_plank.name=Moonlight Planks
+tile.es_bio:prism_plank.name=Prism Planks
+
+## Blocks - Leaves
+tile.es_bio:energetic_crystal_leaves.name=Energetic Crystal Leaves
+tile.es_bio:ethereal_leaves.name=Ethereal Leaves
+tile.es_bio:moonlight_leaves.name=Moonlight Leaves
+tile.es_bio:prism_leaves.name=Prism Leaves
+tile.es_bio:quartz_leaves.name=Quartz Leaves
+
+## Blocks - Grass
+tile.es_bio:crystal_grass_block.name=Crystal Grass Block
+
+## Blocks - Decorations
+tile.es_bio:azure_crystal_bloom.name=Azure Crystal Bloom
+tile.es_bio:geode_lily.name=Geode Lily
+tile.es_bio:lumina_star.name=Lumina Star
+tile.es_bio:prism_petal.name=Prism Petal
+tile.es_bio:void_rose.name=Void Rose
+tile.es_bio:light_blue_crystal_cluster.name=Light Blue Crystal Cluster
+tile.es_bio:light_purple_crystal_cluster.name=Light Purple Crystal Cluster
+tile.es_bio:pale_pink_crystal_cluster.name=Pale Pink Crystal Cluster
+tile.es_bio:turquoise_crystal_cluster.name=Turquoise Crystal Cluster
+tile.es_bio:light_blue_crystal_spike.name=Light Blue Crystal Spike
+tile.es_bio:light_purple_crystal_spike.name=Light Purple Crystal Spike
+tile.es_bio:pale_pink_crystal_spike.name=Pale Pink Crystal Spike
+tile.es_bio:turquoise_crystal_spike.name=Turquoise Crystal Spike
+
+## Blocks - Doors
+tile.es_bio:energetic_crystal_door.name=Energetic Crystal Door
+tile.es_bio:ethereal_door.name=Ethereal Door
+tile.es_bio:moonlight_door.name=Moonlight Door
+tile.es_bio:prism_door.name=Prism Door
+tile.es_bio:quartz_door.name=Quartz Door
+
+## Blocks - Saplings
+tile.es_bio:energetic_sapling.name=Energetic Sapling
+tile.es_bio:ethereal_sapling.name=Ethereal Sapling
+tile.es_bio:moonlight_sapling.name=Moonlight Sapling
+tile.es_bio:prism_sapling.name=Prism Sapling
+tile.es_bio:quartz_oak_sapling.name=Quartz Oak Sapling
+
+## Items - Doors
+item.es_bio:energetic_crystal_door.name=Energetic Crystal Door
+item.es_bio:ethereal_door.name=Ethereal Door
+item.es_bio:moonlight_door.name=Moonlight Door
+item.es_bio:prism_door.name=Prism Door
+item.es_bio:quartz_door.name=Quartz Door
+
+## Items - Materials
+item.es_bio:ametrine.name=Ametrine
+item.es_bio:chromite.name=Chromite
+item.es_bio:energetic_crystal.name=Energetic Crystal
+item.es_bio:lunaris.name=Lunaris
+item.es_bio:primstone.name=Primstone
+
+## Items - Ametrine Tools
+item.es_bio:ametrine_sword.name=Ametrine Sword
+item.es_bio:ametrine_axe.name=Ametrine Axe
+item.es_bio:ametrine_pickaxe.name=Ametrine Pickaxe
+item.es_bio:ametrine_hoe.name=Ametrine Hoe
+item.es_bio:ametrine_shovel.name=Ametrine Shovel
+
+## Items - Chromite Tools
+item.es_bio:chromite_sword.name=Chromite Sword
+item.es_bio:chromite_axe.name=Chromite Axe
+item.es_bio:chromite_pickaxe.name=Chromite Pickaxe
+item.es_bio:chromite_hoe.name=Chromite Hoe
+item.es_bio:chromite_shovel.name=Chromite Shovel
+
+## Items - Energetic Crystal Tools
+item.es_bio:energetic_crystal_sword.name=Energetic Crystal Sword
+item.es_bio:energetic_crystal_axe.name=Energetic Crystal Axe
+item.es_bio:energetic_crystal_pickaxe.name=Energetic Crystal Pickaxe
+item.es_bio:energetic_crystal_hoe.name=Energetic Crystal Hoe
+item.es_bio:energetic_crystal_shovel.name=Energetic Crystal Shovel
+
+## Items - Lunaris Tools
+item.es_bio:lunaris_sword.name=Lunaris Sword
+item.es_bio:lunaris_axe.name=Lunaris Axe
+item.es_bio:lunaris_pickaxe.name=Lunaris Pickaxe
+item.es_bio:lunaris_hoe.name=Lunaris Hoe
+item.es_bio:lunaris_shovel.name=Lunaris Shovel
+
+## Items - Primstone Tools
+item.es_bio:primstone_sword.name=Primstone Sword
+item.es_bio:primstone_axe.name=Primstone Axe
+item.es_bio:primstone_pickaxe.name=Primstone Pickaxe
+item.es_bio:primstone_hoe.name=Primstone Hoe
+item.es_bio:primstone_shovel.name=Primstone Shovel
+
+## Entities - Crystal Biome Creatures
+entity.es_bio:crystafly.name=Crystafly
+entity.es_bio:crystafur.name=Crystafur
+entity.es_bio:crystowl.name=Crystowl
+entity.es_bio:gemdrake.name=Gemdrake
+entity.es_bio:quartz_scuttler.name=Quartz Scuttler
+entity.es_bio:radiant_stag.name=Radiant Stag
+entity.es_bio:shardback.name=Shardback
+
+item.spawn_egg.entity.es_bio:crystafly.name=Spawn Crystafly
+item.spawn_egg.entity.es_bio:crystafur.name=Spawn Crystafur
+item.spawn_egg.entity.es_bio:crystowl.name=Spawn Crystowl
+item.spawn_egg.entity.es_bio:gemdrake.name=Spawn Gemdrake
+item.spawn_egg.entity.es_bio:quartz_scuttler.name=Spawn Quartz Scuttler
+item.spawn_egg.entity.es_bio:radiant_stag.name=Spawn Radiant Stag
+item.spawn_egg.entity.es_bio:shardback.name=Spawn Shardback
