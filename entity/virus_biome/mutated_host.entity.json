@@ -11,10 +11,12 @@
                 "anim_walk": "animation.biomes.mutated_host.walk",
                 "anim_run": "animation.biomes.mutated_host.run",
                 "anim_attack": "animation.biomes.mutated_host.attack",
-                "ctrl_move": "controller.animation.virus_biome.ground_hostile_runner"
+                "anim_death": "animation.biomes.mutated_host.death",
+                "ctrl_move": "controller.animation.virus_biome.mutated_host_move",
+                "ctrl_death": "controller.animation.virus_biome.mutated_host_death"
             },
             "scripts": {
-                "animate": ["ctrl_move"]
+                "animate": ["ctrl_move", "ctrl_death"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
             "particle_effects": {

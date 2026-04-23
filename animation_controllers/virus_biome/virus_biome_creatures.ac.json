@@ -68,6 +68,66 @@
                 }
             }
         },
+        "controller.animation.virus_biome.mutated_host_move": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "dying": "!query.is_alive" },
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.is_moving && query.modified_move_speed >= 0.4" },
+                        { "walking": "query.is_moving" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "dying": "!query.is_alive" },
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.modified_move_speed >= 0.4" },
+                        { "idle": "!query.is_moving" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "running": {
+                    "animations": ["anim_run"],
+                    "transitions": [
+                        { "dying": "!query.is_alive" },
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "walking": "query.is_moving && query.modified_move_speed < 0.4" },
+                        { "idle": "!query.is_moving" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "dying": "!query.is_alive" },
+                        { "idle": "!query.is_delayed_attacking || query.all_animations_finished" }
+                    ],
+                    "blend_transition": 0.15
+                },
+                "dying": {
+                    "blend_transition": 0.1
+                }
+            }
+        },
+        "controller.animation.virus_biome.mutated_host_death": {
+            "initial_state": "alive",
+            "states": {
+                "alive": {
+                    "transitions": [
+                        { "dying": "!query.is_alive" }
+                    ]
+                },
+                "dying": {
+                    "animations": ["anim_death"],
+                    "blend_transition": 0.1
+                }
+            }
+        },
         "controller.animation.virus_biome.flyer_hostile": {
             "initial_state": "idle",
             "states": {
