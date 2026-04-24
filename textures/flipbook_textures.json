@@ -48,12 +48,6 @@
         "frames": 5
     },
     {
-        "atlas_tile": "spiral_energy_orb",
-        "flipbook_texture": "textures/blocks/virus_biome/logs/spiral_energy_orb",
-        "ticks_per_frame": 4,
-        "frames": 7
-    },
-    {
         "atlas_tile": "spiral_trunk_gel_blocks",
         "flipbook_texture": "textures/blocks/virus_biome/logs/spiral_trunk_gel_blocks",
         "ticks_per_frame": 4,
