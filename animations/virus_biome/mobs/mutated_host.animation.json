@@ -1032,6 +1032,10 @@
 		"animation.biomes.mutated_host.attack": {
 			"loop": true,
 			"animation_length": 1.25,
+			"particle_effects": {
+				"0.375": { "effect": "host_attack", "locator": "head_particle" },
+				"0.875": { "effect": "host_attack", "locator": "head_particle" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {

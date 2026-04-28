@@ -129,6 +129,11 @@
 		"animation.biomes.parasitic_worm.idle-tooth": {
 			"loop": true,
 			"animation_length": 1,
+			"particle_effects": {
+				"0.25": { "effect": "worm_out_dust", "locator": "mouth_particle" },
+				"0.5": { "effect": "worm_out_dust", "locator": "mouth_particle" },
+				"0.75": { "effect": "worm_out_dust", "locator": "mouth_particle" }
+			},
 			"bones": {
 				"tooth": {
 					"rotation": {

@@ -835,6 +835,10 @@
 		"animation.biomes.cell_reaper.attack": {
 			"loop": true,
 			"animation_length": 1.375,
+			"particle_effects": {
+				"0.3333": { "effect": "reaper_dust", "locator": "head_particle" },
+				"0.5833": { "effect": "reaper_dust", "locator": "head_particle" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {
