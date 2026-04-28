@@ -134,7 +134,7 @@
                 "idle": {
                     "animations": ["anim_idle"],
                     "transitions": [
-                        { "attacking": "variable.attack_time > 0" },
+                        { "attacking": "query.is_delayed_attacking" },
                         { "flying": "!query.is_on_ground || query.modified_move_speed > 0.1" }
                     ],
                     "blend_transition": 0.25
@@ -142,7 +142,7 @@
                 "flying": {
                     "animations": ["anim_fly"],
                     "transitions": [
-                        { "attacking": "variable.attack_time > 0" },
+                        { "attacking": "query.is_delayed_attacking" },
                         { "idle": "query.is_on_ground && query.modified_move_speed < 0.05" }
                     ],
                     "blend_transition": 0.25
@@ -150,8 +150,8 @@
                 "attacking": {
                     "animations": ["anim_attack"],
                     "transitions": [
-                        { "flying": "variable.attack_time <= 0 && (!query.is_on_ground || query.modified_move_speed > 0.1)" },
-                        { "idle": "variable.attack_time <= 0" }
+                        { "flying": "!query.is_delayed_attacking && (!query.is_on_ground || query.modified_move_speed > 0.1)" },
+                        { "idle": "!query.is_delayed_attacking" }
                     ],
                     "blend_transition": 0.15
                 }
