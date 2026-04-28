@@ -72,6 +72,18 @@
         "frames": 7
     },
     {
+        "atlas_tile": "virus_spores",
+        "flipbook_texture": "textures/blocks/virus_biome/flowers/virus_spores",
+        "ticks_per_frame": 4,
+        "frames": 10
+    },
+    {
+        "atlas_tile": "virus_spore_threads",
+        "flipbook_texture": "textures/blocks/virus_biome/flowers/virus_spore_threads",
+        "ticks_per_frame": 20,
+        "frames": 2
+    },
+    {
         "atlas_tile": "veinstone_block",
         "flipbook_texture": "textures/blocks/virus_biome/stones/veinstone_block",
         "ticks_per_frame": 4,
