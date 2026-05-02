@@ -232,6 +232,12 @@
 		"animation.biomes.parasitic_worm.crawl": {
 			"loop": true,
 			"animation_length": 2,
+			"particle_effects": {
+				"0.0": { "effect": "worm_out_dust", "locator": "tail_particle" },
+				"0.5": { "effect": "worm_out_dust", "locator": "tail_particle" },
+				"1.0": { "effect": "worm_out_dust", "locator": "tail_particle" },
+				"1.5": { "effect": "worm_out_dust", "locator": "tail_particle" }
+			},
 			"bones": {
 				"body": {
 					"rotation": [0, "Math.sin(-query.anim_time*180+(20*2))*8", 0],
