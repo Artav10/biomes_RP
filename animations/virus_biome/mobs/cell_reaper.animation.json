@@ -329,6 +329,10 @@
 		"animation.biomes.cell_reaper.walk": {
 			"loop": true,
 			"animation_length": 2,
+			"particle_effects": {
+				"0.5": { "effect": "reaper_dust", "locator": "walk_particle" },
+				"1.5": { "effect": "reaper_dust", "locator": "walk_particle" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {

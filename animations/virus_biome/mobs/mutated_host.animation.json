@@ -383,6 +383,10 @@
 		"animation.biomes.mutated_host.walk": {
 			"loop": true,
 			"animation_length": 1,
+			"particle_effects": {
+				"0.25": { "effect": "host_dust", "locator": "walk_particle" },
+				"0.75": { "effect": "host_dust", "locator": "walk_particle" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {

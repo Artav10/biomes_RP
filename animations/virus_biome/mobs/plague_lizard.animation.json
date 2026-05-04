@@ -242,6 +242,10 @@
 		"animation.biomes.plague_lizard.walk": {
 			"loop": true,
 			"animation_length": 1,
+			"particle_effects": {
+				"0.25": { "effect": "lizard_dust", "locator": "walk_particle" },
+				"0.75": { "effect": "lizard_dust", "locator": "walk_particle" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {

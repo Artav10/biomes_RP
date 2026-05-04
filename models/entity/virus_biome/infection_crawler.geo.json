@@ -13,7 +13,10 @@
 			"bones": [
 				{
 					"name": "root",
-					"pivot": [0.5625, 6.37911, 4.65817]
+					"pivot": [0.5625, 6.37911, 4.65817],
+					"locators": {
+						"walk_particle": [0, 0.5, 0]
+					}
 				},
 				{
 					"name": "left_leg",

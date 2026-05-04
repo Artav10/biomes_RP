@@ -13,7 +13,11 @@
                 "controller": "controller.animation.crystal_biome.ground_hostile"
             },
             "scripts": { "animate": ["controller"] },
-            "render_controllers": ["controller.render.crystal_biome_creature"]
+            "render_controllers": ["controller.render.crystal_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#9333EA",
+                "overlay_color": "#F9A8D4"
+            }
         }
     }
 }
