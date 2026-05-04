@@ -646,14 +646,6 @@
 				"0.75": {
 					"effect": "moth_cloud",
 					"locator": "body_particle"
-				},
-				"1.0": {
-					"effect": "moth_spore",
-					"locator": "body_particle"
-				},
-				"1.2917": {
-					"effect": "moth_spore_2",
-					"locator": "body_particle"
 				}
 			}
 		}

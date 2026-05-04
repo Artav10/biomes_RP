@@ -449,6 +449,10 @@
 		"animation.biomes.infection_crawler.run": {
 			"loop": true,
 			"animation_length": 0.25,
+			"particle_effects": {
+				"0.0417": { "effect": "crawler_dust", "locator": "walk_particle" },
+				"0.1667": { "effect": "crawler_dust", "locator": "walk_particle" }
+			},
 			"bones": {
 				"root": {
 					"position": [0, 2, 0]
