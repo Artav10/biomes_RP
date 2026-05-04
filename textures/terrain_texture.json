@@ -229,7 +229,7 @@
 		"viral_resin_plank": { "textures": "textures/blocks/virus_biome/planks/viral_resin_plank" },
 		"spiral_energy_orb": { "textures": "textures/blocks/virus_biome/trees/spiral/spiral_energy_orb" },
 		"spiral_energy_orb_2": { "textures": "textures/blocks/virus_biome/trees/spiral/spiral_energy_orb_2" },
-		"decay_bloom_leaves": { "textures": "textures/blocks/virus_biome/leaves/decay_bloom_leaves" },
+		"decay_bloom": { "textures": "textures/blocks/virus_biome/flowers/decay_bloom" },
 		"plasma_beans": { "textures": "textures/blocks/virus_biome/leaves/plasma_beans" },
 		"viral_resin_leaves": { "textures": "textures/blocks/virus_biome/leaves/viral_resin_leaves" },
 		"virus_grass_block_top": { "textures": "textures/blocks/virus_biome/grass/virus_grass_block" },
