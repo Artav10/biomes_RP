@@ -367,9 +367,6 @@
 		"animation.biomes.virus_moth.fly": {
 			"loop": true,
 			"animation_length": 1,
-			"particle_effects": {
-				"0.5": { "effect": "moth_spore", "locator": "body_particle" }
-			},
 			"bones": {
 				"root": {
 					"position": [0, 8, 0]
