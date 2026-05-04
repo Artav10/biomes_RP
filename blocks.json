@@ -377,18 +377,7 @@
 		"textures": "incubation_husk_block",
 		"isotropic": true
 	},
-	"es_bio:sporecore_log": {
-		"sound": "wood",
-		"textures": {
-			"up": "sporecore_glass_cap",
-			"down": "sporecore_glass_cap",
-			"north": "sporecore_glass",
-			"south": "sporecore_glass",
-			"east": "sporecore_glass",
-			"west": "sporecore_glass"
-		},
-		"isotropic": true
-	},
+
 	"es_bio:spiral_log": {
 		"sound": "wood",
 		"textures": {
@@ -477,9 +466,9 @@
 		"textures": "spiral_energy_orb",
 		"isotropic": true
 	},
-	"es_bio:decay_bloom_leaves": {
+	"es_bio:decay_bloom": {
 		"sound": "grass",
-		"textures": "decay_bloom_leaves",
+		"textures": "decay_bloom",
 		"isotropic": true
 	},
 	"es_bio:plasma_beans": {
