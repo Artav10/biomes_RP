@@ -36,7 +36,7 @@
                     "animations": ["anim_idle"],
                     "transitions": [
                         { "attacking": "query.is_delayed_attacking" },
-                        { "running": "query.modified_move_speed >= 0.4" },
+                        { "running": "query.modified_move_speed >= 0.35" },
                         { "walking": "query.modified_move_speed > 0.1" }
                     ],
                     "blend_transition": 0.2
@@ -45,7 +45,7 @@
                     "animations": ["anim_walk"],
                     "transitions": [
                         { "attacking": "query.is_delayed_attacking" },
-                        { "running": "query.modified_move_speed >= 0.4" },
+                        { "running": "query.modified_move_speed >= 0.35" },
                         { "idle": "query.modified_move_speed < 0.05" }
                     ],
                     "blend_transition": 0.2
@@ -55,7 +55,46 @@
                     "transitions": [
                         { "attacking": "query.is_delayed_attacking" },
                         { "idle": "query.modified_move_speed < 0.05" },
-                        { "walking": "query.modified_move_speed < 0.35" }
+                        { "walking": "query.modified_move_speed < 0.28" }
+                    ],
+                    "blend_transition": 0.15
+                },
+                "attacking": {
+                    "animations": ["anim_attack"],
+                    "transitions": [
+                        { "idle": "!query.is_delayed_attacking" }
+                    ],
+                    "blend_transition": 0.1
+                }
+            }
+        },
+        "controller.animation.virus_biome.plague_lizard_move": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["anim_idle"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.modified_move_speed >= 0.26" },
+                        { "walking": "query.modified_move_speed > 0.1" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "walking": {
+                    "animations": ["anim_walk"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "running": "query.modified_move_speed >= 0.26" },
+                        { "idle": "query.modified_move_speed < 0.05" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "running": {
+                    "animations": ["anim_run"],
+                    "transitions": [
+                        { "attacking": "query.is_delayed_attacking" },
+                        { "idle": "query.modified_move_speed < 0.05" },
+                        { "walking": "query.modified_move_speed < 0.23" }
                     ],
                     "blend_transition": 0.15
                 },

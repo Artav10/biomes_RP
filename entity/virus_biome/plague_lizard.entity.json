@@ -11,7 +11,7 @@
                 "anim_walk": "animation.biomes.plague_lizard.walk",
                 "anim_run": "animation.biomes.plague_lizard.run",
                 "anim_attack": "animation.biomes.plague_lizard.attack",
-                "ctrl_move": "controller.animation.virus_biome.ground_hostile_runner"
+                "ctrl_move": "controller.animation.virus_biome.plague_lizard_move"
             },
             "scripts": {
                 "animate": ["ctrl_move"]

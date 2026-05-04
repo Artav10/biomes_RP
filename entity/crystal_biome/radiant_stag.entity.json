@@ -9,9 +9,8 @@
             "animations": {
                 "anim_idle": "animation.biomes.radiant_stag.idle",
                 "anim_walk": "animation.biomes.radiant_stag.walk",
-                "anim_run": "animation.biomes.radiant_stag.walk",
                 "anim_attack": "animation.biomes.radiant_stag.attack",
-                "controller": "controller.animation.crystal_biome.ground_hostile_runner"
+                "controller": "controller.animation.crystal_biome.ground_hostile"
             },
             "scripts": { "animate": ["controller"] },
             "render_controllers": ["controller.render.crystal_biome_creature"]
