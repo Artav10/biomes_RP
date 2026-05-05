@@ -1,5 +1,53 @@
 [
     {
+        "atlas_tile": "dreamstone_block",
+        "flipbook_texture": "textures/blocks/dream_biome/stones/dreamstone_block",
+        "ticks_per_frame": 4,
+        "frames": 6
+    },
+    {
+        "atlas_tile": "gleam_block",
+        "flipbook_texture": "textures/blocks/dream_biome/stones/gleam_block",
+        "ticks_per_frame": 4,
+        "frames": 4
+    },
+    {
+        "atlas_tile": "gleam_ore",
+        "flipbook_texture": "textures/blocks/dream_biome/ores/gleam_ore",
+        "ticks_per_frame": 4,
+        "frames": 4
+    },
+    {
+        "atlas_tile": "mist_block",
+        "flipbook_texture": "textures/blocks/dream_biome/stones/mist_block_trans",
+        "ticks_per_frame": 4,
+        "frames": 3
+    },
+    {
+        "atlas_tile": "gleam_blossom_log",
+        "flipbook_texture": "textures/blocks/dream_biome/logs/gleam_blossom_log",
+        "ticks_per_frame": 4,
+        "frames": 5
+    },
+    {
+        "atlas_tile": "mist_ore",
+        "flipbook_texture": "textures/blocks/dream_biome/ores/mist_ore",
+        "ticks_per_frame": 4,
+        "frames": 4
+    },
+    {
+        "atlas_tile": "slumberstone_block",
+        "flipbook_texture": "textures/blocks/dream_biome/stones/slumberstone_block",
+        "ticks_per_frame": 4,
+        "frames": 3
+    },
+    {
+        "atlas_tile": "slumberstone_ore",
+        "flipbook_texture": "textures/blocks/dream_biome/ores/slumberstone_ore",
+        "ticks_per_frame": 4,
+        "frames": 4
+    },
+    {
         "atlas_tile": "biofilm_block",
         "flipbook_texture": "textures/blocks/virus_biome/stones/biofilm_block",
         "ticks_per_frame": 4,

@@ -267,6 +267,11 @@
 		"textures": "dream_flower_0",
 		"isotropic": true
 	},
+	"es_bio:dreamcatcher_hanging_decoration_blue": { "sound": "grass", "textures": "dreamcatcher_blue", "isotropic": true },
+	"es_bio:dreamcatcher_hanging_decoration_green": { "sound": "grass", "textures": "dreamcatcher_green", "isotropic": true },
+	"es_bio:dreamcatcher_hanging_decoration_lilac": { "sound": "grass", "textures": "dreamcatcher_lilac", "isotropic": true },
+	"es_bio:dreamcatcher_hanging_decoration_pink": { "sound": "grass", "textures": "dreamcatcher_pink", "isotropic": true },
+	"es_bio:dreamcatcher_hanging_decoration_yellow": { "sound": "grass", "textures": "dreamcatcher_yellow", "isotropic": true },
 	"es_bio:dream_flower_1": {
 		"sound": "grass",
 		"textures": "dream_flower_1",
@@ -285,6 +290,11 @@
 	"es_bio:dream_flower_4": {
 		"sound": "grass",
 		"textures": "dream_flower_4",
+		"isotropic": true
+	},
+	"es_bio:gleam_blossom_flower": {
+		"sound": "grass",
+		"textures": "gleam_blossom_flower",
 		"isotropic": true
 	},
 	"es_bio:blue_mushroom": {
@@ -466,14 +476,19 @@
 		"textures": "spiral_energy_orb",
 		"isotropic": true
 	},
+	"es_bio:spiral_gel_block": {
+		"sound": "slime",
+		"textures": "spiral_trunk_gel_blocks",
+		"isotropic": true
+	},
 	"es_bio:decay_bloom": {
 		"sound": "grass",
 		"textures": "decay_bloom",
 		"isotropic": true
 	},
-	"es_bio:plasma_beans": {
+	"es_bio:plasma_nodules": {
 		"sound": "grass",
-		"textures": "plasma_beans",
+		"textures": "plasma_nodules",
 		"isotropic": true
 	},
 	"es_bio:viral_resin_leaves": {
@@ -481,11 +496,13 @@
 		"textures": "viral_resin_leaves",
 		"isotropic": true
 	},
+	"es_bio:viral_resin_crown": { "sound": "grass", "textures": "viral_resin_crown", "isotropic": true },
+	"es_bio:viral_resin_fluid": { "sound": "grass", "textures": "viral_resin_fluid", "isotropic": true },
 	"es_bio:virus_grass_block": {
 		"sound": "grass",
 		"textures": {
 			"up": "virus_grass_block_top",
-			"down": "dirt",
+			"down": "virus_grass_block_bottom",
 			"north": "virus_grass_block_side",
 			"south": "virus_grass_block_side",
 			"east": "virus_grass_block_side",
@@ -598,11 +615,19 @@
 	"es_bio:ethereal_plank": { "sound": "wood", "textures": "ethereal_plank", "isotropic": true },
 	"es_bio:moonlight_plank": { "sound": "wood", "textures": "moonlight_plank", "isotropic": true },
 	"es_bio:prism_plank": { "sound": "wood", "textures": "prism_plank", "isotropic": true },
-	"es_bio:energetic_crystal_leaves": { "sound": "grass", "textures": "energetic_crystal_leaves", "isotropic": true },
+	"es_bio:energetic_crystal_leaves_blue": { "sound": "grass", "textures": "energetic_crystal_leaves_blue", "isotropic": true },
+	"es_bio:energetic_crystal_leaves_green": { "sound": "grass", "textures": "energetic_crystal_leaves_green", "isotropic": true },
+	"es_bio:energetic_crystal_leaves_purple": { "sound": "grass", "textures": "energetic_crystal_leaves_purple", "isotropic": true },
+	"es_bio:energetic_crystal_leaves_red": { "sound": "grass", "textures": "energetic_crystal_leaves_red", "isotropic": true },
 	"es_bio:ethereal_leaves": { "sound": "grass", "textures": "ethereal_leaves", "isotropic": true },
+	"es_bio:ethereal_draping_leaves": { "sound": "grass", "textures": "ethereal_draping_leaves", "isotropic": true },
 	"es_bio:moonlight_leaves": { "sound": "grass", "textures": "moonlight_leaves", "isotropic": true },
-	"es_bio:prism_leaves": { "sound": "grass", "textures": "prism_leaves_blue", "isotropic": true },
+	"es_bio:prism_leaves_blue": { "sound": "grass", "textures": "prism_leaves_blue", "isotropic": true },
+	"es_bio:prism_leaves_pink": { "sound": "grass", "textures": "prism_leaves_pink", "isotropic": true },
+	"es_bio:prism_leaves_purple": { "sound": "grass", "textures": "prism_leaves_purple", "isotropic": true },
+	"es_bio:prism_leaves_white": { "sound": "grass", "textures": "prism_leaves_white", "isotropic": true },
 	"es_bio:quartz_leaves": { "sound": "grass", "textures": "quartz_leaves", "isotropic": true },
+	"es_bio:quartz_crystal_drips": { "sound": "glass", "textures": "quartz_crystal_drips", "isotropic": true },
 	"es_bio:energetic_crystal_door": { "sound": "wood", "textures": "energetic_crystal_door_lower", "isotropic": true },
 	"es_bio:ethereal_door": { "sound": "wood", "textures": "ethereal_door_lower", "isotropic": true },
 	"es_bio:moonlight_door": { "sound": "wood", "textures": "moonlight_door_lower", "isotropic": true },

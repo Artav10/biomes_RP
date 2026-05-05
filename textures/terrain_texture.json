@@ -136,6 +136,11 @@
 		"dream_flower_0": {
 			"textures": "textures/blocks/dream_biome/flowers/dream_flower_0"
 		},
+		"dreamcatcher_blue": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_blue" },
+		"dreamcatcher_green": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_green" },
+		"dreamcatcher_lilac": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_lilac" },
+		"dreamcatcher_pink": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_pink" },
+		"dreamcatcher_yellow": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_yellow" },
 		"dream_flower_1": {
 			"textures": "textures/blocks/dream_biome/flowers/dream_flower_1"
 		},
@@ -147,6 +152,9 @@
 		},
 		"dream_flower_4": {
 			"textures": "textures/blocks/dream_biome/flowers/dream_flower_4"
+		},
+		"gleam_blossom_flower": {
+			"textures": "textures/blocks/dream_biome/flowers/gleam_blossom_flower"
 		},
 		"blue_mushroom": {
 			"textures": "textures/blocks/dream_biome/mushrooms/blue_mushroom"
@@ -230,9 +238,12 @@
 		"spiral_energy_orb": { "textures": "textures/blocks/virus_biome/trees/spiral/spiral_energy_orb" },
 		"spiral_energy_orb_2": { "textures": "textures/blocks/virus_biome/trees/spiral/spiral_energy_orb_2" },
 		"decay_bloom": { "textures": "textures/blocks/virus_biome/flowers/decay_bloom" },
-		"plasma_beans": { "textures": "textures/blocks/virus_biome/leaves/plasma_beans" },
+		"plasma_nodules": { "textures": "textures/blocks/virus_biome/leaves/plasma_nodules" },
 		"viral_resin_leaves": { "textures": "textures/blocks/virus_biome/leaves/viral_resin_leaves" },
-		"virus_grass_block_top": { "textures": "textures/blocks/virus_biome/grass/virus_grass_block" },
+		"viral_resin_crown": { "textures": "textures/blocks/virus_biome/leaves/viral_resin_crown" },
+		"viral_resin_fluid": { "textures": "textures/blocks/virus_biome/trees/viral/viral_resin_fluid" },
+		"virus_grass_block_top": { "textures": "textures/blocks/virus_biome/grass/virus_grass_block_side_top" },
+		"virus_grass_block_bottom": { "textures": "textures/blocks/virus_biome/grass/virus_grass_block" },
 		"virus_grass_block_side": { "textures": "textures/blocks/virus_biome/grass/virus_grass_block_side" },
 		"virus_spores": { "textures": "textures/blocks/virus_biome/flowers/virus_spores" },
 		"virus_spore_threads": { "textures": "textures/blocks/virus_biome/flowers/virus_spore_threads" },
@@ -281,11 +292,19 @@
 		"ethereal_plank": { "textures": "textures/blocks/crystal_biome/planks/ethereal_plank" },
 		"moonlight_plank": { "textures": "textures/blocks/crystal_biome/planks/moonlight_plank" },
 		"prism_plank": { "textures": "textures/blocks/crystal_biome/planks/prism_plank" },
-		"energetic_crystal_leaves": { "textures": "textures/blocks/crystal_biome/leaves/energetic_blue_crystal_leaves" },
+		"energetic_crystal_leaves_blue": { "textures": "textures/blocks/crystal_biome/leaves/energetic_blue_crystal_leaves" },
+		"energetic_crystal_leaves_green": { "textures": "textures/blocks/crystal_biome/leaves/energetic_green_crystal_leaves" },
+		"energetic_crystal_leaves_purple": { "textures": "textures/blocks/crystal_biome/leaves/energetic_purple_crystal_leaves" },
+		"energetic_crystal_leaves_red": { "textures": "textures/blocks/crystal_biome/leaves/energetic_red_crystal_leaves" },
 		"ethereal_leaves": { "textures": "textures/blocks/crystal_biome/leaves/ethereal_leaves" },
+		"ethereal_draping_leaves": { "textures": "textures/blocks/crystal_biome/leaves/ethereal_draping_leaves" },
 		"moonlight_leaves": { "textures": "textures/blocks/crystal_biome/leaves/moonlight_leaves" },
 		"prism_leaves_blue": { "textures": "textures/blocks/crystal_biome/leaves/prism_leaves_blue" },
+		"prism_leaves_pink": { "textures": "textures/blocks/crystal_biome/leaves/prism_leaves_pink" },
+		"prism_leaves_purple": { "textures": "textures/blocks/crystal_biome/leaves/prism_leaves_purple" },
+		"prism_leaves_white": { "textures": "textures/blocks/crystal_biome/leaves/prism_leaves_white" },
 		"quartz_leaves": { "textures": "textures/blocks/crystal_biome/leaves/quartz_leaves" },
+		"quartz_crystal_drips": { "textures": "textures/blocks/crystal_biome/quartz_crystal_drips" },
 		"energetic_crystal_door_upper": { "textures": "textures/blocks/crystal_biome/doors/energetic_crystal_door_top" },
 		"energetic_crystal_door_lower": { "textures": "textures/blocks/crystal_biome/doors/energetic_crystal_door_bottom" },
 		"ethereal_door_upper": { "textures": "textures/blocks/crystal_biome/doors/ethereal_door_top" },

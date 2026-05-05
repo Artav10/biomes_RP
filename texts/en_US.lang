@@ -41,6 +41,12 @@ tile.es_bio:mist_sycamore_leaves.name=Mist Sycamore Leaves
 tile.es_bio:gleam_blossom_leaves.name=Gleam Blossom Leaves
 tile.es_bio:dream_catcher_leaves.name=Dream Catcher Leaves
 
+tile.es_bio:dreamcatcher_hanging_decoration_blue.name=Dream Catcher Hanging Decoration (Blue)
+tile.es_bio:dreamcatcher_hanging_decoration_green.name=Dream Catcher Hanging Decoration (Green)
+tile.es_bio:dreamcatcher_hanging_decoration_lilac.name=Dream Catcher Hanging Decoration (Lilac)
+tile.es_bio:dreamcatcher_hanging_decoration_pink.name=Dream Catcher Hanging Decoration (Pink)
+tile.es_bio:dreamcatcher_hanging_decoration_yellow.name=Dream Catcher Hanging Decoration (Yellow)
+
 ## Blocks - Grass
 tile.es_bio:dream_grass_block_blue.name=Dream Grass Block (Blue)
 tile.es_bio:dream_grass_block_pink.name=Dream Grass Block (Pink)
@@ -144,6 +150,7 @@ tile.es_bio:dream_flower_1.name=Ethereal Bloom
 tile.es_bio:dream_flower_2.name=Lunar Blossom
 tile.es_bio:dream_flower_3.name=Mist Petal
 tile.es_bio:dream_flower_4.name=Starlight Flower
+tile.es_bio:gleam_blossom_flower.name=Gleam Blossom Flower
 
 ## Blocks - Mushrooms
 tile.es_bio:blue_mushroom.name=Blue Dream Mushroom
@@ -192,9 +199,12 @@ tile.es_bio:sporecore_glass.name=Sporecore Glass
 tile.es_bio:sporecore_glass_cap.name=Sporecore Glass Cap
 tile.es_bio:sporecore_tendrils.name=Sporecore Tendrils
 tile.es_bio:spiral_energy_orb.name=Genetic Spiral Leaves
+tile.es_bio:spiral_gel_block.name=Genetic Spiral Gel Block
 tile.es_bio:decay_bloom_leaves.name=Decay Bloom Leaves
-tile.es_bio:plasma_beans.name=Plasma Beans
+tile.es_bio:plasma_nodules.name=Plasma Nodules
 tile.es_bio:viral_resin_leaves.name=Viral Resin Leaves
+tile.es_bio:viral_resin_crown.name=Viral Resin Crown
+tile.es_bio:viral_resin_fluid.name=Viral Resin Fluid
 
 ## Blocks - Grass
 tile.es_bio:virus_grass_block.name=Virus Grass Block
@@ -326,11 +336,19 @@ tile.es_bio:moonlight_plank.name=Moonlight Planks
 tile.es_bio:prism_plank.name=Prism Planks
 
 ## Blocks - Leaves
-tile.es_bio:energetic_crystal_leaves.name=Energetic Crystal Leaves
+tile.es_bio:energetic_crystal_leaves_blue.name=Energetic Crystal Leaves (Blue)
+tile.es_bio:energetic_crystal_leaves_green.name=Energetic Crystal Leaves (Green)
+tile.es_bio:energetic_crystal_leaves_purple.name=Energetic Crystal Leaves (Purple)
+tile.es_bio:energetic_crystal_leaves_red.name=Energetic Crystal Leaves (Red)
 tile.es_bio:ethereal_leaves.name=Ethereal Leaves
+tile.es_bio:ethereal_draping_leaves.name=Ethereal Draping Leaves
 tile.es_bio:moonlight_leaves.name=Moonlight Leaves
-tile.es_bio:prism_leaves.name=Prism Leaves
+tile.es_bio:prism_leaves_blue.name=Prism Leaves (Blue)
+tile.es_bio:prism_leaves_pink.name=Prism Leaves (Pink)
+tile.es_bio:prism_leaves_purple.name=Prism Leaves (Purple)
+tile.es_bio:prism_leaves_white.name=Prism Leaves (White)
 tile.es_bio:quartz_leaves.name=Quartz Leaves
+tile.es_bio:quartz_crystal_drips.name=Quartz Crystal Drips
 
 ## Blocks - Grass
 tile.es_bio:crystal_grass_block.name=Crystal Grass Block
