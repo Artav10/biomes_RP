@@ -12,6 +12,9 @@
             },
             "scripts": { "animate": ["controller"] },
             "render_controllers": ["controller.render.crystal_biome_creature"],
+            "particle_effects": {
+                "crystafly_antena": "es_bio:crystafly_antena"
+            },
             "spawn_egg": {
                 "base_color": "#7C3AED",
                 "overlay_color": "#22D3EE"

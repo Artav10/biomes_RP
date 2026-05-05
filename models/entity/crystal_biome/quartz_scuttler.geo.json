@@ -13,7 +13,14 @@
 			"bones": [
 				{
 					"name": "quartz_scuttler",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"locators": {
+						"vfx_left_smoke": [-16, 0, 0],
+						"vfx_right_smoke": [14, 0, 0],
+						"vfx_hand": [11, 6, -12],
+						"vfx_left_eye": [-5, 12, -7],
+						"vfx_right_eye": [5, 12, -7]
+					}
 				},
 				{
 					"name": "body",

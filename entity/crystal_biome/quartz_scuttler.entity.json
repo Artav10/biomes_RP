@@ -14,6 +14,12 @@
             },
             "scripts": { "animate": ["controller"] },
             "render_controllers": ["controller.render.crystal_biome_creature"],
+            "particle_effects": {
+                "quartz_scuttler_smoke": "es_bio:quartz_scuttler_smoke",
+                "quartz_scuttler_attack_eye": "es_bio:quartz_scuttler_attack_eye",
+                "quartz_scuttler_attack": "es_bio:quartz_scuttler_attack",
+                "quartz_scuttler_attack_spore_2": "es_bio:quartz_scuttler_attack_spore_2"
+            },
             "spawn_egg": {
                 "base_color": "#9333EA",
                 "overlay_color": "#F9A8D4"

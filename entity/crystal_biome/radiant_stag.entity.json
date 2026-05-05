@@ -14,6 +14,12 @@
             },
             "scripts": { "animate": ["controller"] },
             "render_controllers": ["controller.render.crystal_biome_creature"],
+            "particle_effects": {
+                "radiant_stag_walk_crystal": "es_bio:radiant_stag_walk_crystal",
+                "radiant_stag_horn_attack_spore": "es_bio:radiant_stag_horn_attack_spore",
+                "radiant_stag_horn_attack_spore_2": "es_bio:radiant_stag_horn_attack_spore_2",
+                "radiant_stag_horn": "es_bio:radiant_stag_horn"
+            },
             "spawn_egg": {
                 "base_color": "#0EA5E9",
                 "overlay_color": "#BAE6FD"

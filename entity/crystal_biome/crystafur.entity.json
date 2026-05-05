@@ -14,6 +14,12 @@
             },
             "scripts": { "animate": ["controller"] },
             "render_controllers": ["controller.render.crystal_biome_creature"],
+            "particle_effects": {
+                "crystafur_smoke": "es_bio:crystafur_smoke",
+                "crystafur_body": "es_bio:crystafur_body",
+                "crystafur_slash": "es_bio:crystafur_slash",
+                "crystafur_idle_walk": "es_bio:crystafur_idle_walk"
+            },
             "spawn_egg": {
                 "base_color": "#60A5FA",
                 "overlay_color": "#DBEAFE"

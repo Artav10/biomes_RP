@@ -260,6 +260,143 @@
 						"pitch": [0.9, 1.1]
 					}
 				}
+			},
+			"es_bio:crystafly": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.crystafly.idle",
+						"volume": 0.35,
+						"pitch": [1.0, 1.3]
+					}
+				}
+			},
+			"es_bio:crystafur": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.crystafur.idle",
+						"volume": 0.5,
+						"pitch": [0.8, 1.0]
+					},
+					"step": {
+						"sound": "mob.crystafur.walk",
+						"volume": 0.4,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.crystafur.attack",
+						"volume": 0.6,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:crystowl": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.crystowl.idle",
+						"volume": 0.5,
+						"pitch": [0.9, 1.1]
+					},
+					"step": {
+						"sound": "mob.crystowl.fly",
+						"volume": 0.35,
+						"pitch": [0.9, 1.2]
+					},
+					"attack": {
+						"sound": "mob.crystowl.attack",
+						"volume": 0.6,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:gemdrake": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.gemdrake.idle",
+						"volume": 0.6,
+						"pitch": [0.7, 0.9]
+					},
+					"step": {
+						"sound": "mob.gemdrake.fly",
+						"volume": 0.4,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.gemdrake.attack",
+						"volume": 0.8,
+						"pitch": [0.8, 1.0]
+					}
+				}
+			},
+			"es_bio:quartz_scuttler": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.quartz_scuttler.idle",
+						"volume": 0.4,
+						"pitch": [0.8, 1.0]
+					},
+					"step": {
+						"sound": "mob.quartz_scuttler.walk",
+						"volume": 0.4,
+						"pitch": [1.0, 1.2]
+					},
+					"attack": {
+						"sound": "mob.quartz_scuttler.attack",
+						"volume": 0.55,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:radiant_stag": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.radiant_stag.idle",
+						"volume": 0.5,
+						"pitch": [0.8, 1.0]
+					},
+					"step": {
+						"sound": "mob.radiant_stag.walk",
+						"volume": 0.35,
+						"pitch": [0.9, 1.1]
+					},
+					"attack": {
+						"sound": "mob.radiant_stag.attack",
+						"volume": 0.6,
+						"pitch": [0.9, 1.1]
+					}
+				}
+			},
+			"es_bio:shardback": {
+				"volume": 1,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"ambient": {
+						"sound": "mob.shardback.idle",
+						"volume": 0.55,
+						"pitch": [0.6, 0.8]
+					},
+					"step": {
+						"sound": "mob.shardback.walk",
+						"volume": 0.45,
+						"pitch": [0.7, 0.9]
+					},
+					"attack": {
+						"sound": "mob.shardback.attack",
+						"volume": 0.7,
+						"pitch": [0.7, 0.9]
+					}
+				}
 			}
 		}
 	}

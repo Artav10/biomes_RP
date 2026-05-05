@@ -14,6 +14,9 @@
             },
             "scripts": { "animate": ["controller"] },
             "render_controllers": ["controller.render.crystal_biome_creature"],
+            "particle_effects": {
+                "shardback_smoke": "es_bio:shardback_smoke"
+            },
             "spawn_egg": {
                 "base_color": "#581C87",
                 "overlay_color": "#C084FC"

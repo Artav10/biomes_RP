@@ -13,7 +13,13 @@
 			"bones": [
 				{
 					"name": "crystafly",
-					"pivot": [0.5, 0, 0]
+					"pivot": [0.5, 0, 0],
+					"locators": {
+						"vfx_left_antena": [-1.5, 11, -6],
+						"vfx_right_antena": [0.5, 11, -6],
+						"vfx_left_wing": [-7.5, 1.4, 3],
+						"vfx_right_wing": [6.5, 1.4, 3]
+					}
 				},
 				{
 					"name": "body",

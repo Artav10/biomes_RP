@@ -13,7 +13,15 @@
 			"bones": [
 				{
 					"name": "radiant_stag",
-					"pivot": [0, 4, 0]
+					"pivot": [0, 4, 0],
+					"locators": {
+						"vfx_left_smoke": [-3, -4, -2],
+						"vfx_left_smoke2": [-3, -4, 13],
+						"vfx_right_smoke2": [3, -4, 13],
+						"vfx_right_smoke": [3, -4, -2],
+						"vfx_left_head": [-9, 38, 6],
+						"vfx_right_head": [9, 38, 6]
+					}
 				},
 				{
 					"name": "body",

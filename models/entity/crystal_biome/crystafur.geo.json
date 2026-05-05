@@ -13,7 +13,15 @@
 			"bones": [
 				{
 					"name": "crystafur",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"locators": {
+						"vfx_left_smoke": [-3, 0, -4],
+						"vfx_left_smoke2": [-3, 0, 11],
+						"vfx_right_smoke2": [3, 0, 11],
+						"vfx_right_smoke": [3, 0, -4],
+						"vfx_left_body": [0, 18, 4],
+						"vfx_tail": [0, 15, 33]
+					}
 				},
 				{
 					"name": "body",

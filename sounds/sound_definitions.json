@@ -162,6 +162,91 @@
         "mob.virus_moth.attack": {
             "category": "hostile",
             "sounds": ["sounds/mob/virus_moth/attack"]
+        },
+        "mob.crystafly.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/crystafly/idle"]
+        },
+        "mob.crystafur.idle": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/crystafur/idle",
+                "sounds/mob/crystafur/idle2"
+            ]
+        },
+        "mob.crystafur.walk": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/crystafur/walk"]
+        },
+        "mob.crystafur.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/crystafur/attack"]
+        },
+        "mob.crystowl.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/crystowl/idle2"]
+        },
+        "mob.crystowl.fly": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/crystowl/fly"]
+        },
+        "mob.crystowl.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/crystowl/attack"]
+        },
+        "mob.gemdrake.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/gemdrake/idle"]
+        },
+        "mob.gemdrake.fly": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/gemdrake/fly"]
+        },
+        "mob.gemdrake.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/gemdrake/attack"]
+        },
+        "mob.quartz_scuttler.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/quartz_scuttler/idle"]
+        },
+        "mob.quartz_scuttler.walk": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/quartz_scuttler/walk1",
+                "sounds/mob/quartz_scuttler/walk2"
+            ]
+        },
+        "mob.quartz_scuttler.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/quartz_scuttler/attack"]
+        },
+        "mob.radiant_stag.idle": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/radiant_stag/idle"]
+        },
+        "mob.radiant_stag.walk": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/radiant_stag/walk"]
+        },
+        "mob.radiant_stag.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/radiant_stag/attack"]
+        },
+        "mob.shardback.idle": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/shardback/idle",
+                "sounds/mob/shardback/idle2"
+            ]
+        },
+        "mob.shardback.walk": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/shardback/walk"]
+        },
+        "mob.shardback.attack": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/shardback/attack"]
         }
     }
 }

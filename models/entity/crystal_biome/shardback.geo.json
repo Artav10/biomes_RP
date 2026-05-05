@@ -13,7 +13,13 @@
 			"bones": [
 				{
 					"name": "shardback",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"locators": {
+						"vfx_left_smoke": [-3, 0, -10],
+						"vfx_left_smoke2": [-3, 0, 5],
+						"vfx_right_smoke2": [3, 0, 5],
+						"vfx_right_smoke": [3, 0, -10]
+					}
 				},
 				{
 					"name": "body",
