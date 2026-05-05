@@ -136,11 +136,11 @@
 		"dream_flower_0": {
 			"textures": "textures/blocks/dream_biome/flowers/dream_flower_0"
 		},
-		"dreamcatcher_blue": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_blue" },
-		"dreamcatcher_green": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_green" },
-		"dreamcatcher_lilac": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_lilac" },
-		"dreamcatcher_pink": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_pink" },
-		"dreamcatcher_yellow": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_yellow" },
+		"dreamcatcher_blue": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_blue" },
+		"dreamcatcher_green": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_green" },
+		"dreamcatcher_lilac": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_lilac" },
+		"dreamcatcher_pink": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_pink" },
+		"dreamcatcher_yellow": { "textures": "textures/blocks/dream_biome/trees/dreamcatcher_hanging_decoration/dreamcatcher_yellow" },
 		"dream_flower_1": {
 			"textures": "textures/blocks/dream_biome/flowers/dream_flower_1"
 		},
@@ -335,4 +335,5 @@
 		"turquoise_crystal_spike": { "textures": "textures/blocks/crystal_biome/decorations/turquoise_crystal_spike" }
 	}
 }
+
 
