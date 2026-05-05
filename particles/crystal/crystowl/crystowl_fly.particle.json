@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:crystowl_fly",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_alpha",
-                                                                                "texture":  "textures/particle/crystal/crystowl/crystowl_fly"
+                                                                                "texture":  "textures/particle/crystal/crystowl/crystowl_fly.particle"
                                                                             }
                                             },
                             "curves":  {

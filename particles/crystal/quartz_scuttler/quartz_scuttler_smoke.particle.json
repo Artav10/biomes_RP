@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:quartz_scuttler_smoke",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/quartz_scuttler/quartz_scuttler_smoke"
+                                                                                "texture":  "textures/particle/crystal/quartz_scuttler/quartz_scuttler_smoke.particle"
                                                                             }
                                             },
                             "curves":  {

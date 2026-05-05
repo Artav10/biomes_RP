@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:crystowl_walk",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/crystowl/crystowl_walk"
+                                                                                "texture":  "textures/particle/crystal/crystowl/crystowl_walk.particle"
                                                                             }
                                             },
                             "components":  {

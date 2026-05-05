@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:crystafur_tail_spore",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_tail_spore"
+                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_tail_spore.particle"
                                                                             }
                                             },
                             "curves":  {

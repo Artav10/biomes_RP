@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:shardback_smoke",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/shardback/shardback_smoke"
+                                                                                "texture":  "textures/particle/crystal/shardback/shardback_smoke.particle"
                                                                             }
                                             },
                             "curves":  {

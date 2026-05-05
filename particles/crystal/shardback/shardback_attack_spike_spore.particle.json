@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:shardback_attack_spike_spore",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_add",
-                                                                                "texture":  "textures/particle/crystal/shardback/shardback_attack_spike_spore"
+                                                                                "texture":  "textures/particle/crystal/shardback/shardback_attack_spike_spore.particle"
                                                                             }
                                             },
                             "events":  {

@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:crystafur_smoke",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_smoke"
+                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_smoke.particle"
                                                                             }
                                             },
                             "curves":  {

@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:gemdrake_walk_spore",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/gemdrake/gemdrake_walk_spore"
+                                                                                "texture":  "textures/particle/crystal/gemdrake/gemdrake_walk_spore.particle"
                                                                             }
                                             },
                             "curves":  {
