@@ -267,11 +267,6 @@
         "textures": "dream_flower_0",
         "isotropic": true
     },
-    "es_bio:dreamcatcher_hanging_decoration_blue": { "sound": "grass", "textures": "dreamcatcher_blue", "isotropic": true },
-    "es_bio:dreamcatcher_hanging_decoration_green": { "sound": "grass", "textures": "dreamcatcher_green", "isotropic": true },
-    "es_bio:dreamcatcher_hanging_decoration_lilac": { "sound": "grass", "textures": "dreamcatcher_lilac", "isotropic": true },
-    "es_bio:dreamcatcher_hanging_decoration_pink": { "sound": "grass", "textures": "dreamcatcher_pink", "isotropic": true },
-    "es_bio:dreamcatcher_hanging_decoration_yellow": { "sound": "grass", "textures": "dreamcatcher_yellow", "isotropic": true },
     "es_bio:dream_flower_1": {
         "sound": "grass",
         "textures": "dream_flower_1",
