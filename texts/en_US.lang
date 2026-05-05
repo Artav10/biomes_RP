@@ -214,6 +214,7 @@ tile.es_bio:virus_spore_threads.name=Virus Spore Threads
 ## Blocks - Flowers
 tile.es_bio:blight_bloom.name=Blight Bloom
 tile.es_bio:cyst_bud.name=Cyst Bud
+tile.es_bio:decay_bloom.name=Decay Bloom
 tile.es_bio:parasite_bloom.name=Parasite Bloom
 tile.es_bio:spore_puff.name=Spore Puff
 tile.es_bio:veinflower.name=Veinflower
