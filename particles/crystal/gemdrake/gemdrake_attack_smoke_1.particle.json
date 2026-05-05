@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:gemdrake_attack_smoke_1",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/gemdrake/gemdrake_attack_smoke_1"
+                                                                                "texture":  "textures/particle/crystal/gemdrake/gemdrake_attack_smoke_1.particle"
                                                                             }
                                             },
                             "curves":  {

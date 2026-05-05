@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:radiant_stag_horn_attack_spore_2",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_add",
-                                                                                "texture":  "textures/particle/crystal/radiant_stag/radiant_stag_horn_attack_spore_2"
+                                                                                "texture":  "textures/particle/crystal/radiant_stag/radiant_stag_horn_attack_spore.particle"
                                                                             }
                                             },
                             "components":  {

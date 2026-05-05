@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:crystafur_slash",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_slash"
+                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_slash.particle"
                                                                             }
                                             },
                             "curves":  {

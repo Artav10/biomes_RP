@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:shardback_slash",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/shardback/shardback_slash"
+                                                                                "texture":  "textures/particle/crystal/shardback/shardback_slash.particle"
                                                                             }
                                             },
                             "curves":  {

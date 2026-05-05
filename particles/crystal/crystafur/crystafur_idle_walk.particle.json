@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:crystafur_idle_walk",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_idle_walk"
+                                                                                "texture":  "textures/particle/crystal/crystafur/crystafur_idle_walk.particle"
                                                                             }
                                             },
                             "curves":  {

@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:gemdrake_attack_spore",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_add",
-                                                                                "texture":  "textures/particle/crystal/gemdrake/gemdrake_attack_spore"
+                                                                                "texture":  "textures/particle/crystal/gemdrake/gemdrake_attack_spore.particle"
                                                                             }
                                             },
                             "events":  {

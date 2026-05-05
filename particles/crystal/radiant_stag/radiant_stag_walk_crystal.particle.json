@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:radiant_stag_walk_crystal",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_alpha",
-                                                                                "texture":  "textures/particle/crystal/radiant_stag/radiant_stag_walk_crystal"
+                                                                                "texture":  "textures/particle/crystal/radiant_stag/radiant_stag_walk_crystal.particle"
                                                                             }
                                             },
                             "curves":  {

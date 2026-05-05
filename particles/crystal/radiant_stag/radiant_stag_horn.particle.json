@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:radiant_stag_horn",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/radiant_stag/radiant_stag_horn"
+                                                                                "texture":  "textures/particle/crystal/radiant_stag/radiant_stag_horn.particle"
                                                                             }
                                             },
                             "curves":  {

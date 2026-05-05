@@ -5,7 +5,7 @@
                                                 "identifier":  "es_bio:crystowl_laser",
                                                 "basic_render_parameters":  {
                                                                                 "material":  "particles_blend",
-                                                                                "texture":  "textures/particle/crystal/crystowl/crystowl_laser"
+                                                                                "texture":  "textures/particle/crystal/crystowl/crystowl_laser.particle"
                                                                             }
                                             },
                             "components":  {
