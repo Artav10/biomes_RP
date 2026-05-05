@@ -41,20 +41,20 @@
                                                                                      },
                                                "minecraft:particle_appearance_billboard":  {
                                                                                                "size":  [
-                                                                                                            "0.25/variable.particle_age",
+                                                                                                            0.25,
                                                                                                             0.25
                                                                                                         ],
                                                                                                "facing_camera_mode":  "lookat_direction",
                                                                                                "uv":  {
-                                                                                                          "texture_width":  16,
-                                                                                                          "texture_height":  16,
+                                                                                                          "texture_width":  32,
+                                                                                                          "texture_height":  32,
                                                                                                           "uv":  [
                                                                                                                      0,
                                                                                                                      0
                                                                                                                  ],
                                                                                                           "uv_size":  [
-                                                                                                                          16,
-                                                                                                                          16
+                                                                                                                          32,
+                                                                                                                          32
                                                                                                                       ]
                                                                                                       }
                                                                                            },
