@@ -46,6 +46,11 @@ tile.es_bio:dreamcatcher_hanging_decoration_green.name=Dream Catcher Hanging Dec
 tile.es_bio:dreamcatcher_hanging_decoration_lilac.name=Dream Catcher Hanging Decoration (Lilac)
 tile.es_bio:dreamcatcher_hanging_decoration_pink.name=Dream Catcher Hanging Decoration (Pink)
 tile.es_bio:dreamcatcher_hanging_decoration_yellow.name=Dream Catcher Hanging Decoration (Yellow)
+item.es_bio:dreamcatcher_hanging_decoration_blue.name=Dream Catcher Hanging Decoration (Blue)
+item.es_bio:dreamcatcher_hanging_decoration_green.name=Dream Catcher Hanging Decoration (Green)
+item.es_bio:dreamcatcher_hanging_decoration_lilac.name=Dream Catcher Hanging Decoration (Lilac)
+item.es_bio:dreamcatcher_hanging_decoration_pink.name=Dream Catcher Hanging Decoration (Pink)
+item.es_bio:dreamcatcher_hanging_decoration_yellow.name=Dream Catcher Hanging Decoration (Yellow)
 
 ## Blocks - Grass
 tile.es_bio:dream_grass_block_blue.name=Dream Grass Block (Blue)
