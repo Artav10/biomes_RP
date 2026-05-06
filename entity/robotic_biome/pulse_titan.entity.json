@@ -7,10 +7,10 @@
             "textures": { "default": "textures/entity/robotic_biome/pulse_titan" },
             "geometry": { "default": "geometry.pulse_titan" },
             "animations": {
-                "anim_idle": "pulse_titan.animation.idle",
-                "anim_walk": "pulse_titan.animation.walk",
-                "anim_attack": "pulse_titan.animation.attack",
-                "anim_rotating_core": "pulse_titan.animation.rotating_core",
+                "anim_idle": "animation.pulse_titan.idle",
+                "anim_walk": "animation.pulse_titan.walk",
+                "anim_attack": "animation.pulse_titan.attack",
+                "anim_rotating_core": "animation.pulse_titan.rotating_core",
                 "controller": "controller.animation.robotic_biome.ground_hostile"
             },
             "scripts": { "animate": ["anim_rotating_core", "controller"] },

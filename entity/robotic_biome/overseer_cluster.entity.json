@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/robotic_biome/overseer_cluster" },
             "geometry": { "default": "geometry.overseer_cluster" },
             "animations": {
-                "anim_idle": "overseer.animation.idle",
-                "anim_fly": "overseer.animation.walk",
-                "anim_attack": "overseer.animation.attack",
+                "anim_idle": "animation.overseer.idle",
+                "anim_fly": "animation.overseer.walk",
+                "anim_attack": "animation.overseer.attack",
                 "controller": "controller.animation.robotic_biome.flyer_hostile"
             },
             "scripts": { "animate": ["controller"] },

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"hexapod.animation.idle": {
+		"animation.hexapod.idle": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -493,7 +493,7 @@
 				}
 			}
 		},
-		"hexapod.animation.attack": {
+		"animation.hexapod.attack": {
 			"loop": true,
 			"animation_length": 1.7083,
 			"bones": {
@@ -757,7 +757,7 @@
 				}
 			}
 		},
-		"hexapod.animation.walk": {
+		"animation.hexapod.walk": {
 			"loop": true,
 			"animation_length": 0.5,
 			"bones": {

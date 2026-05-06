@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"pulse_titan.animation.idle": {
+		"animation.pulse_titan.idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -121,7 +121,7 @@
 				}
 			}
 		},
-		"pulse_titan.animation.walk": {
+		"animation.pulse_titan.walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -562,7 +562,7 @@
 				}
 			}
 		},
-		"pulse_titan.animation.attack": {
+		"animation.pulse_titan.attack": {
 			"loop": true,
 			"animation_length": 4.5417,
 			"bones": {
@@ -1853,7 +1853,7 @@
 				}
 			}
 		},
-		"pulse_titan.animation.rotating_core": {
+		"animation.pulse_titan.rotating_core": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {

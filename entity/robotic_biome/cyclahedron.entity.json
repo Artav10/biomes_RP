@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/robotic_biome/cyclahedron" },
             "geometry": { "default": "geometry.cyclahedron" },
             "animations": {
-                "anim_idle": "cyclahedron.animation.idle",
-                "anim_walk": "cyclahedron.animation.walk",
-                "anim_attack": "cyclahedron.animation.attack",
+                "anim_idle": "animation.cyclahedron.idle",
+                "anim_walk": "animation.cyclahedron.walk",
+                "anim_attack": "animation.cyclahedron.attack",
                 "controller": "controller.animation.robotic_biome.ground_hostile"
             },
             "scripts": { "animate": ["controller"] },

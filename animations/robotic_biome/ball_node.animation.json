@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"ball_node.animation.idle": {
+		"animation.ball_node.idle": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {

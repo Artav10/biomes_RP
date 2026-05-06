@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/robotic_biome/signal_wraith" },
             "geometry": { "default": "geometry.signal_wraith" },
             "animations": {
-                "anim_idle": "signal_wraith.animation.idle",
-                "anim_walk": "signal_wraith.animation.walk",
-                "anim_attack": "signal_wraith.animation.attack",
+                "anim_idle": "animation.signal_wraith.idle",
+                "anim_walk": "animation.signal_wraith.walk",
+                "anim_attack": "animation.signal_wraith.attack",
                 "controller": "controller.animation.robotic_biome.ground_hostile"
             },
             "scripts": { "animate": ["controller"] },

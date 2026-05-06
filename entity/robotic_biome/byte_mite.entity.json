@@ -7,9 +7,9 @@
             "textures": { "default": "textures/entity/robotic_biome/byte_mite" },
             "geometry": { "default": "geometry.byte_mite" },
             "animations": {
-                "anim_idle": "byte_mite.animation.idle_variant",
-                "anim_walk": "byte_mite.animation.walk",
-                "anim_attack": "byte_mite.animation.attack",
+                "anim_idle": "animation.byte_mite.idle_variant",
+                "anim_walk": "animation.byte_mite.walk",
+                "anim_attack": "animation.byte_mite.attack",
                 "controller": "controller.animation.robotic_biome.ground_hostile"
             },
             "scripts": { "animate": ["controller"] },

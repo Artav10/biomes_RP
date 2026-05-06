@@ -10,9 +10,9 @@
             },
             "geometry": { "default": "geometry.gearling" },
             "animations": {
-                "anim_idle": "gearling.animation.idle",
-                "anim_fly": "gearling.animation.fly",
-                "anim_attack": "gearling.animation.attack",
+                "anim_idle": "animation.gearling.idle",
+                "anim_fly": "animation.gearling.fly",
+                "anim_attack": "animation.gearling.attack",
                 "controller": "controller.animation.robotic_biome.flyer_hostile"
             },
             "scripts": { "animate": ["controller"] },

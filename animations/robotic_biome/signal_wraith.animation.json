@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"signal_wraith.animation.idle": {
+		"animation.signal_wraith.idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -212,7 +212,7 @@
 				}
 			}
 		},
-		"signal_wraith.animation.attack": {
+		"animation.signal_wraith.attack": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -490,7 +490,7 @@
 				}
 			}
 		},
-		"signal_wraith.animation.walk": {
+		"animation.signal_wraith.walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {

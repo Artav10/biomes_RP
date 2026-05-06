@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"byte_mite.animation.idle_variant": {
+		"animation.byte_mite.idle_variant": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -1110,7 +1110,7 @@
 				}
 			}
 		},
-		"byte_mite.animation.walk": {
+		"animation.byte_mite.walk": {
 			"loop": true,
 			"animation_length": 0.25,
 			"bones": {
@@ -1285,7 +1285,7 @@
 				}
 			}
 		},
-		"byte_mite.animation.pre-attack": {
+		"animation.byte_mite.pre-attack": {
 			"loop": true,
 			"animation_length": 0.25,
 			"bones": {
@@ -1444,7 +1444,7 @@
 				}
 			}
 		},
-		"byte_mite.animation.attack": {
+		"animation.byte_mite.attack": {
 			"loop": true,
 			"animation_length": 0.5833,
 			"bones": {

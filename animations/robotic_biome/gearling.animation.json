@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"gearling.animation.idle": {
+		"animation.gearling.idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -54,7 +54,7 @@
 				}
 			}
 		},
-		"gearling.animation.attack": {
+		"animation.gearling.attack": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -184,7 +184,7 @@
 				}
 			}
 		},
-		"gearling.animation.fly": {
+		"animation.gearling.fly": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {

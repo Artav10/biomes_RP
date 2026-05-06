@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"cyclahedron.animation.idle": {
+		"animation.cyclahedron.idle": {
 			"loop": true,
 			"animation_length": 6,
 			"bones": {
@@ -475,7 +475,7 @@
 				}
 			}
 		},
-		"cyclahedron.animation.attack": {
+		"animation.cyclahedron.attack": {
 			"loop": true,
 			"animation_length": 2.75,
 			"bones": {
@@ -713,7 +713,7 @@
 				}
 			}
 		},
-		"cyclahedron.animation.walk": {
+		"animation.cyclahedron.walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -994,7 +994,7 @@
 				}
 			}
 		},
-		"cyclahedron.animation.idle-variant": {
+		"animation.cyclahedron.idle-variant": {
 			"animation_length": 6,
 			"bones": {
 				"head": {
