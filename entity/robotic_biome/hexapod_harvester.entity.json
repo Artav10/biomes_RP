@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:hexapod_harvester",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/robotic_biome/hexapod_harvester" },
+            "geometry": { "default": "geometry.hexapod_harvester" },
+            "animations": {
+                "anim_idle": "hexapod.animation.idle",
+                "anim_walk": "hexapod.animation.walk",
+                "anim_attack": "hexapod.animation.attack",
+                "controller": "controller.animation.robotic_biome.ground_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.robotic_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#2D3748",
+                "overlay_color": "#FC8181"
+            }
+        }
+    }
+}

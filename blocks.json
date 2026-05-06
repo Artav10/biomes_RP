@@ -1,4 +1,4 @@
-{
+﻿{
     "format_version": "1.20.60",
     "es_bio:dreamstone_ore": {
         "sound": "stone",
@@ -650,5 +650,45 @@
     "es_bio:light_blue_crystal_spike": { "sound": "glass", "textures": "light_blue_crystal_spike", "isotropic": true },
     "es_bio:light_purple_crystal_spike": { "sound": "glass", "textures": "light_purple_crystal_spike", "isotropic": true },
     "es_bio:pale_pink_crystal_spike": { "sound": "glass", "textures": "pale_pink_crystal_spike", "isotropic": true },
-    "es_bio:turquoise_crystal_spike": { "sound": "glass", "textures": "turquoise_crystal_spike", "isotropic": true }
+    "es_bio:turquoise_crystal_spike": { "sound": "glass", "textures": "turquoise_crystal_spike", "isotropic": true },
+    "es_bio:circuit_ground_block": { "sound": "stone", "textures": "circuit_ground_block", "isotropic": true },
+    "es_bio:circuit_ground_ore": { "sound": "stone", "textures": "circuit_ground_ore", "isotropic": true },
+    "es_bio:alloy_frame_block": { "sound": "metal", "textures": "alloy_frame_block", "isotropic": true },
+    "es_bio:alloy_frame_ore": { "sound": "metal", "textures": "alloy_frame_ore", "isotropic": true },
+    "es_bio:energetic_plate_block": { "sound": "metal", "textures": { "up": "energetic_plate_top", "down": "energetic_plate_bottom", "side": "energetic_plate_side" } },
+    "es_bio:energetic_plate_ore": { "sound": "metal", "textures": "energetic_plate_ore", "isotropic": true },
+    "es_bio:magnosoil_block": { "sound": "sand", "textures": "magnosoil_block", "isotropic": true },
+    "es_bio:magnosoil_ore": { "sound": "sand", "textures": "magnosoil_ore", "isotropic": true },
+    "es_bio:data_glass_block": { "sound": "glass", "textures": "data_glass_block", "isotropic": true },
+    "es_bio:data_glass_ore": { "sound": "glass", "textures": "data_glass_ore", "isotropic": true },
+    "es_bio:robotic_grass_block": { "sound": "metal", "textures": { "up": "robotic_grass_block_top", "down": "magnosoil_block", "side": "robotic_grass_block_side" } },
+    "es_bio:cog_pine_log": { "sound": "wood", "textures": { "up": "cog_pine_log_top", "down": "cog_pine_log_top", "side": "cog_pine_log" } },
+    "es_bio:cog_pine_plank": { "sound": "wood", "textures": "cog_pine_plank", "isotropic": true },
+    "es_bio:cog_pine_leaves": { "sound": "grass", "textures": "cog_pine_leaves", "isotropic": true },
+    "es_bio:cog_pine_door": { "sound": "wood", "textures": "cog_pine_door_lower" },
+    "es_bio:ferrum_bloom_log": { "sound": "wood", "textures": { "up": "ferrum_bloom_log_top", "down": "ferrum_bloom_log_top", "side": "ferrum_bloom_log" } },
+    "es_bio:ferrum_bloom_plank": { "sound": "wood", "textures": "ferrum_bloom_plank", "isotropic": true },
+    "es_bio:ferrum_bloom_leaves": { "sound": "grass", "textures": "ferrum_bloom_leaves", "isotropic": true },
+    "es_bio:ferrum_bloom_roots": { "sound": "wood", "textures": "ferrum_bloom_roots", "isotropic": true },
+    "es_bio:ferrum_bloom_door": { "sound": "wood", "textures": "ferrum_bloom_door_lower" },
+    "es_bio:mecha_willow_log": { "sound": "metal", "textures": { "up": "mecha_willow_log_top", "down": "mecha_willow_log_top", "side": "mecha_willow_log" } },
+    "es_bio:mecha_willow_plank": { "sound": "wood", "textures": "mecha_willow_plank", "isotropic": true },
+    "es_bio:mecha_willow_leaves": { "sound": "grass", "textures": "mecha_willow_leaves", "isotropic": true },
+    "es_bio:mecha_willow_door": { "sound": "metal", "textures": "mecha_willow_door_lower" },
+    "es_bio:neural_spire_log": { "sound": "metal", "textures": "neural_spire_log", "isotropic": true },
+    "es_bio:neural_spire_leaves": { "sound": "glass", "textures": "neural_spire_led", "isotropic": true },
+    "es_bio:neural_spire_door": { "sound": "metal", "textures": "neural_spire_door_lower" },
+    "es_bio:node_log": { "sound": "metal", "textures": { "up": "node_log_top", "down": "node_log_top", "side": "node_log" } },
+    "es_bio:node_plank": { "sound": "metal", "textures": "node_plank", "isotropic": true },
+    "es_bio:node_door": { "sound": "metal", "textures": "node_door_lower" },
+    "es_bio:data_bloom": { "sound": "grass", "textures": "data_bloom", "isotropic": true },
+    "es_bio:energy_fiber": { "sound": "grass", "textures": "energy_fiber", "isotropic": true },
+    "es_bio:gear_sprout": { "sound": "metal", "textures": "gear_sprout", "isotropic": true },
+    "es_bio:holo_flower": { "sound": "grass", "textures": "holo_flower", "isotropic": true },
+    "es_bio:holo_grass": { "sound": "grass", "textures": "holo_grass", "isotropic": true },
+    "es_bio:magnetic_coil": { "sound": "metal", "textures": "magnetic_coil", "isotropic": true },
+    "es_bio:nano_filament": { "sound": "glass", "textures": "nano_filament", "isotropic": true },
+    "es_bio:ball_node": { "sound": "metal", "textures": "ball_node", "isotropic": true }
 }
+
+

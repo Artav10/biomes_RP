@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:pulse_titan",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/robotic_biome/pulse_titan" },
+            "geometry": { "default": "geometry.pulse_titan" },
+            "animations": {
+                "anim_idle": "pulse_titan.animation.idle",
+                "anim_walk": "pulse_titan.animation.walk",
+                "anim_attack": "pulse_titan.animation.attack",
+                "anim_rotating_core": "pulse_titan.animation.rotating_core",
+                "controller": "controller.animation.robotic_biome.ground_hostile"
+            },
+            "scripts": { "animate": ["anim_rotating_core", "controller"] },
+            "render_controllers": ["controller.render.robotic_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#702459",
+                "overlay_color": "#F687B3"
+            }
+        }
+    }
+}

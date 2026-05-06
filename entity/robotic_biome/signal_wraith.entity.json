@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:signal_wraith",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/robotic_biome/signal_wraith" },
+            "geometry": { "default": "geometry.signal_wraith" },
+            "animations": {
+                "anim_idle": "signal_wraith.animation.idle",
+                "anim_walk": "signal_wraith.animation.walk",
+                "anim_attack": "signal_wraith.animation.attack",
+                "controller": "controller.animation.robotic_biome.ground_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.robotic_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#1C4532",
+                "overlay_color": "#68D391"
+            }
+        }
+    }
+}

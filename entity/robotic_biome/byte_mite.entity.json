@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:byte_mite",
+            "materials": { "default": "entity_alphatest" },
+            "textures": { "default": "textures/entity/robotic_biome/byte_mite" },
+            "geometry": { "default": "geometry.byte_mite" },
+            "animations": {
+                "anim_idle": "byte_mite.animation.idle_variant",
+                "anim_walk": "byte_mite.animation.walk",
+                "anim_attack": "byte_mite.animation.attack",
+                "controller": "controller.animation.robotic_biome.ground_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.robotic_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#2D3748",
+                "overlay_color": "#68D391"
+            }
+        }
+    }
+}

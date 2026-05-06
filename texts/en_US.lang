@@ -453,3 +453,134 @@ item.spawn_egg.entity.es_bio:gemdrake.name=Spawn Gemdrake
 item.spawn_egg.entity.es_bio:quartz_scuttler.name=Spawn Quartz Scuttler
 item.spawn_egg.entity.es_bio:radiant_stag.name=Spawn Radiant Stag
 item.spawn_egg.entity.es_bio:shardback.name=Spawn Shardback
+
+
+## === ROBOTIC BIOME ===
+
+## Biome
+biome.es_bio:robotic_biome.name=Robotic Biome
+
+## Blocks - Ground
+tile.es_bio:circuit_ground_block.name=Circuit Ground
+tile.es_bio:alloy_frame_block.name=Alloy Frame Block
+tile.es_bio:energetic_plate_block.name=Energetic Plate Block
+tile.es_bio:magnosoil_block.name=Magnosoil
+tile.es_bio:data_glass_block.name=Data Glass Block
+tile.es_bio:robotic_grass_block.name=Robotic Grass Block
+
+## Blocks - Ores
+tile.es_bio:circuit_ground_ore.name=Circuit Ground Ore
+tile.es_bio:alloy_frame_ore.name=Alloy Frame Ore
+tile.es_bio:energetic_plate_ore.name=Energetic Plate Ore
+tile.es_bio:magnosoil_ore.name=Magnosoil Ore
+tile.es_bio:data_glass_ore.name=Data Glass Ore
+
+## Blocks - Logs
+tile.es_bio:cog_pine_log.name=Cog Pine Log
+tile.es_bio:ferrum_bloom_log.name=Ferrum Bloom Log
+tile.es_bio:mecha_willow_log.name=Mecha Willow Log
+tile.es_bio:neural_spire_log.name=Neural Spire Log
+tile.es_bio:node_log.name=Node Log
+tile.es_bio:ferrum_bloom_roots.name=Ferrum Bloom Roots
+
+## Blocks - Planks
+tile.es_bio:cog_pine_plank.name=Cog Pine Planks
+tile.es_bio:ferrum_bloom_plank.name=Ferrum Bloom Planks
+tile.es_bio:mecha_willow_plank.name=Mecha Willow Planks
+tile.es_bio:node_plank.name=Node Planks
+
+## Blocks - Leaves
+tile.es_bio:cog_pine_leaves.name=Cog Pine Leaves
+tile.es_bio:ferrum_bloom_leaves.name=Ferrum Bloom Leaves
+tile.es_bio:mecha_willow_leaves.name=Mecha Willow Leaves
+tile.es_bio:neural_spire_leaves.name=Neural Spire Leaves
+
+## Blocks - Doors
+tile.es_bio:cog_pine_door.name=Cog Pine Door
+tile.es_bio:ferrum_bloom_door.name=Ferrum Bloom Door
+tile.es_bio:mecha_willow_door.name=Mecha Willow Door
+tile.es_bio:neural_spire_door.name=Neural Spire Door
+tile.es_bio:node_door.name=Node Door
+
+## Blocks - Saplings
+tile.es_bio:cog_pine_tree_sapling.name=Cog Pine Sapling
+tile.es_bio:ferrum_bloom_tree_sapling.name=Ferrum Bloom Sapling
+tile.es_bio:mecha_willow_tree_sapling.name=Mecha Willow Sapling
+tile.es_bio:neural_spire_tree_sapling.name=Neural Spire Sapling
+tile.es_bio:node_tree_sapling.name=Node Sapling
+
+## Blocks - Decorations
+tile.es_bio:data_bloom.name=Data Bloom
+tile.es_bio:energy_fiber.name=Energy Fiber
+tile.es_bio:gear_sprout.name=Gear Sprout
+tile.es_bio:holo_flower.name=Holo Flower
+tile.es_bio:holo_grass.name=Holo Grass
+tile.es_bio:magnetic_coil.name=Magnetic Coil
+tile.es_bio:nano_filament.name=Nano Filament
+tile.es_bio:ball_node.name=Ball Node
+
+## Items - Materials
+item.es_bio:alloy_frame.name=Alloy Frame
+item.es_bio:circuit_ground.name=Circuit Ground
+item.es_bio:data_glass.name=Data Glass
+item.es_bio:energetic_plate.name=Energetic Plate
+item.es_bio:magnosoil.name=Magnosoil
+
+## Items - Doors
+item.es_bio:cog_pine_door.name=Cog Pine Door
+item.es_bio:ferrum_bloom_door.name=Ferrum Bloom Door
+item.es_bio:mecha_willow_door.name=Mecha Willow Door
+item.es_bio:neural_spire_door.name=Neural Spire Door
+item.es_bio:node_door.name=Node Door
+
+## Items - Tools (Alloy Frame)
+item.es_bio:alloy_frame_axe.name=Alloy Frame Axe
+item.es_bio:alloy_frame_sword.name=Alloy Frame Sword
+item.es_bio:alloy_frame_pickaxe.name=Alloy Frame Pickaxe
+item.es_bio:alloy_frame_shovel.name=Alloy Frame Shovel
+item.es_bio:alloy_frame_hoe.name=Alloy Frame Hoe
+
+## Items - Tools (Circuit Ground)
+item.es_bio:circuit_ground_axe.name=Circuit Ground Axe
+item.es_bio:circuit_ground_sword.name=Circuit Ground Sword
+item.es_bio:circuit_ground_pickaxe.name=Circuit Ground Pickaxe
+item.es_bio:circuit_ground_shovel.name=Circuit Ground Shovel
+item.es_bio:circuit_ground_hoe.name=Circuit Ground Hoe
+
+## Items - Tools (Data Glass)
+item.es_bio:data_glass_axe.name=Data Glass Axe
+item.es_bio:data_glass_sword.name=Data Glass Sword
+item.es_bio:data_glass_pickaxe.name=Data Glass Pickaxe
+item.es_bio:data_glass_shovel.name=Data Glass Shovel
+item.es_bio:data_glass_hoe.name=Data Glass Hoe
+
+## Items - Tools (Energetic Plate)
+item.es_bio:energetic_plate_axe.name=Energetic Plate Axe
+item.es_bio:energetic_plate_sword.name=Energetic Plate Sword
+item.es_bio:energetic_plate_pickaxe.name=Energetic Plate Pickaxe
+item.es_bio:energetic_plate_shovel.name=Energetic Plate Shovel
+item.es_bio:energetic_plate_hoe.name=Energetic Plate Hoe
+
+## Items - Tools (Magnosoil)
+item.es_bio:magnosoil_axe.name=Magnosoil Axe
+item.es_bio:magnosoil_sword.name=Magnosoil Sword
+item.es_bio:magnosoil_pickaxe.name=Magnosoil Pickaxe
+item.es_bio:magnosoil_shovel.name=Magnosoil Shovel
+item.es_bio:magnosoil_hoe.name=Magnosoil Hoe
+
+## Entities
+entity.es_bio:byte_mite.name=Byte Mite
+entity.es_bio:cyclahedron.name=Cyclahedron
+entity.es_bio:gearling.name=Gearling
+entity.es_bio:hexapod_harvester.name=Hexapod Harvester
+entity.es_bio:overseer_cluster.name=Overseer Cluster
+entity.es_bio:pulse_titan.name=Pulse Titan
+entity.es_bio:signal_wraith.name=Signal Wraith
+
+item.spawn_egg.entity.es_bio:byte_mite.name=Spawn Byte Mite
+item.spawn_egg.entity.es_bio:cyclahedron.name=Spawn Cyclahedron
+item.spawn_egg.entity.es_bio:gearling.name=Spawn Gearling
+item.spawn_egg.entity.es_bio:hexapod_harvester.name=Spawn Hexapod Harvester
+item.spawn_egg.entity.es_bio:overseer_cluster.name=Spawn Overseer Cluster
+item.spawn_egg.entity.es_bio:pulse_titan.name=Spawn Pulse Titan
+item.spawn_egg.entity.es_bio:signal_wraith.name=Spawn Signal Wraith

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "es_bio:gearling",
+            "materials": { "default": "entity_alphatest" },
+            "textures": {
+                "default": "textures/entity/robotic_biome/gearling",
+                "base": "textures/entity/robotic_biome/gearling_base"
+            },
+            "geometry": { "default": "geometry.gearling" },
+            "animations": {
+                "anim_idle": "gearling.animation.idle",
+                "anim_fly": "gearling.animation.fly",
+                "anim_attack": "gearling.animation.attack",
+                "controller": "controller.animation.robotic_biome.flyer_hostile"
+            },
+            "scripts": { "animate": ["controller"] },
+            "render_controllers": ["controller.render.robotic_biome_creature"],
+            "spawn_egg": {
+                "base_color": "#4A5568",
+                "overlay_color": "#F6AD55"
+            }
+        }
+    }
+}
