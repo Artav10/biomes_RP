@@ -142,5 +142,185 @@
         "flipbook_texture": "textures/blocks/virus_biome/ores/veinstone_ore",
         "ticks_per_frame": 4,
         "frames": 6
+    },
+    {
+        "atlas_tile": "ametrine_block",
+        "flipbook_texture": "textures/blocks/crystal_biome/stones/ametrine_block",
+        "ticks_per_frame": 4,
+        "frames": 9
+    },
+    {
+        "atlas_tile": "energetic_crystal_block",
+        "flipbook_texture": "textures/blocks/crystal_biome/stones/energetic_crystal_block",
+        "ticks_per_frame": 4,
+        "frames": 6
+    },
+    {
+        "atlas_tile": "primstone_block",
+        "flipbook_texture": "textures/blocks/crystal_biome/stones/primstone_block",
+        "ticks_per_frame": 4,
+        "frames": 8
+    },
+    {
+        "atlas_tile": "ametrine_ore",
+        "flipbook_texture": "textures/blocks/crystal_biome/ores/ametrine_ore",
+        "ticks_per_frame": 4,
+        "frames": 4
+    },
+    {
+        "atlas_tile": "chromite_ore",
+        "flipbook_texture": "textures/blocks/crystal_biome/ores/chromite_ore",
+        "ticks_per_frame": 4,
+        "frames": 7
+    },
+    {
+        "atlas_tile": "primstone_ore",
+        "flipbook_texture": "textures/blocks/crystal_biome/ores/primstone_ore",
+        "ticks_per_frame": 4,
+        "frames": 8
+    },
+    {
+        "atlas_tile": "prism_log",
+        "flipbook_texture": "textures/blocks/crystal_biome/logs/prism_log",
+        "ticks_per_frame": 4,
+        "frames": 8
+    },
+    {
+        "atlas_tile": "quartz_log",
+        "flipbook_texture": "textures/blocks/crystal_biome/logs/quartz_log",
+        "ticks_per_frame": 4,
+        "frames": 7
+    },
+    {
+        "atlas_tile": "circuit_ground_block",
+        "flipbook_texture": "textures/blocks/robotic_biome/circuit_ground_block",
+        "ticks_per_frame": 4,
+        "frames": 10
+    },
+    {
+        "atlas_tile": "circuit_ground_ore",
+        "flipbook_texture": "textures/blocks/robotic_biome/circuit_ground_ore",
+        "ticks_per_frame": 4,
+        "frames": 7
+    },
+    {
+        "atlas_tile": "alloy_frame_block",
+        "flipbook_texture": "textures/blocks/robotic_biome/alloy_frame_block",
+        "ticks_per_frame": 4,
+        "frames": 13
+    },
+    {
+        "atlas_tile": "alloy_frame_ore",
+        "flipbook_texture": "textures/blocks/robotic_biome/alloy_frame_ore",
+        "ticks_per_frame": 4,
+        "frames": 8
+    },
+    {
+        "atlas_tile": "energetic_plate_top",
+        "flipbook_texture": "textures/blocks/robotic_biome/energetic_plate_top",
+        "ticks_per_frame": 4,
+        "frames": 7
+    },
+    {
+        "atlas_tile": "energetic_plate_side",
+        "flipbook_texture": "textures/blocks/robotic_biome/energetic_plate_side",
+        "ticks_per_frame": 4,
+        "frames": 7
+    },
+    {
+        "atlas_tile": "energetic_plate_ore",
+        "flipbook_texture": "textures/blocks/robotic_biome/energetic_plate_ore",
+        "ticks_per_frame": 4,
+        "frames": 12
+    },
+    {
+        "atlas_tile": "magnosoil_block",
+        "flipbook_texture": "textures/blocks/robotic_biome/magnosoil_block",
+        "ticks_per_frame": 4,
+        "frames": 13
+    },
+    {
+        "atlas_tile": "data_glass_block",
+        "flipbook_texture": "textures/blocks/robotic_biome/data_glass_block",
+        "ticks_per_frame": 4,
+        "frames": 9
+    },
+    {
+        "atlas_tile": "data_glass_ore",
+        "flipbook_texture": "textures/blocks/robotic_biome/data_glass_ore",
+        "ticks_per_frame": 4,
+        "frames": 12
+    },
+    {
+        "atlas_tile": "mecha_willow_leaves",
+        "flipbook_texture": "textures/blocks/robotic_biome/mecha_willow_energy",
+        "ticks_per_frame": 4,
+        "frames": 12
+    },
+    {
+        "atlas_tile": "neural_spire_light",
+        "flipbook_texture": "textures/blocks/robotic_biome/neural_spire_light",
+        "ticks_per_frame": 4,
+        "frames": 5
+    },
+    {
+        "atlas_tile": "cog_pine_door_lower",
+        "flipbook_texture": "textures/blocks/robotic_biome/cog_pine_door_bottom",
+        "ticks_per_frame": 4,
+        "frames": 9
+    },
+    {
+        "atlas_tile": "cog_pine_door_upper",
+        "flipbook_texture": "textures/blocks/robotic_biome/cog_pine_door_top",
+        "ticks_per_frame": 4,
+        "frames": 9
+    },
+    {
+        "atlas_tile": "ferrum_bloom_door_lower",
+        "flipbook_texture": "textures/blocks/robotic_biome/ferrum_bloom_door_bottom",
+        "ticks_per_frame": 4,
+        "frames": 5
+    },
+    {
+        "atlas_tile": "ferrum_bloom_door_upper",
+        "flipbook_texture": "textures/blocks/robotic_biome/ferrum_bloom_door_top",
+        "ticks_per_frame": 4,
+        "frames": 5
+    },
+    {
+        "atlas_tile": "mecha_willow_door_lower",
+        "flipbook_texture": "textures/blocks/robotic_biome/mecha_willow_door_bottom",
+        "ticks_per_frame": 4,
+        "frames": 7
+    },
+    {
+        "atlas_tile": "mecha_willow_door_upper",
+        "flipbook_texture": "textures/blocks/robotic_biome/mecha_willow_door_top",
+        "ticks_per_frame": 4,
+        "frames": 7
+    },
+    {
+        "atlas_tile": "neural_spire_door_lower",
+        "flipbook_texture": "textures/blocks/robotic_biome/neural_door_bottom",
+        "ticks_per_frame": 4,
+        "frames": 11
+    },
+    {
+        "atlas_tile": "neural_spire_door_upper",
+        "flipbook_texture": "textures/blocks/robotic_biome/neural_door_top",
+        "ticks_per_frame": 4,
+        "frames": 11
+    },
+    {
+        "atlas_tile": "node_door_lower",
+        "flipbook_texture": "textures/blocks/robotic_biome/node_door_bottom",
+        "ticks_per_frame": 4,
+        "frames": 9
+    },
+    {
+        "atlas_tile": "node_door_upper",
+        "flipbook_texture": "textures/blocks/robotic_biome/node_door_top",
+        "ticks_per_frame": 4,
+        "frames": 9
     }
 ]
