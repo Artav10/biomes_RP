@@ -47,11 +47,7 @@
         },
         "mob.reflection_deer.run": {
             "category": "neutral",
-            "sounds": [
-                "sounds/mob/reflection_deer/run1",
-                "sounds/mob/reflection_deer/run2",
-                "sounds/mob/reflection_deer/run3"
-            ]
+            "sounds": ["sounds/mob/reflection_deer/run1", "sounds/mob/reflection_deer/run2", "sounds/mob/reflection_deer/run3"]
         },
         "mob.reflection_deer.hurt": {
             "category": "neutral",
@@ -59,25 +55,15 @@
         },
         "mob.shadow_child.idle": {
             "category": "hostile",
-            "sounds": [
-                "sounds/mob/shadow_child/idle",
-                "sounds/mob/shadow_child/idle2"
-            ]
+            "sounds": ["sounds/mob/shadow_child/idle", "sounds/mob/shadow_child/idle2"]
         },
         "mob.shadow_child.walk": {
             "category": "hostile",
-            "sounds": [
-                "sounds/mob/shadow_child/walk",
-                "sounds/mob/shadow_child/walk2"
-            ]
+            "sounds": ["sounds/mob/shadow_child/walk", "sounds/mob/shadow_child/walk2"]
         },
         "mob.shadow_child.attack": {
             "category": "hostile",
-            "sounds": [
-                "sounds/mob/shadow_child/skill_1",
-                "sounds/mob/shadow_child/skill_2",
-                "sounds/mob/shadow_child/skill_3"
-            ]
+            "sounds": ["sounds/mob/shadow_child/skill_1", "sounds/mob/shadow_child/skill_2", "sounds/mob/shadow_child/skill_3"]
         },
         "mob.sleepy_bear.idle": {
             "category": "neutral",
@@ -167,12 +153,13 @@
             "category": "hostile",
             "sounds": ["sounds/mob/crystafly/idle"]
         },
+        "mob.crystafly.fly": {
+            "category": "hostile",
+            "sounds": ["sounds/mob/crystafly/idle"]
+        },
         "mob.crystafur.idle": {
             "category": "hostile",
-            "sounds": [
-                "sounds/mob/crystafur/idle",
-                "sounds/mob/crystafur/idle2"
-            ]
+            "sounds": ["sounds/mob/crystafur/idle", "sounds/mob/crystafur/idle2"]
         },
         "mob.crystafur.walk": {
             "category": "hostile",
@@ -212,10 +199,7 @@
         },
         "mob.quartz_scuttler.walk": {
             "category": "hostile",
-            "sounds": [
-                "sounds/mob/quartz_scuttler/walk1",
-                "sounds/mob/quartz_scuttler/walk2"
-            ]
+            "sounds": ["sounds/mob/quartz_scuttler/walk1", "sounds/mob/quartz_scuttler/walk2"]
         },
         "mob.quartz_scuttler.attack": {
             "category": "hostile",
@@ -235,10 +219,7 @@
         },
         "mob.shardback.idle": {
             "category": "hostile",
-            "sounds": [
-                "sounds/mob/shardback/idle",
-                "sounds/mob/shardback/idle2"
-            ]
+            "sounds": ["sounds/mob/shardback/idle", "sounds/mob/shardback/idle2"]
         },
         "mob.shardback.walk": {
             "category": "hostile",
