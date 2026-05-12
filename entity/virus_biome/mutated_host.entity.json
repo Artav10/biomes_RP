@@ -1,32 +1,45 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:mutated_host",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/virus_biome/mutated_host" },
-            "geometry": { "default": "geometry.mutated_host" },
-            "animations": {
-                "anim_idle": "animation.biomes.mutated_host.idle",
-                "anim_walk": "animation.biomes.mutated_host.walk",
-                "anim_run": "animation.biomes.mutated_host.run",
-                "anim_attack": "animation.biomes.mutated_host.attack",
-                "anim_death": "animation.biomes.mutated_host.death",
-                "ctrl_move": "controller.animation.virus_biome.mutated_host_move",
-                "ctrl_death": "controller.animation.virus_biome.mutated_host_death"
-            },
-            "scripts": {
-                "animate": ["ctrl_move", "ctrl_death"]
-            },
-            "render_controllers": ["controller.render.virus_biome_creature"],
-            "particle_effects": {
-                "host_dust": "es_bio:mutated_host_dust",
-                "host_attack": "es_bio:mutated_host_attack"
-            },
-            "spawn_egg": {
-                "base_color": "#3B1A5A",
-                "overlay_color": "#1AFF5E"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:mutated_host",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/virus_biome/mutated_host"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.mutated_host"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.biomes.mutated_host.idle",
+                                                                           "anim_walk":  "animation.biomes.mutated_host.walk",
+                                                                           "anim_run":  "animation.biomes.mutated_host.run",
+                                                                           "anim_attack":  "animation.biomes.mutated_host.attack",
+                                                                           "anim_death":  "animation.biomes.mutated_host.death",
+                                                                           "ctrl_move":  "controller.animation.virus_biome.mutated_host_move",
+                                                                           "ctrl_death":  "controller.animation.virus_biome.mutated_host_death",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "ctrl_move",
+                                                                                        "ctrl_death",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.virus_biome_creature"
+                                                                               ],
+                                                        "particle_effects":  {
+                                                                                 "host_dust":  "es_bio:mutated_host_dust",
+                                                                                 "host_attack":  "es_bio:mutated_host_attack"
+                                                                             },
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#3B1A5A",
+                                                                          "overlay_color":  "#1AFF5E"
+                                                                      }
+                                                    }
+                                }
 }

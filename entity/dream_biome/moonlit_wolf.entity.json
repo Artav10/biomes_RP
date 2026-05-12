@@ -1,30 +1,42 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:moonlit_wolf",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/dream_biome/moonlit_wolf" },
-            "geometry": { "default": "geometry.moonlit_wolf" },
-            "animations": {
-                "anim_idle": "animation.biomes.moonlit_wolf.idle",
-                "anim_walk": "animation.biomes.moonlit_wolf.walk",
-                "anim_run": "animation.biomes.moonlit_wolf.run",
-                "anim_attack": "animation.biomes.moonlit_wolf.attack",
-                "ctrl_move": "controller.animation.dream_biome.moonlit_wolf"
-            },
-            "sound_effects": {
-                "wolf_run_step": "mob.moonlit_wolf.run",
-                "wolf_attack": "mob.moonlit_wolf.attack"
-            },
-            "scripts": {
-                "animate": ["ctrl_move"]
-            },
-            "render_controllers": ["controller.render.dream_biome_creature"],
-            "spawn_egg": {
-                "base_color": "#5C6BC0",
-                "overlay_color": "#E8EAF6"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:moonlit_wolf",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/dream_biome/moonlit_wolf"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.moonlit_wolf"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.biomes.moonlit_wolf.idle",
+                                                                           "anim_walk":  "animation.biomes.moonlit_wolf.walk",
+                                                                           "anim_run":  "animation.biomes.moonlit_wolf.run",
+                                                                           "anim_attack":  "animation.biomes.moonlit_wolf.attack",
+                                                                           "ctrl_move":  "controller.animation.dream_biome.moonlit_wolf",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "sound_effects":  {
+                                                                              "wolf_run_step":  "mob.moonlit_wolf.run",
+                                                                              "wolf_attack":  "mob.moonlit_wolf.attack"
+                                                                          },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "ctrl_move",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.dream_biome_creature"
+                                                                               ],
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#5C6BC0",
+                                                                          "overlay_color":  "#E8EAF6"
+                                                                      }
+                                                    }
+                                }
 }

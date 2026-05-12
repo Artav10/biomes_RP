@@ -1,30 +1,42 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:virus_moth",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/virus_biome/virus_moth" },
-            "geometry": { "default": "geometry.virus_moth" },
-            "animations": {
-                "anim_idle": "animation.biomes.virus_moth.idle",
-                "anim_fly": "animation.biomes.virus_moth.fly",
-                "anim_attack": "animation.biomes.virus_moth.attack",
-                "ctrl_move": "controller.animation.virus_biome.flyer_hostile"
-            },
-            "scripts": {
-                "animate": ["ctrl_move"]
-            },
-            "render_controllers": ["controller.render.virus_biome_creature"],
-            "particle_effects": {
-                "moth_spore": "es_bio:virus_moth_fly_spore",
-                "moth_spore_2": "es_bio:virus_moth_fly_spore_2",
-                "moth_cloud": "es_bio:virus_moth_attack_cloud"
-            },
-            "spawn_egg": {
-                "base_color": "#4A4A6B",
-                "overlay_color": "#AA44FF"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:virus_moth",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/virus_biome/virus_moth"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.virus_moth"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.biomes.virus_moth.idle",
+                                                                           "anim_fly":  "animation.biomes.virus_moth.fly",
+                                                                           "anim_attack":  "animation.biomes.virus_moth.attack",
+                                                                           "ctrl_move":  "controller.animation.virus_biome.flyer_hostile",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "ctrl_move",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.virus_biome_creature"
+                                                                               ],
+                                                        "particle_effects":  {
+                                                                                 "moth_spore":  "es_bio:virus_moth_fly_spore",
+                                                                                 "moth_spore_2":  "es_bio:virus_moth_fly_spore_2",
+                                                                                 "moth_cloud":  "es_bio:virus_moth_attack_cloud"
+                                                                             },
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#4A4A6B",
+                                                                          "overlay_color":  "#AA44FF"
+                                                                      }
+                                                    }
+                                }
 }

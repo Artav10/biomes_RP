@@ -1,27 +1,41 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:gemdrake",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/crystal_biome/gemdrake" },
-            "geometry": { "default": "geometry.gemdrake" },
-            "animations": {
-                "anim_idle": "animation.biomes.gemdrake.idle",
-                "anim_fly": "animation.biomes.gemdrake.fly",
-                "anim_attack": "animation.biomes.gemdrake.attack",
-                "controller": "controller.animation.crystal_biome.flyer_hostile"
-            },
-            "scripts": { "animate": ["controller"] },
-            "render_controllers": ["controller.render.crystal_biome_creature"],
-            "particle_effects": {
-                "gemdrake_attack_smoke_1": "es_bio:gemdrake_attack_smoke_1",
-                "gemdrake_walk_spore": "es_bio:gemdrake_walk_spore"
-            },
-            "spawn_egg": {
-                "base_color": "#6B7280",
-                "overlay_color": "#93C5FD"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:gemdrake",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/crystal_biome/gemdrake"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.gemdrake"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.biomes.gemdrake.idle",
+                                                                           "anim_fly":  "animation.biomes.gemdrake.fly",
+                                                                           "anim_attack":  "animation.biomes.gemdrake.attack",
+                                                                           "controller":  "controller.animation.crystal_biome.flyer_hostile",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "controller",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.crystal_biome_creature"
+                                                                               ],
+                                                        "particle_effects":  {
+                                                                                 "gemdrake_attack_smoke_1":  "es_bio:gemdrake_attack_smoke_1",
+                                                                                 "gemdrake_walk_spore":  "es_bio:gemdrake_walk_spore"
+                                                                             },
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#6B7280",
+                                                                          "overlay_color":  "#93C5FD"
+                                                                      }
+                                                    }
+                                }
 }

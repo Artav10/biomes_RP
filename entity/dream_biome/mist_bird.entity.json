@@ -1,26 +1,38 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:mist_bird",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/dream_biome/mist_bird" },
-            "geometry": { "default": "geometry.mist_bird" },
-            "animations": {
-                "anim_idle": "animation.biomes.mist_bird.idle",
-                "anim_fly": "animation.biomes.mist_bird.fly",
-                "anim_dissapears": "animation.biomes.mist_bird.dissapears",
-                "anim_appears": "animation.biomes.mist_bird.appears",
-                "ctrl_move": "controller.animation.dream_biome.flyer_passive"
-            },
-            "scripts": {
-                "animate": ["ctrl_move"]
-            },
-            "render_controllers": ["controller.render.dream_biome_creature"],
-            "spawn_egg": {
-                "base_color": "#80CBC4",
-                "overlay_color": "#E0F2F1"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:mist_bird",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/dream_biome/mist_bird"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.mist_bird"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.biomes.mist_bird.idle",
+                                                                           "anim_fly":  "animation.biomes.mist_bird.fly",
+                                                                           "anim_dissapears":  "animation.biomes.mist_bird.dissapears",
+                                                                           "anim_appears":  "animation.biomes.mist_bird.appears",
+                                                                           "ctrl_move":  "controller.animation.dream_biome.flyer_passive",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "ctrl_move",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.dream_biome_creature"
+                                                                               ],
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#80CBC4",
+                                                                          "overlay_color":  "#E0F2F1"
+                                                                      }
+                                                    }
+                                }
 }

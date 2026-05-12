@@ -1,23 +1,37 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:hexapod_harvester",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/robotic_biome/hexapod_harvester" },
-            "geometry": { "default": "geometry.hexapod_harvester" },
-            "animations": {
-                "anim_idle": "animation.hexapod.idle",
-                "anim_walk": "animation.hexapod.walk",
-                "anim_attack": "animation.hexapod.attack",
-                "controller": "controller.animation.robotic_biome.ground_hostile"
-            },
-            "scripts": { "animate": ["controller"] },
-            "render_controllers": ["controller.render.robotic_biome_creature"],
-            "spawn_egg": {
-                "base_color": "#2D3748",
-                "overlay_color": "#FC8181"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:hexapod_harvester",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/robotic_biome/hexapod_harvester"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.hexapod_harvester"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.hexapod.idle",
+                                                                           "anim_walk":  "animation.hexapod.walk",
+                                                                           "anim_attack":  "animation.hexapod.attack",
+                                                                           "controller":  "controller.animation.robotic_biome.ground_hostile",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "controller",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.robotic_biome_creature"
+                                                                               ],
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#2D3748",
+                                                                          "overlay_color":  "#FC8181"
+                                                                      }
+                                                    }
+                                }
 }

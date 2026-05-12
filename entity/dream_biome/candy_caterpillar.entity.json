@@ -1,25 +1,37 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:candy_caterpillar",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/dream_biome/candy_caterpillar" },
-            "geometry": { "default": "geometry.candy_caterpillar" },
-            "animations": {
-                "anim_idle": "animation.biomes.candy_caterpillar.idle",
-                "anim_walk": "animation.biomes.candy_caterpillar.walk",
-                "anim_attack": "animation.biomes.candy_caterpillar.attack",
-                "ctrl_move": "controller.animation.dream_biome.ground_hostile"
-            },
-            "scripts": {
-                "animate": ["ctrl_move"]
-            },
-            "render_controllers": ["controller.render.dream_biome_creature"],
-            "spawn_egg": {
-                "base_color": "#EF9A9A",
-                "overlay_color": "#A5D6A7"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:candy_caterpillar",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/dream_biome/candy_caterpillar"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.candy_caterpillar"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.biomes.candy_caterpillar.idle",
+                                                                           "anim_walk":  "animation.biomes.candy_caterpillar.walk",
+                                                                           "anim_attack":  "animation.biomes.candy_caterpillar.attack",
+                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_hostile",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "ctrl_move",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.dream_biome_creature"
+                                                                               ],
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#EF9A9A",
+                                                                          "overlay_color":  "#A5D6A7"
+                                                                      }
+                                                    }
+                                }
 }

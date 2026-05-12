@@ -1,24 +1,39 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "es_bio:pulse_titan",
-            "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/entity/robotic_biome/pulse_titan" },
-            "geometry": { "default": "geometry.pulse_titan" },
-            "animations": {
-                "anim_idle": "animation.pulse_titan.idle",
-                "anim_walk": "animation.pulse_titan.walk",
-                "anim_attack": "animation.pulse_titan.attack",
-                "anim_rotating_core": "animation.pulse_titan.rotating_core",
-                "controller": "controller.animation.robotic_biome.ground_hostile"
-            },
-            "scripts": { "animate": ["anim_rotating_core", "controller"] },
-            "render_controllers": ["controller.render.robotic_biome_creature"],
-            "spawn_egg": {
-                "base_color": "#702459",
-                "overlay_color": "#F687B3"
-            }
-        }
-    }
+    "format_version":  "1.10.0",
+    "minecraft:client_entity":  {
+                                    "description":  {
+                                                        "identifier":  "es_bio:pulse_titan",
+                                                        "materials":  {
+                                                                          "default":  "entity_alphatest"
+                                                                      },
+                                                        "textures":  {
+                                                                         "default":  "textures/entity/robotic_biome/pulse_titan"
+                                                                     },
+                                                        "geometry":  {
+                                                                         "default":  "geometry.pulse_titan"
+                                                                     },
+                                                        "animations":  {
+                                                                           "anim_idle":  "animation.pulse_titan.idle",
+                                                                           "anim_walk":  "animation.pulse_titan.walk",
+                                                                           "anim_attack":  "animation.pulse_titan.attack",
+                                                                           "anim_rotating_core":  "animation.pulse_titan.rotating_core",
+                                                                           "controller":  "controller.animation.robotic_biome.ground_hostile",
+                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                       },
+                                                        "scripts":  {
+                                                                        "animate":  [
+                                                                                        "anim_rotating_core",
+                                                                                        "controller",
+                                                                                        "anim_head_rotation"
+                                                                                    ]
+                                                                    },
+                                                        "render_controllers":  [
+                                                                                   "controller.render.robotic_biome_creature"
+                                                                               ],
+                                                        "spawn_egg":  {
+                                                                          "base_color":  "#702459",
+                                                                          "overlay_color":  "#F687B3"
+                                                                      }
+                                                    }
+                                }
 }
