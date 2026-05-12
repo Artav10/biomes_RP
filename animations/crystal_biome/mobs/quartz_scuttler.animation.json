@@ -2777,7 +2777,10 @@
                                                                                                             "effect":  "quartz_scuttler_attack_spore_2",
                                                                                                             "locator":  "vfx_hand"
                                                                                                         }
-                                                                                            }
+                                                                                            },
+                                                                       "sound_effects":  {
+                                                                                             "0.05":  { "effect":  "attack" }
+                                                                                         }
                                                                    }
                    }
 }

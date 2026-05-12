@@ -348,11 +348,6 @@
                         "sound": "mob.quartz_scuttler.walk",
                         "volume": 0.4,
                         "pitch": [1.0, 1.2]
-                    },
-                    "attack": {
-                        "sound": "mob.quartz_scuttler.attack",
-                        "volume": 0.55,
-                        "pitch": [0.9, 1.1]
                     }
                 }
             },

@@ -20,6 +20,9 @@
                 "quartz_scuttler_attack": "es_bio:quartz_scuttler_attack",
                 "quartz_scuttler_attack_spore_2": "es_bio:quartz_scuttler_attack_spore_2"
             },
+            "sound_effects": {
+                "attack": "mob.quartz_scuttler.attack"
+            },
             "spawn_egg": {
                 "base_color": "#9333EA",
                 "overlay_color": "#F9A8D4"
