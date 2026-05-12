@@ -1828,7 +1828,10 @@
                                                                                                         "effect":  "shardback_smoke",
                                                                                                         "locator":  "vfx_left_smoke"
                                                                                                     }
-                                                                                      }
+                                                                                      },
+                                                                 "sound_effects":  {
+                                                                                       "0.25":  { "effect":  "attack" }
+                                                                                   }
                                                              }
                    }
 }

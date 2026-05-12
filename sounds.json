@@ -390,11 +390,6 @@
                         "sound": "mob.shardback.walk",
                         "volume": 0.45,
                         "pitch": [0.7, 0.9]
-                    },
-                    "attack": {
-                        "sound": "mob.shardback.attack",
-                        "volume": 0.7,
-                        "pitch": [0.7, 0.9]
                     }
                 }
             }
