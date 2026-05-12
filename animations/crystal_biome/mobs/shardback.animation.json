@@ -1824,6 +1824,18 @@
                                                                                              }
                                                                            },
                                                                  "particle_effects":  {
+                                                                                          "0.25":  {
+                                                                                                       "effect":  "shardback_attack_spike",
+                                                                                                       "locator":  "vfx_mouth"
+                                                                                                   },
+                                                                                          "0.375":  {
+                                                                                                        "effect":  "shardback_attack_spike_spore",
+                                                                                                        "locator":  "vfx_mouth"
+                                                                                                    },
+                                                                                          "0.5":  {
+                                                                                                      "effect":  "shardback_slash",
+                                                                                                      "locator":  "vfx_mouth"
+                                                                                                  },
                                                                                           "0.625":  {
                                                                                                         "effect":  "shardback_smoke",
                                                                                                         "locator":  "vfx_left_smoke"

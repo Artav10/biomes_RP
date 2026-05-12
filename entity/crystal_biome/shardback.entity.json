@@ -29,7 +29,10 @@
                                                                                    "controller.render.crystal_biome_creature"
                                                                                ],
                                                         "particle_effects":  {
-                                                                                 "shardback_smoke":  "es_bio:shardback_smoke"
+                                                                                 "shardback_smoke":  "es_bio:shardback_smoke",
+                                                                                 "shardback_slash":  "es_bio:shardback_slash",
+                                                                                 "shardback_attack_spike":  "es_bio:shardback_attack_spike",
+                                                                                 "shardback_attack_spike_spore":  "es_bio:shardback_attack_spike_spore"
                                                                              },
                                                         "sound_effects":  {
                                                                               "attack":  "mob.shardback.attack"

@@ -522,6 +522,9 @@
 					"name": "head",
 					"parent": "body",
 					"pivot": [0, 7.69527, -10.94783],
+					"locators": {
+						"vfx_mouth": [0, 7.5, -18]
+					},
 					"cubes": [
 						{
 							"origin": [-3.5, 8, -18],
