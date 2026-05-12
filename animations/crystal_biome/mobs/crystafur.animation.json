@@ -66,7 +66,19 @@
                                                                "particle_effects":  {
                                                                                         "0.0":  {
                                                                                                     "effect":  "crystafur_idle_walk",
-                                                                                                    "locator":  "vfx_tail"
+                                                                                                    "locator":  "vfx_left_smoke"
+                                                                                                },
+                                                                                        "0.5":  {
+                                                                                                    "effect":  "crystafur_idle_walk",
+                                                                                                    "locator":  "vfx_right_smoke2"
+                                                                                                },
+                                                                                        "1.0":  {
+                                                                                                    "effect":  "crystafur_idle_walk",
+                                                                                                    "locator":  "vfx_right_smoke"
+                                                                                                },
+                                                                                        "1.5":  {
+                                                                                                    "effect":  "crystafur_idle_walk",
+                                                                                                    "locator":  "vfx_left_smoke2"
                                                                                                 }
                                                                                     }
                                                            },
@@ -1556,7 +1568,11 @@
                                                                                                         "effect":  "crystafur_smoke",
                                                                                                         "locator":  "vfx_left_smoke2"
                                                                                                     }
-                                                                                    }
+                                                                                    },
+                                                               "sound_effects":  {
+                                                                                     "0.0":  { "effect":  "walk" },
+                                                                                     "0.54167":  { "effect":  "walk" }
+                                                                                 }
                                                            },
                        "animation.biomes.crystafur.attack":  {
                                                                  "loop":  true,

@@ -34,6 +34,9 @@
                                                                                  "crystafur_slash":  "es_bio:crystafur_slash",
                                                                                  "crystafur_idle_walk":  "es_bio:crystafur_idle_walk"
                                                                              },
+                                                        "sound_effects":  {
+                                                                              "walk":  "mob.crystafur.walk"
+                                                                          },
                                                         "spawn_egg":  {
                                                                           "base_color":  "#60A5FA",
                                                                           "overlay_color":  "#DBEAFE"
