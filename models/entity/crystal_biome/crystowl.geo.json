@@ -15,8 +15,6 @@
 					"name": "crystowl",
 					"pivot": [0, 0, 0],
 					"locators": {
-						"vfx_laser_left": [-2.6, 12, -3],
-						"vfx_laser_right": [2.6, 12, -3],
 						"vfx_fly_left": [-15, 19, 0],
 						"vfx_fly_right": [15, 19, 0],
 						"vfx_wing_right": [21, 10, 4],
@@ -102,6 +100,10 @@
 					"name": "head",
 					"parent": "body",
 					"pivot": [0, 9.02834, 0.96706],
+					"locators": {
+						"vfx_laser_left": [-2.6, 12, -3],
+						"vfx_laser_right": [2.6, 12, -3]
+					},
 					"cubes": [
 						{"origin": [-4, 9, -2], "size": [8, 6, 6], "uv": [53, 0]},
 						{"origin": [-4, 15.82843, 3], "size": [8, 6, 0], "pivot": [0, 17.82843, 1], "rotation": [-45, 0, 0], "uv": [59, 58]},
