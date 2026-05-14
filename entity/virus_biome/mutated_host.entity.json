@@ -36,6 +36,9 @@
                                                                                  "host_dust":  "es_bio:mutated_host_dust",
                                                                                  "host_attack":  "es_bio:mutated_host_attack"
                                                                              },
+                                                        "sound_effects":  {
+                                                                               "attack":  "mob.mutated_host.attack"
+                                                                           },
                                                         "spawn_egg":  {
                                                                           "base_color":  "#3B1A5A",
                                                                           "overlay_color":  "#1AFF5E"

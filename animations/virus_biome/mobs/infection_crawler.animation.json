@@ -249,8 +249,16 @@
 			"loop": true,
 			"animation_length": 0.5,
 			"particle_effects": {
-				"0.125": { "effect": "crawler_dust", "locator": "walk_particle" },
-				"0.375": { "effect": "crawler_dust", "locator": "walk_particle" }
+				"0.125": [
+					{ "effect": "crawler_dust", "locator": "foot_fl" },
+					{ "effect": "crawler_dust", "locator": "foot_mr" },
+					{ "effect": "crawler_dust", "locator": "foot_bl" }
+				],
+				"0.375": [
+					{ "effect": "crawler_dust", "locator": "foot_fr" },
+					{ "effect": "crawler_dust", "locator": "foot_ml" },
+					{ "effect": "crawler_dust", "locator": "foot_br" }
+				]
 			},
 			"bones": {
 				"root": {
@@ -450,8 +458,16 @@
 			"loop": true,
 			"animation_length": 0.25,
 			"particle_effects": {
-				"0.0417": { "effect": "crawler_dust", "locator": "walk_particle" },
-				"0.1667": { "effect": "crawler_dust", "locator": "walk_particle" }
+				"0.0417": [
+					{ "effect": "crawler_dust", "locator": "foot_fl" },
+					{ "effect": "crawler_dust", "locator": "foot_mr" },
+					{ "effect": "crawler_dust", "locator": "foot_bl" }
+				],
+				"0.1667": [
+					{ "effect": "crawler_dust", "locator": "foot_fr" },
+					{ "effect": "crawler_dust", "locator": "foot_ml" },
+					{ "effect": "crawler_dust", "locator": "foot_br" }
+				]
 			},
 			"bones": {
 				"root": {

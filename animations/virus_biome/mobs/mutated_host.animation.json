@@ -1044,6 +1044,9 @@
 				"0.375": { "effect": "host_attack", "locator": "head_particle" },
 				"0.875": { "effect": "host_attack", "locator": "head_particle" }
 			},
+			"sound_effects": {
+				"0.05": { "effect": "attack" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {
