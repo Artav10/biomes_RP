@@ -743,6 +743,9 @@
 		"animation.biomes.plague_lizard.attack": {
 			"loop": true,
 			"animation_length": 1.125,
+			"sound_effects": {
+				"0.05": { "effect": "attack" }
+			},
 			"bones": {
 				"body": {
 					"rotation": {
