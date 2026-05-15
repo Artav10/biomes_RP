@@ -10,7 +10,7 @@
                 "anim_idle": "animation.biomes.crystafly.idle",
                 "controller": "controller.animation.crystal_biome.flyer_hostile"
             },
-            "scripts": { "animate": ["controller"] },
+            "scripts": { "animate": ["anim_idle"] },
             "render_controllers": ["controller.render.crystal_biome_creature"],
             "particle_effects": {
                 "crystafly_antena": "es_bio:crystafly_antena"
