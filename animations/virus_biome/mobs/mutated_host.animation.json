@@ -384,8 +384,8 @@
 			"loop": true,
 			"animation_length": 1,
 			"particle_effects": {
-				"0.25": { "effect": "host_dust", "locator": "walk_particle" },
-				"0.75": { "effect": "host_dust", "locator": "walk_particle" }
+				"0.25": { "effect": "host_dust", "locator": "vfx_1" },
+				"0.75": { "effect": "host_dust", "locator": "vfx_1" }
 			},
 			"bones": {
 				"body": {
@@ -707,8 +707,8 @@
 			"loop": true,
 			"animation_length": 0.5,
 			"particle_effects": {
-				"0.1667": { "effect": "host_dust", "locator": "walk_particle" },
-				"0.3333": { "effect": "host_dust", "locator": "walk_particle" }
+				"0.1667": { "effect": "host_dust", "locator": "vfx_1" },
+				"0.3333": { "effect": "host_dust", "locator": "vfx_1" }
 			},
 			"bones": {
 				"body": {
@@ -1041,8 +1041,8 @@
 			"loop": true,
 			"animation_length": 1.25,
 			"particle_effects": {
-				"0.375": { "effect": "host_attack", "locator": "head_particle" },
-				"0.875": { "effect": "host_attack", "locator": "head_particle" }
+				"0.375": { "effect": "host_attack", "locator": "vfx_5" },
+				"0.875": { "effect": "host_attack", "locator": "vfx_5" }
 			},
 			"sound_effects": {
 				"0.05": { "effect": "attack" }

@@ -642,7 +642,7 @@
 			"particle_effects": {
 				"0.75": {
 					"effect": "moth_cloud",
-					"locator": "body_particle"
+					"locator": "vfx_body"
 				}
 			}
 		}

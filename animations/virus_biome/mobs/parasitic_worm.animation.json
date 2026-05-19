@@ -130,9 +130,9 @@
 			"loop": true,
 			"animation_length": 1,
 			"particle_effects": {
-				"0.25": { "effect": "worm_out_dust", "locator": "mouth_particle" },
-				"0.5": { "effect": "worm_out_dust", "locator": "mouth_particle" },
-				"0.75": { "effect": "worm_out_dust", "locator": "mouth_particle" }
+				"0.25": { "effect": "worm_out_dust", "locator": "vfx_1" },
+				"0.5": { "effect": "worm_out_dust", "locator": "vfx_1" },
+				"0.75": { "effect": "worm_out_dust", "locator": "vfx_1" }
 			},
 			"bones": {
 				"tooth": {
@@ -233,10 +233,10 @@
 			"loop": true,
 			"animation_length": 2,
 			"particle_effects": {
-				"0.0": { "effect": "worm_out_dust", "locator": "tail_particle" },
-				"0.5": { "effect": "worm_out_dust", "locator": "tail_particle" },
-				"1.0": { "effect": "worm_out_dust", "locator": "tail_particle" },
-				"1.5": { "effect": "worm_out_dust", "locator": "tail_particle" }
+				"0.0": { "effect": "worm_out_dust", "locator": "vfx_2" },
+				"0.5": { "effect": "worm_out_dust", "locator": "vfx_2" },
+				"1.0": { "effect": "worm_out_dust", "locator": "vfx_2" },
+				"1.5": { "effect": "worm_out_dust", "locator": "vfx_2" }
 			},
 			"bones": {
 				"body": {

@@ -1539,31 +1539,31 @@
 			"particle_effects": {
 				"0.9167": {
 					"effect": "dragon_spore",
-					"locator": "head_particle"
+					"locator": "vfx_head"
 				},
 				"1.0": {
 					"effect": "dragon_fire_1",
-					"locator": "head_particle"
+					"locator": "vfx_head"
 				},
 				"1.125": {
 					"effect": "dragon_fire_2",
-					"locator": "head_particle"
+					"locator": "vfx_head"
 				},
 				"1.375": {
 					"effect": "dragon_fire_1",
-					"locator": "head_particle"
+					"locator": "vfx_head"
 				},
 				"1.6667": {
 					"effect": "dragon_spore",
-					"locator": "head_particle"
+					"locator": "vfx_head"
 				},
 				"1.9583": {
 					"effect": "dragon_fire_2",
-					"locator": "head_particle"
+					"locator": "vfx_head"
 				},
 				"2.25": {
 					"effect": "dragon_fire_1",
-					"locator": "head_particle"
+					"locator": "vfx_head"
 				}
 			}
 		}

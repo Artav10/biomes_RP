@@ -330,8 +330,8 @@
 			"loop": true,
 			"animation_length": 2,
 			"particle_effects": {
-				"0.5": { "effect": "reaper_dust", "locator": "walk_particle" },
-				"1.5": { "effect": "reaper_dust", "locator": "walk_particle" }
+				"0.5": { "effect": "reaper_dust", "locator": "vfx_1" },
+				"1.5": { "effect": "reaper_dust", "locator": "vfx_1" }
 			},
 			"bones": {
 				"body": {
@@ -840,8 +840,8 @@
 			"loop": true,
 			"animation_length": 1.375,
 			"particle_effects": {
-				"0.3333": { "effect": "reaper_dust", "locator": "head_particle" },
-				"0.5833": { "effect": "reaper_dust", "locator": "head_particle" }
+				"0.3333": { "effect": "reaper_dust", "locator": "vfx_3_left" },
+				"0.5833": { "effect": "reaper_dust", "locator": "vfx_3_left" }
 			},
 			"bones": {
 				"body": {

@@ -272,7 +272,7 @@
 			"particle_effects": {
 				"0.7083": {
 					"effect": "sleepy_fairy_shaken",
-					"locator": "attack_locator"
+					"locator": "vfx_1"
 				}
 			}
 		}
