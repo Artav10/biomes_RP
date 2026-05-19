@@ -16,13 +16,11 @@
                                                                            "anim_idle":  "animation.cyclahedron.idle",
                                                                            "anim_walk":  "animation.cyclahedron.walk",
                                                                            "anim_attack":  "animation.cyclahedron.attack",
-                                                                           "controller":  "controller.animation.robotic_biome.ground_hostile",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "controller":  "controller.animation.robotic_biome.ground_hostile"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "controller",
-                                                                                        "anim_head_rotation"
+                                                                                        "controller"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

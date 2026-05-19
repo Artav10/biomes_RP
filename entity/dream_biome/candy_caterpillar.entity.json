@@ -16,13 +16,11 @@
                                                                            "anim_idle":  "animation.biomes.candy_caterpillar.idle",
                                                                            "anim_walk":  "animation.biomes.candy_caterpillar.walk",
                                                                            "anim_attack":  "animation.biomes.candy_caterpillar.attack",
-                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_hostile",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_hostile"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

@@ -17,11 +17,10 @@
                 "anim_walk": "animation.biomes.plague_lizard.walk",
                 "anim_run": "animation.biomes.plague_lizard.run",
                 "anim_attack": "animation.biomes.plague_lizard.attack",
-                "ctrl_move": "controller.animation.virus_biome.plague_lizard_move",
-                "anim_head_rotation": "animation.generic.head_rotation"
+                "ctrl_move": "controller.animation.virus_biome.plague_lizard_move"
             },
             "scripts": {
-                "animate": ["ctrl_move", "anim_head_rotation"]
+                "animate": ["ctrl_move"]
             },
             "render_controllers": ["controller.render.virus_biome_creature"],
             "particle_effects": {

@@ -17,13 +17,11 @@
                                                                            "anim_walk":  "animation.biomes.sleepy_bear.walk",
                                                                            "anim_run":  "animation.biomes.sleepy_bear.run",
                                                                            "anim_attack":  "animation.biomes.sleepy_bear.run",
-                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_neutral",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_neutral"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

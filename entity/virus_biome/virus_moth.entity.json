@@ -16,13 +16,11 @@
                                                                            "anim_idle":  "animation.biomes.virus_moth.idle",
                                                                            "anim_fly":  "animation.biomes.virus_moth.fly",
                                                                            "anim_attack":  "animation.biomes.virus_moth.attack",
-                                                                           "ctrl_move":  "controller.animation.virus_biome.flyer_hostile",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.virus_biome.flyer_hostile"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

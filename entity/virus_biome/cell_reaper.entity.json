@@ -16,13 +16,11 @@
                                                                            "anim_idle":  "animation.biomes.cell_reaper.idle",
                                                                            "anim_walk":  "animation.biomes.cell_reaper.walk",
                                                                            "anim_attack":  "animation.biomes.cell_reaper.attack",
-                                                                           "ctrl_move":  "controller.animation.virus_biome.ground_hostile",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.virus_biome.ground_hostile"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

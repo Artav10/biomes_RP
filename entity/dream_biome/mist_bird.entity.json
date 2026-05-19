@@ -17,13 +17,11 @@
                                                                            "anim_fly":  "animation.biomes.mist_bird.fly",
                                                                            "anim_dissapears":  "animation.biomes.mist_bird.dissapears",
                                                                            "anim_appears":  "animation.biomes.mist_bird.appears",
-                                                                           "ctrl_move":  "controller.animation.dream_biome.flyer_passive",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.dream_biome.flyer_passive"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

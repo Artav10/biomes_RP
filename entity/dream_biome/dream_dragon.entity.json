@@ -16,8 +16,7 @@
                                                                            "anim_idle":  "animation.biomes.dream_dragon.idle",
                                                                            "anim_fly":  "animation.biomes.dream_dragon.fly",
                                                                            "anim_attack":  "animation.biomes.dream_dragon.attack-saparated",
-                                                                           "ctrl_move":  "controller.animation.dream_biome.flyer_hostile",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.dream_biome.flyer_hostile"
                                                                        },
                                                         "particle_effects":  {
                                                                                  "dragon_fire":  "es_bio:dream_dragon_attack_fire",
@@ -28,8 +27,7 @@
                                                                           },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

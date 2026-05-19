@@ -16,16 +16,14 @@
                                                                            "anim_idle":  "animation.biomes.reflection_deer.idle",
                                                                            "anim_walk":  "animation.biomes.reflection_deer.walk",
                                                                            "anim_run":  "animation.biomes.reflection_deer.run",
-                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_passive_runner",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_passive_runner"
                                                                        },
                                                         "particle_effects":  {
                                                                                  "reflection_deer_run":  "es_bio:reflection_deer_run"
                                                                              },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

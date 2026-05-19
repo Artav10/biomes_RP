@@ -17,14 +17,12 @@
                                                                            "anim_walk":  "animation.pulse_titan.walk",
                                                                            "anim_attack":  "animation.pulse_titan.attack",
                                                                            "anim_rotating_core":  "animation.pulse_titan.rotating_core",
-                                                                           "controller":  "controller.animation.robotic_biome.ground_hostile",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "controller":  "controller.animation.robotic_biome.ground_hostile"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
                                                                                         "anim_rotating_core",
-                                                                                        "controller",
-                                                                                        "anim_head_rotation"
+                                                                                        "controller"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

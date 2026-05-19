@@ -15,16 +15,14 @@
                                                         "animations":  {
                                                                            "anim_idle":  "animation.biomes.lethargic_cat.idle",
                                                                            "anim_walk":  "animation.biomes.lethargic_cat.walk",
-                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_passive",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.dream_biome.ground_passive"
                                                                        },
                                                         "particle_effects":  {
                                                                                  "lethargic_cat_walk":  "es_bio:lethargic_cat_walk"
                                                                              },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [

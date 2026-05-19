@@ -5,7 +5,11 @@
             "loop": true,
             "bones": {
                 "head": {
-                    "rotation": ["query.head_x_rotation(0)", "query.head_y_rotation(0)", 0]
+                    "rotation": [
+                        "query.head_x_rotation(0) - 17.5",
+                        "query.head_y_rotation(0)",
+                        -7.8
+                    ]
                 }
             }
         }

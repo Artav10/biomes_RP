@@ -17,13 +17,11 @@
                                                                            "anim_walk":  "animation.biomes.infection_crawler.walk",
                                                                            "anim_run":  "animation.biomes.infection_crawler.run",
                                                                            "anim_attack":  "animation.biomes.infection_crawler.attack",
-                                                                           "ctrl_move":  "controller.animation.virus_biome.ground_hostile_runner",
-                                                                           "anim_head_rotation":  "animation.generic.head_rotation"
+                                                                           "ctrl_move":  "controller.animation.virus_biome.ground_hostile_runner"
                                                                        },
                                                         "scripts":  {
                                                                         "animate":  [
-                                                                                        "ctrl_move",
-                                                                                        "anim_head_rotation"
+                                                                                        "ctrl_move"
                                                                                     ]
                                                                     },
                                                         "render_controllers":  [
